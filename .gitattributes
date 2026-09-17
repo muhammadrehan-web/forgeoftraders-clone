@@ -1,9 +1,7 @@
-# Generated HTML content (vendored for language stats)
+# Mirrored HTML content and static assets — exclude from language stats
 content/** linguist-vendored
-# Static mirrored site assets
 public/** linguist-vendored
+
+# Keep app TypeScript as the primary language signal
 *.css linguist-vendored
-*.js linguist-vendored
-!*.ts
-!*.tsx
-!next.config.ts
+*.mjs linguist-vendored
