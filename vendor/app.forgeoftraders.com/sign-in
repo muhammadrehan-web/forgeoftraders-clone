@@ -1,0 +1,264 @@
+
+<!DOCTYPE html>
+
+<html lang="en" class="dark-style dark layout-menu-fixed layout-compact customizer-hide" dir="ltr" data-theme="theme-default"
+    data-assets-path="https://app.forgeoftraders.com//theme/site/assets/" data-template="vertical-menu-template">
+
+<head>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+
+    <title>Sign in - Forge Of Traders</title>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="https://app.forgeoftraders.com//theme/site/assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://app.forgeoftraders.com//theme/site/assets/img/favicon/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&ampdisplay=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/telegraf" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://app.forgeoftraders.com//theme/site/assets/vendor/fonts/materialdesignicons.css" />
+    <link rel="stylesheet" href="https://app.forgeoftraders.com//theme/site/assets/vendor/fonts/fontawesome.css" />
+    <link rel="stylesheet" href="https://app.forgeoftraders.com//theme/site/assets/vendor/fonts/flag-icons.css" />
+
+    <link rel="stylesheet" href="https://app.forgeoftraders.com//theme/site/assets/vendor/libs/node-waves/node-waves.css" />
+
+    <link rel="stylesheet" href="https://app.forgeoftraders.com//theme/site/assets/vendor/css/theme-default.css"
+        class="template-customizer-theme-css" />
+
+    <link rel="stylesheet" href="https://app.forgeoftraders.com//theme/site/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+    <link rel="stylesheet" href="https://app.forgeoftraders.com//theme/site/assets/vendor/libs/typeahead-js/typeahead.css" />
+    <link rel="stylesheet" href="https://app.forgeoftraders.com//theme/site/assets/vendor/libs/animate-css/animate.css" />
+    <link rel="stylesheet" href="https://app.forgeoftraders.com//theme/site/assets/vendor/libs/@form-validation/umd/styles/index.min.css" />
+
+    <link rel="stylesheet" href="https://app.forgeoftraders.com//theme/site/assets/css/demo.css" />
+
+    <link rel="stylesheet" href="https://app.forgeoftraders.com//theme/site/assets/vendor/css/pages/page-auth.css" />
+    <script src="https://app.forgeoftraders.com//theme/site/assets/vendor/js/helpers.js"></script>
+    <script src="https://app.forgeoftraders.com//theme/site/assets/js/config.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js' async defer></script>
+
+            <!--  CONSENT INIT  -->
+<script>
+    (function () {
+
+        function getCookie(name) {
+            const match = document.cookie.match(
+                new RegExp('(?:^|; )' + name.replace(/([.$?|{}()[\]\\/+^])/g, '\\$1') + '=([^;]*)')
+            );
+            return match ? match[1] : null;
+        }
+
+        function parseConsentCookie(rawValue) {
+            if (!rawValue) return null;
+
+            try {
+                const decoded = decodeURIComponent(rawValue);
+                return JSON.parse(decoded);
+            } catch (e) {
+                console.warn('Failed to parse consent cookie:', e);
+                return null;
+            }
+        }
+
+        const rawCookieConsent = getCookie('cookieConsent');
+        const consent = parseConsentCookie(rawCookieConsent);
+
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = window.gtag || function () { dataLayer.push(arguments); };
+
+        function map(val) {
+            return val === true ? 'granted' : 'denied';
+        }
+
+        const consentMode = {
+            analytics_storage: map(consent?.analytics_storage),
+            ad_storage: map(consent?.ad_storage),
+            ad_user_data: map(consent?.ad_user_data),
+            ad_personalization: map(consent?.ad_personalization),
+            functionality_storage: map(consent?.functionality_storage),
+            personalization_storage: map(consent?.personalization_storage),
+            security_storage: 'granted'
+        };
+
+        if (consent) {
+            gtag('consent', 'update', consentMode);
+        } else {
+            gtag('consent', 'default', consentMode);
+        }
+
+        dataLayer.push({
+            event: 'consent_update',
+            cookieConsentRaw: rawCookieConsent,
+            ...consentMode
+        });
+
+    })();
+</script>
+
+<!-- Google Tag Manager -->
+<script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s);
+        j.async = true;
+        j.src = "https://sst.forgeoftraders.com/1mxvsftlks.js?" + i;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', '6hgurwm=Gg9RMzI%2BWzY%2BJVtCXyEnXgVWXlpXVRIWTg0DBgEWGR4HGQ0QAwEFVhAEAQ%3D%3D');
+</script>
+<!-- End Google Tag Manager -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5DG2L4TD8J"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-5DG2L4TD8J');
+</script>    
+    
+            <!-- Microsoft Tag -->
+<script>
+    (function (w, d, t, u, o) {
+        w[u] = w[u] || [],
+            o.ts = (new Date).getTime();
+        var n = d.createElement(t);
+        n.src = "https://bat.bing.net/bat.js?ti=" + o.ti + ("uetq" != u ? "&q=" + u : ""),
+            n.async = 1,
+            n.onload = n.onreadystatechange = function () {
+                var s = this.readyState;
+                s && "loaded" !== s && "complete" !== s || (o.q = w[u], w[u] = new UET(o), w[u].push("pageLoad"),
+                    n.onload = n.onreadystatechange = null)
+            };
+        var i = d.getElementsByTagName(t)[0];
+        i.parentNode.insertBefore(n, i);
+    })(window, document, "script", "uetq", {
+        ti: "187236558",
+        enableAutoSpaTracking: true
+    });  
+</script>
+
+<script type="text/javascript">
+    (function (c, l, a, r, i, t, y) {
+        c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+        t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+        y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+    })(window, document, "clarity", "script", "tmgcp9rzg7");
+</script>
+<!-- End Microsoft Tag -->    </head>
+
+<body class="bg-black-light">
+    
+            <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://sst.forgeoftraders.com/ns.html?id=GTM-NMN769RQ" height="0" width="0"
+                style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->    
+    
+<div class="auth__page auth__page--login">
+    <div class="page__body">
+        <img class="body__logo" src="https://app.forgeoftraders.com//theme/site/assets/img/branding/logo.svg" alt="Website Logo">
+
+        
+
+        <h1>Welcome to Forge Of Traders!</h1>
+
+        <h2>Please sign-in to your account and start the adventure</h2>
+
+        <form id="formAuthentication" action="https://app.forgeoftraders.com/index.php?route=AuthController&action=postLogin" method="POST">
+            <input type="hidden" name="browser" id="browser">
+            <input type="hidden" name="os" id="os">
+            <input type="hidden" name="device" id="device">
+
+            <div class="input__default">
+                <input type="text" id="email" name="email" placeholder="Enter your email"
+                    value="" autofocus />
+                <label for="email">Email</label>
+            </div>
+
+
+            <div class="input__default form-password-toggle">
+                <input autocomplete="off" type="password" id="password" name="password"
+                    placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
+                    aria-describedby="password" />
+                <label for="password">Password</label>
+                <i class="mdi mdi-eye-off-outline"></i>
+            </div>
+
+            <div class="body__options">
+                <div class="input__checkbox">
+                    <div class="checkbox__container">
+                        <input type="checkbox" id="remember-me" name="remember-me"  />
+                        <label for="remember-me"> Remember Me </label>
+                    </div>
+                </div>
+
+                <a href="https://app.forgeoftraders.com/forgot-password">
+                    Forgot Password?
+                </a>
+            </div>
+
+            <button class="btn btn-primary" type="submit">LOGIN</button>
+        </form>
+                    <p class="body__redirect-link">
+                New on our platform?
+                <a href="https://app.forgeoftraders.com/sign-up">Create an account</a>
+            </p>
+            </div>
+
+    <img alt="mask" src="https://app.forgeoftraders.com//theme/site/assets/img/auth/auth-bg.jpg" class="auth__page--background"
+        data-app-light-img="auth/auth-bg.jpg" data-app-dark-img="auth/auth-bg.jpg" />
+</div>
+
+    <!-- Google tag (gtag.js) -->
+
+<!-- End Google tag script -->
+<script src="https://app.forgeoftraders.com//theme/site/assets/vendor/libs/jquery/jquery.js"></script>
+<script src="https://app.forgeoftraders.com//theme/site/assets/vendor/libs/popper/popper.js"></script>
+<script src="https://app.forgeoftraders.com//theme/site/assets/vendor/js/bootstrap.js"></script>
+<script src="https://app.forgeoftraders.com//theme/site/assets/vendor/libs/node-waves/node-waves.js"></script>
+<script src="https://app.forgeoftraders.com//theme/site/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+<script src="https://app.forgeoftraders.com//theme/site/assets/vendor/libs/hammer/hammer.js"></script>
+<script src="https://app.forgeoftraders.com//theme/site/assets/vendor/libs/i18n/i18n.js"></script>
+<script src="https://app.forgeoftraders.com//theme/site/assets/vendor/libs/typeahead-js/typeahead.js"></script>
+<script src="https://app.forgeoftraders.com//theme/site/assets/vendor/js/menu.js"></script>
+
+<script src="https://app.forgeoftraders.com//theme/site/assets/vendor/libs/@form-validation/umd/bundle/popular.min.js"></script>
+<script src="https://app.forgeoftraders.com//theme/site/assets/vendor/libs/@form-validation/umd/plugin-bootstrap5/index.min.js"></script>
+<script src="https://app.forgeoftraders.com//theme/site/assets/vendor/libs/@form-validation/umd/plugin-auto-focus/index.min.js"></script>
+
+<script src="https://app.forgeoftraders.com//theme/site/assets/js/main.js"></script>
+
+<script src="https://app.forgeoftraders.com//theme/site/assets/js/pages-auth.js"></script><script src="https://app.forgeoftraders.com//theme/site/assets/vendor/libs/platform/platform.js"></script>
+
+
+<!--default consent mode 'denied' to not collect clients data before they accept-->
+<script>
+    window.uetq = window.uetq || [];
+    window.uetq.push('consent', 'default', {
+        'ad_storage': 'denied',
+    });  
+</script>
+
+<script>
+    function setMenuHeight() {
+        const vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+    }
+    window.addEventListener('resize', setMenuHeight);
+    window.addEventListener('orientationchange', setMenuHeight);
+    window.addEventListener('DOMContentLoaded', setMenuHeight);
+    setMenuHeight();
+</script>
+
+</body>
+
+</html>

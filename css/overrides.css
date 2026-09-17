@@ -1,0 +1,64 @@
+/*
+ * Template 2 overrides.
+ *
+ * Kept separate from forge-6089a16ac694.css on purpose: that file is the
+ * minified bundle shipped with the static export, and anything written into it
+ * is lost the moment it is replaced. Rules that belong to this project live
+ * here and load after it.
+ */
+
+/*
+ * Latest Updates carousel.
+ *
+ * The export locked this media box to 16:9 and hardcoded each image's real
+ * dimensions, so its own files always fitted exactly. Images uploaded through
+ * Admin > Latest Updates are whatever shape the author had - the current set
+ * is square - and in a fixed 16:9 box that leaves only bad options: contain
+ * letterboxes them, cover crops roughly 40% away.
+ *
+ * So the ratio is released instead. With aspect-ratio auto and height auto the
+ * box takes the image's own proportions: the whole image is visible AND it
+ * fills the full width, with no bars and nothing cropped. Card media is taller
+ * than the export's 16:9 as a result, which is the necessary trade for showing
+ * a square image in full.
+ */
+.update-card .lu2-card-media {
+  aspect-ratio: auto;
+  height: auto;
+}
+
+/*
+ * Mobile gutters.
+ *
+ * The offer bar and the account row both sit hard against their container's
+ * edge while the menu items above them are indented, so "50% OFF YOUR FIRST
+ * ACCOUNT" and LOGIN / REGISTER / JOIN DISCORD start left of HOW IT WORKS and
+ * the rest of the menu. Both are brought onto the same line.
+ *
+ * .offer-copy is scoped to .ui-finished because that class is only on <html>
+ * once the visitor-ui runtime has settled the bar into its final state.
+ */
+@media (max-width: 767px) {
+  #mobile-menu .mobile-account-links {
+    gap: 20px;
+    padding-top: 10px;
+    padding-left: 12px;
+  }
+
+  .ui-finished .announcement button.offer-copy {
+    padding-left: 12px;
+  }
+}
+
+.update-card .lu2-card-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  /* The bundle also caps these at max-height:280px. Left in place that cap
+     fights height:auto and squashes a square image to 356x280. */
+  max-height: none;
+  /* With the box following the image's own ratio nothing needs fitting, but
+     contain is the safe default: if any future rule constrains the box, the
+     image letterboxes rather than distorting. */
+  object-fit: contain;
+}

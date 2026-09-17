@@ -1,0 +1,14 @@
+{
+  "name": "forge-of-traders-clone",
+  "version": "1.0.0",
+  "description": "Pixel-identical local replica of forgeoftraders.com",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "playwright": "^1.63.0"
+  }
+}

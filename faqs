@@ -1,0 +1,1459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+    
+    <title>Forge of Traders – Forge Your Success with Our Funded Accounts</title>
+    <meta name="description" content="Simulated 1, 2 and 3-phase trading evaluations up to $500K in simulated account size. Eligible traders may receive performance rewards based on simulated results.">
+    <link rel="canonical" href="https://forgeoftraders.com/faqs">
+    <meta content="index,follow" name="robots">
+    <meta name="theme-color" content="#101010">
+
+    
+    <meta content="website" property="og:type">
+    <meta content="Forge of Traders" property="og:site_name">
+    <meta content="https://forgeoftraders.com/faqs" property="og:url">
+    <meta content="Forge of Traders – Forge Your Success with Our Funded Accounts" property="og:title">
+    <meta content="Simulated 1, 2 and 3-phase trading evaluations up to $500K in simulated account size. Eligible traders may receive performance rewards based on simulated results." property="og:description">
+    
+    
+    <meta content="summary" name="twitter:card">
+    <meta content="Forge of Traders – Forge Your Success with Our Funded Accounts" name="twitter:title">
+    <meta content="Simulated 1, 2 and 3-phase trading evaluations up to $500K in simulated account size. Eligible traders may receive performance rewards based on simulated results." name="twitter:description">
+    
+    <link href="https://forgeoftraders.com/templates/template2/assets/91ffc6dad3ca75.webp?v=1789369223" rel="icon" type="image/webp">
+
+    
+    <link rel="preload" href="https://forgeoftraders.com/templates/template2/fonts/poppins-400.woff2?v=1789369223" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="https://forgeoftraders.com/templates/template2/fonts/poppins-500.woff2?v=1789369223" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="https://forgeoftraders.com/templates/template2/fonts/poppins-600.woff2?v=1789369223" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="https://forgeoftraders.com/templates/template2/fonts/poppins-700.woff2?v=1789369223" as="font" type="font/woff2" crossorigin="anonymous">
+
+    <style>html{background:#101010;scrollbar-gutter:stable}body{margin:0}*,*::before,*::after{box-sizing:border-box}</style>
+
+    
+    <script>try{if(sessionStorage.getItem('forge.offer.minimised')==='true')document.documentElement.classList.add('offer-collapsed')}catch{}</script>
+
+    <link id="forge-styles" rel="stylesheet" href="https://forgeoftraders.com/templates/template2/assets/forge-6089a16ac694.css?v=1789369223">
+
+    
+    <link rel="stylesheet" href="https://forgeoftraders.com/templates/template2/css/overrides.css?v=1789369223">
+
+    <link rel="preload" href="https://forgeoftraders.com/templates/template2/fonts/forge-brand-icons.woff2?v=1789369223" type="font/woff2" crossorigin="anonymous" as="font">
+
+    
+    
+    <script src="https://forgeoftraders.com/common/js/jquery-3.7.1.min.js?v=1789369223"></script>
+    <script src="https://forgeoftraders.com/common/js/bootstrap.bundle.min.js?v=1789369223"></script>
+
+    
+        <script src="https://forgeoftraders.com/common/js/analytics.js?v=1789369223"></script>
+    
+    
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src="https://sst.forgeoftraders.com/1mxvsftlks.js?"+i;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','6hgurwm=Gg9RMzI%2BWzY%2BJVtCXyEnXgVWXlpXVRIWTg0DBgEWGR4HGQ0QAwEFVhAEAQ%3D%3D');</script>
+    
+
+          <script type="text/javascript">
+    (function(c, l, a, r, i, t, y) {
+      c[a] = c[a] || function() {
+        (c[a].q = c[a].q || []).push(arguments)
+      };
+      t = l.createElement(r);
+      t.async = 1;
+      t.src = "https://www.clarity.ms/tag/" + i;
+      y = l.getElementsByTagName(r)[0];
+      y.parentNode.insertBefore(t, y);
+    })(window, document, "clarity", "script", "tmgcp9rzg7");
+  </script>
+    
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5DG2L4TD8J"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+
+      // Cookie helper (shared across subdomains via .forgeoftraders.com)
+      function getConsentCookie(name) {
+        var match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+        return match ? decodeURIComponent(match[2]) : null;
+      }
+
+      // Default consent mode - check cookie for saved preferences
+      (function() {
+        var savedConsent = getConsentCookie('cookieConsent');
+        if (savedConsent) {
+          var consent = JSON.parse(savedConsent);
+          gtag('consent', 'default', {
+            'analytics_storage': consent.analytics_storage ? 'granted' : 'denied',
+            'ad_storage': consent.ad_storage ? 'granted' : 'denied',
+            'ad_user_data': consent.ad_user_data ? 'granted' : 'denied',
+            'ad_personalization': consent.ad_personalization ? 'granted' : 'denied',
+            'functionality_storage': consent.functionality_storage ? 'granted' : 'denied',
+            'security_storage': consent.security_storage ? 'granted' : 'denied',
+            'personalization_storage': consent.personalization_storage ? 'granted' : 'denied'
+          });
+        } else {
+          // Default to denied until user makes a choice
+          gtag('consent', 'default', {
+            'analytics_storage': 'denied',
+            'ad_storage': 'denied',
+            'ad_user_data': 'denied',
+            'ad_personalization': 'denied',
+            'functionality_storage': 'denied',
+            'security_storage': 'denied',
+            'personalization_storage': 'denied'
+          });
+        }
+      })();
+
+      gtag('js', new Date());
+      gtag('config', 'G-5DG2L4TD8J');
+    </script>
+
+    
+    <script>
+    (function(w, d, t, u, o) {
+      w[u] = w[u] || [], o.ts = (new Date).getTime();
+      var n = d.createElement(t);
+      n.src = "https://bat.bing.net/bat.js?ti=" + o.ti + ("uetq" != u ? "&q=" + u : ""), n.async = 1, n.onload = n.onreadystatechange = function() {
+        var s = this.readyState;
+        s && "loaded" !== s && "complete" !== s || (o.q = w[u], w[u] = new UET(o), w[u].push("pageLoad"), n.onload = n.onreadystatechange = null)
+      };
+      var i = d.getElementsByTagName(t)[0];
+      i.parentNode.insertBefore(n, i);
+    })(window, document, "script", "uetq", {
+      ti: "187236558",
+      enableAutoSpaTracking: true
+    });
+  </script>
+    <script>
+    window.uetq = window.uetq || [];
+    (function() {
+      function readConsent(name) {
+        var match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+        return match ? decodeURIComponent(match[2]) : null;
+      }
+      var saved = readConsent('cookieConsent');
+      var granted = false;
+      if (saved) {
+        try { granted = !!JSON.parse(saved).ad_storage; } catch (e) {}
+      }
+      window.uetq.push('consent', 'default', {
+        'ad_storage': granted ? 'granted' : 'denied'
+      });
+    })();
+  </script>
+
+    
+    
+
+    
+    <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+
+    <script charset="UTF-8" src="https://s-eu-1.pushpushgo.com/js/6a744c589e606e95ba4fbdb4.js" async="async"></script>
+  </head>
+
+  <body class="inner-page compact-inner faq-index ui-finished">
+
+    
+    
+    <noscript><iframe src="https://sst.forgeoftraders.com/ns.html?id=GTM-NMN769RQ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    
+
+    
+          <script>
+    window.__FORGE_PROMO_CODE__ = "START50";
+    window.__FORGE_PROMO_PERCENT__ = "50.00";
+    window.__FORGE_PROMO_TITLE__ = "50% OFF YOUR FIRST ACCOUNT";
+  </script>
+    
+    
+    <script>
+      (function () {
+        var native = navigator.clipboard && navigator.clipboard.writeText
+          ? navigator.clipboard.writeText.bind(navigator.clipboard)
+          : null;
+
+        // execCommand('copy') is deprecated but it is the only path that works
+        // without a secure context, and it needs a real selection to act on.
+        function legacyWrite(text) {
+          return new Promise(function (resolve, reject) {
+            var field = document.createElement('textarea');
+            field.value = text;
+            field.setAttribute('readonly', '');
+            field.style.cssText = 'position:fixed;top:-1000px;left:-1000px;opacity:0';
+
+            document.body.appendChild(field);
+            field.select();
+            field.setSelectionRange(0, field.value.length);
+
+            var copied = false;
+            try {
+              copied = document.execCommand('copy');
+            } catch (error) {
+              copied = false;
+            }
+
+            document.body.removeChild(field);
+            copied ? resolve() : reject(new Error('Clipboard unavailable'));
+          });
+        }
+
+        function writeText(text) {
+          if (!native) {
+            return legacyWrite(text);
+          }
+
+          return native(text).catch(function () {
+            return legacyWrite(text);
+          });
+        }
+
+        try {
+          Object.defineProperty(navigator, 'clipboard', {
+            value: Object.assign({}, navigator.clipboard, { writeText: writeText }),
+            configurable: true,
+          });
+        } catch (error) {
+          // A browser that refuses the redefinition keeps the native object, and
+          // the buttons fall back to the bundles' "Use code X" message as before.
+        }
+      })();
+    </script>
+
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+<div class="site-chrome">
+
+  
+      <div class="announcement">
+      <div class="offer-content" id="offer-details">
+        <button type="button" class="offer-copy" data-show-offer=""
+        aria-label="View the START50 offer">
+                  <span class="offer-intro">LIMITED TIME </span>
+                <strong>50% OFF YOUR FIRST ACCOUNT</strong>
+        </button>
+                  <button type="button" id="copy-code" aria-label="Copy Code START50">
+          <span>START50</span><i class="bi bi-copy" aria-hidden="true"></i>
+          </button>
+              </div>
+      <button class="offer-minimise" type="button" id="offer-minimise" aria-label="Minimise offer"
+      aria-expanded="true" aria-controls="offer-details"><span aria-hidden="true">−</span></button>
+      <span id="copy-feedback" class="sr-only" role="status" aria-live="polite"></span>
+    </div>
+  
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="https://forgeoftraders.com">
+      <span class="shield-only ">
+      <img src="https://forgeoftraders.com/templates/template2/assets/47e90909936626.webp?v=1789369223" width="264" height="362" alt="" aria-hidden="true" decoding="async">
+      </span>
+      <span class="brand-wordmark">Forge of Traders<span aria-hidden="true">™</span></span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Navigation">
+        <details class="nav-programs nav-menu">
+          <summary>HOW IT WORKS <span aria-hidden="true">⌄</span></summary>
+          <div class="nav-dropdown">
+            <a href="https://forgeoftraders.com/evaluation" >
+            <span class="nav-item-title">GETTING STARTED</span><small>Guide &amp; evaluation steps.</small>
+            </a>
+            <a href="https://forgeoftraders.com/compare-programs" >
+            <span class="nav-item-title">PROGRAMS</span><small>Compare plans &amp; find your perfect fit.</small>
+            </a>
+            <a href="https://forgeoftraders.com/symbols" >
+            <span class="nav-item-title">SYMBOLS</span><small>Explore tradable instruments.</small>
+            </a>
+          </div>
+        </details>
+
+        <details class="nav-menu nav-faq">
+          <summary>FAQ &amp; RULES <span aria-hidden="true">⌄</span></summary>
+          <div class="nav-dropdown faq-dropdown">
+            <form class="nav-faq-search" action="https://forgeoftraders.com/faqs" role="search">
+              <label for="nav-faq-query">Search questions and rules</label>
+              <div>
+                <input id="nav-faq-query" name="q" type="search" placeholder="Write here…" autocomplete="off">
+                <button type="submit" aria-label="Search questions and rules">↗</button>
+              </div>
+            </form>
+            <nav aria-label="FAQ categories">
+              <a href="https://forgeoftraders.com/faqs#forge-rules" class="forge-rules-link">THE FORGE RULES</a>
+                              <a href="https://forgeoftraders.com/faqs#category-0" class="accounts-link">Accounts</a>
+                              <a href="https://forgeoftraders.com/faqs#category-1">Trading Rules</a>
+                              <a href="https://forgeoftraders.com/faqs#category-2">Company &amp; Contact</a>
+                              <a href="https://forgeoftraders.com/faqs#category-3">Withdrawals &amp; Rewards</a>
+                          </nav>
+          </div>
+        </details>
+
+        <details class="nav-menu nav-contact">
+          <summary>CONTACT US <span aria-hidden="true">⌄</span></summary>
+          <div class="nav-dropdown contact-dropdown">
+            <a href="https://forgeoftraders.com/contact" >
+            <span class="nav-item-title">CONTACT US</span>
+            </a>
+            <a href="https://forgeoftraders.com/careers" >
+            <span class="nav-item-title">CAREERS</span>
+            </a>
+            <a href="https://forgeoftraders.com/affiliate" >
+            <span class="nav-item-title">AFFILIATE</span>
+            </a>
+          </div>
+        </details>
+      </nav>
+
+      <div class="header-actions" aria-label="Account and checkout">
+        <a class="join-link" href="https://discord.gg/ypCFcqbBx3" target="_blank" rel="noopener noreferrer" aria-label="JOIN DISCORD">
+        <span class="join-label">JOIN</span><i class="fa-brands fa-discord" aria-hidden="true"></i>
+        </a>
+        <a href="https://app.forgeoftraders.com/sign-in" class="account-link ga-track" data-ga-event="click_login">LOGIN</a>
+        <a href="https://app.forgeoftraders.com/sign-up" class="account-link register-link ga-track" data-ga-event="click_register">REGISTER</a>
+        <a href="https://app.forgeoftraders.com/checkout?external_checkout" class="button primary header-checkout ga-track" data-ga-event="click_header_checkout">START CHALLENGE <span aria-hidden="true">↗</span></a>
+      </div>
+
+      <button id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="mobile-menu">
+      <span></span><span></span>
+      </button>
+    </div>
+
+    <nav id="mobile-menu" hidden="" aria-label="Navigation">
+      <details class="mobile-how">
+        <summary>HOW IT WORKS</summary>
+        <div>
+          <a href="https://forgeoftraders.com/evaluation" >GETTING STARTED<small>Guide &amp; evaluation steps.</small></a>
+          <a href="https://forgeoftraders.com/compare-programs" >PROGRAMS<small>Compare plans &amp; find your perfect fit.</small></a>
+          <a href="https://forgeoftraders.com/symbols" >SYMBOLS<small>Explore tradable instruments.</small></a>
+        </div>
+      </details>
+
+      <details class="mobile-how mobile-faq">
+        <summary>FAQ &amp; RULES</summary>
+        <div>
+          <form class="nav-faq-search" action="https://forgeoftraders.com/faqs" role="search">
+            <label for="mobile-faq-query">Search questions and rules</label>
+            <div>
+              <input id="mobile-faq-query" name="q" type="search" placeholder="Write here…" autocomplete="off">
+              <button type="submit" aria-label="Search questions and rules">↗</button>
+            </div>
+          </form>
+          <a href="https://forgeoftraders.com/faqs#forge-rules" class="forge-rules-link">THE FORGE RULES</a>
+                      <a href="https://forgeoftraders.com/faqs#category-0" class="accounts-link">Accounts</a>
+                      <a href="https://forgeoftraders.com/faqs#category-1">Trading Rules</a>
+                      <a href="https://forgeoftraders.com/faqs#category-2">Company &amp; Contact</a>
+                      <a href="https://forgeoftraders.com/faqs#category-3">Withdrawals &amp; Rewards</a>
+                  </div>
+      </details>
+
+      <details class="mobile-how mobile-contact">
+        <summary>CONTACT US</summary>
+        <div>
+          <a href="https://forgeoftraders.com/contact" >CONTACT US</a>
+          <a href="https://forgeoftraders.com/careers" >CAREERS</a>
+          <a href="https://forgeoftraders.com/affiliate" >AFFILIATE</a>
+        </div>
+      </details>
+
+      <div class="mobile-account-links">
+        <a href="https://app.forgeoftraders.com/sign-in">LOGIN</a>
+        <a href="https://app.forgeoftraders.com/sign-up">REGISTER</a>
+        <a href="https://discord.gg/ypCFcqbBx3" target="_blank" rel="noopener noreferrer" class="mobile-discord-link">
+        <i class="fa-brands fa-discord" aria-hidden="true"></i><span>JOIN DISCORD</span>
+        </a>
+      </div>
+
+      <a href="https://app.forgeoftraders.com/checkout?external_checkout" class="button primary menu-checkout">START CHALLENGE <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+</div>
+
+    <main id="main-content">
+        
+  
+  <section class="page-hero shell has-art">
+    <div>
+      <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="https://forgeoftraders.com">Home</a><span aria-hidden="true">/</span><span>FAQ &amp; Rules</span>
+      </nav>
+      <p class="eyebrow">FAQ &amp; Rules</p>
+      <h1>Frequently Asked<br>Questions</h1>
+    </div>
+    <div class="page-hero-art">
+      <img class="forge-object " src="https://forgeoftraders.com/templates/template2/assets/forge-protection.webp?v=1789369223" width="480" height="480" alt="" aria-hidden="true" loading="lazy" decoding="async">
+    </div>
+  </section>
+
+  <div class="shell help-layout">
+    <aside class="help-sidebar">
+      <nav aria-label="FAQ categories">
+        <a href="#forge-rules" class="forge-rules-link">THE FORGE RULES</a>
+                  <a href="https://forgeoftraders.com/faqs#category-0" class="accounts-link">Accounts <span>10</span>
+          </a>
+                  <a href="https://forgeoftraders.com/faqs#category-1">Trading Rules <span>15</span>
+          </a>
+                  <a href="https://forgeoftraders.com/faqs#category-2">Company &amp; Contact <span>7</span>
+          </a>
+                  <a href="https://forgeoftraders.com/faqs#category-3">Withdrawals &amp; Rewards <span>4</span>
+          </a>
+              </nav>
+      <div class="help-card">
+        <img class="forge-icon " src="https://forgeoftraders.com/templates/template2/assets/icons/headset.svg?v=1789369223" width="28" height="28" alt="" aria-hidden="true" loading="lazy">
+        <h3>Get in Touch</h3>
+        <p>Feel free to contact us for further assistance</p>
+        <a href="https://forgeoftraders.com/contact" class="text-link">Contact Us <span aria-hidden="true">→</span>
+        </a>
+      </div>
+    </aside>
+
+    <div class="help-main">
+      <form class="faq-search" role="search">
+        <label for="faqSearch">Search questions and rules</label>
+        <div>
+          <input id="faqSearch" type="search" placeholder="Write here…" autocomplete="off">
+          <button type="reset" aria-label="Clear search">×</button>
+        </div>
+        <p id="search-status" role="status" aria-live="polite">
+        </p>
+      </form>
+
+      <section id="forge-rules" data-search-group="">
+  <p class="eyebrow">01 / The Forge Rules</p>
+  <h2>Prohibited Trading Practices</h2>
+  <details class="faq-rule" data-search-item="">
+    <summary><span class="faq-label">Minimum Trade Duration</span><span aria-hidden="true">+</span>
+    </summary>
+    <div class="prose">
+      All trades must be held for a minimum of <strong>40 seconds</strong>. This rule applies to all types of trade closures, including Stop Loss, Take Profit, manual closure, partial closure of the position, or any other method of closing the position. Rapid "scalping" or "high-frequency" entries intended to exploit execution speeds are strictly prohibited and will be flagged during the audit.
+      <div class="rules-links"><strong>Check the links below for the complete descriptions of all rules:</strong>
+      </div>
+      <a href="https://forgeoftraders.com/faq/what-trading-practices-are-prohibited">What Trading Practices Are Prohibited?</a>
+      <a href="https://forgeoftraders.com/faq/when-can-a-breach-occur">When Can a Breach Occur?</a>
+    </div>
+  </details>
+  <details class="faq-rule" data-search-item="">
+    <summary><span class="faq-label">High-Risk Layering Limit</span><span aria-hidden="true">+</span>
+    </summary>
+    <div class="prose">
+      While layering is permitted, you are limited to a maximum of <strong>3 positions (layers) per instrument</strong>. Exceeding this limit is a violation of our risk protocols.
+      <div class="rules-links"><strong>Check the links below for the complete descriptions of all rules:</strong>
+      </div>
+      <a href="https://forgeoftraders.com/faq/what-trading-practices-are-prohibited">What Trading Practices Are Prohibited?</a>
+      <a href="https://forgeoftraders.com/faq/when-can-a-breach-occur">When Can a Breach Occur?</a>
+    </div>
+  </details>
+  <details class="faq-rule" data-search-item="">
+    <summary><span class="faq-label">Maximum Aggregated Risk Rule</span><span aria-hidden="true">+</span>
+    </summary>
+    <div class="prose">
+      <p>All accounts are subject to a <strong>Maximum Aggregated Risk Rule</strong> based on the account's current balance. This rule applies to the combined risk of all positions open at the same time and is <strong>not calculated separately</strong> for each individual trade or position.</p>
+
+      <p>This rule applies to both <strong>floating losses</strong> and <strong>closed losses</strong>. Any floating loss generated by currently open positions, as well as any closed loss from positions that were part of the same simultaneous exposure, will contribute to the applicable aggregated risk threshold.</p>
+
+      <p>For <strong>Evaluation Accounts</strong>, the maximum aggregated risk limit is <strong>2%</strong> of the current account balance. For <strong>Funded Accounts</strong>, including Instant Simulated Accounts and Passed Funded Accounts, the maximum aggregated risk limit is <strong>1%</strong> of the current account balance.</p>
+
+      <p>If a trader has multiple positions open simultaneously, all open positions will contribute to the same aggregated risk threshold. This means that the combined floating and/or closed loss exposure of all positions open at the same time must remain within the applicable account limit.</p>
+
+      <p>A breach occurs if the aggregated risk across all simultaneously open positions exceeds the applicable percentage of the current account balance at any point. This applies regardless of whether the limit is exceeded by one position or by the combined exposure of multiple positions.</p>
+
+      <p><strong>Enforcement clarification:</strong> For <strong>Evaluation Accounts</strong>, exceeding the Maximum Aggregated Risk Rule is considered a hard breach. However, this breach will be reviewed during the Compliance Verification process once the account reaches the verification stage before funding. If the Risk Team confirms that the rule was breached during the Evaluation stage, the account will not proceed to funding.</p>
+
+      <p>For <strong>Funded Accounts</strong>, including Instant Simulated Accounts and Passed Funded Accounts, exceeding the Maximum Aggregated Risk Rule is considered an <strong>automatic hard breach</strong>. The account will be automatically deactivated, in the same way as breaches related to Daily Drawdown, Maximum Drawdown, or Minimum Trade Duration.</p>
+
+      <div class="examples-box">
+        <div class="examples-label">Examples</div>
+
+        <div class="example">
+          <div class="example-title">Example 1 — Single Position on an Evaluation Account</div>
+          <p>If an Evaluation Account has a current balance of $50,000, the maximum aggregated risk limit is 2%, which equals <strong>$1,000</strong>.</p>
+          <p>If the trader opens one position and the floating or closed loss on that position reaches more than $1,000, the Maximum Aggregated Risk Rule is breached.</p>
+        </div>
+
+
+
+        <details class="more-examples">
+          <summary>Show more examples</summary>
+          <div class="examples-more">
+
+            <div class="example">
+              <div class="example-title">Example 2 — Multiple Positions on an Evaluation Account</div>
+              <p>If an Evaluation Account has a current balance of $100,000, the maximum aggregated risk limit is <strong>$2,000</strong>.</p>
+              <p>If the trader has three positions open at the same time:</p>
+              <ul>
+                <li>Position 1 has a floating loss of $700</li>
+                <li>Position 2 has a floating loss of $800</li>
+                <li>Position 3 has a floating loss of $600</li>
+              </ul>
+              <p>The total combined risk is <strong>$2,100</strong>. Because the combined exposure exceeds the $2,000 limit, this is a breach of the Maximum Aggregated Risk Rule.</p>
+            </div>
+
+            <div class="example">
+              <div class="example-title">Example 3 — Funded Account With Multiple Open Positions</div>
+              <p>If a Funded Account has a current balance of $100,000, the maximum aggregated risk limit is 1%, which equals <strong>$1,000</strong>.</p>
+              <p>If the trader has four positions open at the same time:</p>
+              <ul>
+                <li>Position 1 has a floating loss of $250</li>
+                <li>Position 2 has a floating loss of $300</li>
+                <li>Position 3 has a floating loss of $200</li>
+                <li>Position 4 has a floating loss of $350</li>
+              </ul>
+              <p>The total combined risk is <strong>$1,100</strong>. Because the combined exposure exceeds the $1,000 limit, this is an automatic hard breach and the account will be automatically deactivated.</p>
+            </div>
+
+            <div class="example">
+              <div class="example-title">Example 4 — Funded Account Within the Limit</div>
+              <p>If a Funded Account has a current balance of $100,000, the maximum aggregated risk limit is <strong>$1,000</strong>.</p>
+              <p>If the trader has three positions open at the same time:</p>
+              <ul>
+                <li>Position 1 has a floating loss of $300</li>
+                <li>Position 2 has a floating loss of $250</li>
+                <li>Position 3 has a floating loss of $400</li>
+              </ul>
+              <p>The total combined risk is <strong>$950</strong>. Because the total exposure remains below the $1,000 limit, the account does not breach the Maximum Aggregated Risk Rule at that moment.</p>
+            </div>
+
+            <div class="example">
+              <div class="example-title">Example 5 — Current Balance Changes After Closed Trades</div>
+              <p>If a Funded Account starts with $100,000 but the current balance decreases to <strong>$98,000</strong> after closed trades, the 1% aggregated risk limit is calculated from the current balance, not the original starting balance.</p>
+              <p>1% of $98,000 equals <strong>$980</strong>. This means that the trader's combined floating and/or closed loss exposure across all positions open at the same time must not exceed $980.</p>
+            </div>
+
+            <div class="example">
+              <div class="example-title">Example 6 — Current Balance Increases After Profitable Trades</div>
+              <p>If an Evaluation Account starts with $100,000 but the current balance increases to <strong>$105,000</strong> after profitable closed trades, the 2% aggregated risk limit is calculated from the current balance.</p>
+              <p>2% of $105,000 equals <strong>$2,100</strong>. This means that the combined floating and/or closed loss exposure across all positions open at the same time must remain within $2,100.</p>
+            </div>
+
+            <div class="example">
+              <div class="example-title">Example 7 — Splitting Risk Across Positions Does Not Avoid the Rule</div>
+              <p>If a Funded Account has a current balance of $100,000, the maximum aggregated risk limit is <strong>$1,000</strong>.</p>
+              <p>The trader opens five smaller positions at the same time, each risking $250. Although each individual position is below $1,000, the total combined exposure is <strong>$1,250</strong>.</p>
+              <p>Because the rule is based on aggregated exposure, not individual position risk, this is an automatic hard breach.</p>
+            </div>
+
+            <div class="example">
+              <div class="example-title">Example 8 — Positions Opened at Different Times but Active Together</div>
+              <p>If a trader opens Position 1 at 10:00 and then opens Position 2 at 10:15 while Position 1 is still open, both positions are active at the same time.</p>
+              <p>If both positions create combined exposure above the applicable risk limit, the Maximum Aggregated Risk Rule is breached. The positions do not need to be opened at the exact same second — what matters is whether they were open <strong>simultaneously</strong> and contributed to the same aggregated exposure.</p>
+            </div>
+
+            <div class="example">
+              <div class="example-title">Example 9 — Evaluation Account Breach Reviewed During Verification</div>
+              <p>If an Evaluation Account has a current balance of $100,000, the maximum aggregated risk limit is <strong>$2,000</strong>.</p>
+              <p>If the trader exceeds this limit during the challenge, it is considered a hard breach. However, for Evaluation Accounts, this breach will be reviewed during the Compliance Verification process once the account reaches the verification stage after completing the challenge.</p>
+              <p>If the Risk Team confirms that the rule was breached, the account will not proceed to funding.</p>
+            </div>
+
+          </div>
+        </details>
+      </div>
+
+      <div class="rules-links"><strong>Check the links below for the complete descriptions of all rules:</strong>
+      </div>
+      <a href="https://forgeoftraders.com/faq/what-trading-practices-are-prohibited">What Trading Practices Are Prohibited?</a>
+      <a href="https://forgeoftraders.com/faq/when-can-a-breach-occur">When Can a Breach Occur?</a>
+
+    </div>
+  </details>
+  <details class="faq-rule" data-search-item="">
+    <summary><span class="faq-label">Manual Execution Only</span><span aria-hidden="true">+</span>
+    </summary>
+    <div class="prose">
+      The use of any automated system, including <strong>EAs, bots, or scripts</strong>, is a hard breach. All entries and exits must be executed manually by the trader.
+
+      <div class="rules-links"><strong>Check the links below for the complete descriptions of all rules:</strong>
+      </div>
+      <a href="https://forgeoftraders.com/faq/what-trading-practices-are-prohibited">What Trading Practices Are Prohibited?</a>
+      <a href="https://forgeoftraders.com/faq/when-can-a-breach-occur">When Can a Breach Occur?</a>
+
+    </div>
+  </details>
+  <details class="faq-rule" data-search-item="">
+    <summary><span class="faq-label">Grid Trading &amp; Arbitrage</span><span aria-hidden="true">+</span>
+    </summary>
+    <div class="prose">
+      Opening orders at fixed intervals (<strong>Grid Trading</strong>) or utilizing latency arbitrage and cross-firm hedging to "guarantee" a profit is strictly forbidden.
+      <div class="rules-links"><strong>Check the links below for the complete descriptions of all rules:</strong>
+      </div>
+      <a href="https://forgeoftraders.com/faq/what-trading-practices-are-prohibited">What Trading Practices Are Prohibited?</a>
+      <a href="https://forgeoftraders.com/faq/when-can-a-breach-occur">When Can a Breach Occur?</a>
+    </div>
+  </details>
+  <details class="faq-rule" data-search-item="">
+    <summary><span class="faq-label">Drawdown Rules</span><span aria-hidden="true">+</span>
+    </summary>
+    <div class="prose">
+      <p class="acc-intro">At Forge of Traders, we use a transparent risk model that combines a <strong>Daily limit</strong> with an <strong>Overall (Static) limit</strong> to give you clear boundaries for your trading.</p>
+
+      <div class="desc-blocks">
+        <div class="desc-block">
+          <div class="desc-block-title">Daily Drawdown (EOD Balance-Based)</div>
+          <p>The Daily Drawdown is a limit that resets every day at the close of the trading session. Because it recalculates based on your closing performance, it is not static.</p>
+          <ul class="rule-list">
+            <li><strong>The Reset Time:</strong> The daily cycle resets at <strong>21:00 UTC</strong> (Server Time).</li>
+            <li><strong>The Calculation:</strong> The limit is calculated based on your End-of-Day (EOD) Balance at the moment of the 21:00 UTC reset.</li>
+            <li><strong>The Limit:</strong> Typically <strong>5%</strong> (please verify your specific challenge tier).</li>
+            <li><strong>The Floor:</strong> Every evening at 21:00 UTC, your daily "hard floor" is recalculated for the next 24 hours. For example, if your balance is $102,000 at the reset, your floor for the next day is $102,000 minus 5%.</li>
+            <li><strong>The Breach:</strong> A breach occurs if your Current Balance (including floating P&amp;L) touches this calculated floor at any point before the next reset.</li>
+          </ul>
+        </div>
+
+        <div class="desc-block">
+          <div class="desc-block-title">Overall Drawdown (Static)</div>
+          <p>During the evaluation stages, your Maximum (Overall) Drawdown is <strong>Static</strong>, meaning it is anchored to a fixed point and does not "chase" your profits.</p>
+          <ul class="rule-list">
+            <li><strong>The Calculation:</strong> It is calculated once based on your <strong>Initial Account Balance</strong>.</li>
+            <li><strong>Fixed Floor:</strong> If you have a $100,000 account with a 10% Max Drawdown, your floor is $90,000.</li>
+            <li><strong>Consistency:</strong> This floor remains at $90,000 regardless of how much profit you generate. Even if your account balance grows to $109,000, your absolute floor stays at $90,000.</li>
+          </ul>
+        </div>
+
+        <div class="desc-block">
+          <div class="desc-block-title">The Balance Lock (Funded Accounts Only)</div>
+          <p>The Balance Lock is a milestone for Funded Traders that secures your account once you have proven your consistency.</p>
+          <ul class="rule-list">
+            <li><strong>The 10% Target:</strong> Once your Funded Account reaches a Balance Lock Target of <strong>10% profit</strong>, the lock is triggered.</li>
+            <li><strong>One-Time Adjustment:</strong> At this point, your Static Max Drawdown floor is moved one time to your <strong>Initial Account Balance</strong>.</li>
+            <li><strong>Indefinite Security:</strong> Once moved to the Initial Balance, the floor stays there indefinitely. This ensures you are trading with your "profit buffer," and the account is only suspended if your balance returns to your starting balance.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="dd-table-title">Calculation Comparison — $100,000 Account</div>
+      <div class="dd-table-wrap">
+        <div class="table-scroll" tabindex="0" role="region" aria-label="Scrollable data table">
+          <table class="dd-table responsive-rule-table" role="table">
+            <thead role="rowgroup">
+              <tr role="row">
+                <th id="rule-table-0-column-0" scope="col" role="columnheader">Stage</th>
+                <th id="rule-table-0-column-1" scope="col" role="columnheader">Account Balance (21:00 UTC)</th>
+                <th id="rule-table-0-column-2" scope="col" role="columnheader">Daily Floor (5% of EOD)</th>
+                <th id="rule-table-0-column-3" scope="col" role="columnheader">Overall Floor (Max DD)</th>
+              </tr>
+            </thead>
+            <tbody role="rowgroup">
+              <tr role="row">
+                <td role="cell" data-label="Stage" headers="rule-table-0-column-0"><span class="mobile-table-value">Day 1 (Eval)</span>
+                </td>
+                <td role="cell" data-label="Account Balance (21:00 UTC)" headers="rule-table-0-column-1"><span class="mobile-table-value">$100,000</span>
+                </td>
+                <td role="cell" data-label="Daily Floor (5% of EOD)" headers="rule-table-0-column-2"><span class="mobile-table-value">$95,000</span>
+                </td>
+                <td role="cell" data-label="Overall Floor (Max DD)" headers="rule-table-0-column-3"><span class="mobile-table-value">$90,000</span>
+                </td>
+              </tr>
+              <tr role="row">
+                <td role="cell" data-label="Stage" headers="rule-table-0-column-0"><span class="mobile-table-value">Day 2 (Eval)</span>
+                </td>
+                <td role="cell" data-label="Account Balance (21:00 UTC)" headers="rule-table-0-column-1"><span class="mobile-table-value">$103,000</span>
+                </td>
+                <td role="cell" data-label="Daily Floor (5% of EOD)" headers="rule-table-0-column-2"><span class="mobile-table-value">$97,850 <span>(New Floor)</span></span>
+                </td>
+                <td role="cell" data-label="Overall Floor (Max DD)" headers="rule-table-0-column-3"><span class="mobile-table-value">$90,000</span>
+                </td>
+              </tr>
+              <tr role="row">
+                <td role="cell" data-label="Stage" headers="rule-table-0-column-0"><span class="mobile-table-value">Funded (after 10% hit)</span>
+                </td>
+                <td role="cell" data-label="Account Balance (21:00 UTC)" headers="rule-table-0-column-1"><span class="mobile-table-value">$110,000</span>
+                </td>
+                <td role="cell" data-label="Daily Floor (5% of EOD)" headers="rule-table-0-column-2"><span class="mobile-table-value">$104,500</span>
+                </td>
+                <td role="cell" data-label="Overall Floor (Max DD)" headers="rule-table-0-column-3"><span class="mobile-table-value">$100,000 <span>(Moved)</span></span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="rules-links"><strong>Check the links below for the complete descriptions of all rules:</strong>
+      </div>
+      <a href="https://forgeoftraders.com/faq/what-trading-practices-are-prohibited">What Trading Practices Are Prohibited?</a>
+      <a href="https://forgeoftraders.com/faq/when-can-a-breach-occur">When Can a Breach Occur?</a>
+
+    </div>
+  </details>
+  <details class="faq-rule" data-search-item="">
+    <summary><span class="faq-label">News Trading</span><span aria-hidden="true">+</span>
+    </summary>
+    <div class="prose">
+      Trading "High Importance" events within a <strong>+/- 3-minute window</strong> of the release (as defined by the <a href="https://www.forexfactory.com/calendar" target="_blank" rel="noopener noreferrer">ForexFactory Calendar</a>), is strictly prohibited on both Evaluation and Funded Accounts. This rule applies to all position openings and closures within the restricted window, including manual entries, manual closures, Stop Loss, Take Profit, or any other method of opening or closing a trade.
+      <div class="rules-links"><strong>Check the links below for the complete descriptions of all rules:</strong>
+      </div>
+      <a href="https://forgeoftraders.com/faq/what-trading-practices-are-prohibited">What Trading Practices Are Prohibited?</a>
+      <a href="https://forgeoftraders.com/faq/when-can-a-breach-occur">When Can a Breach Occur?</a>
+    </div>
+  </details>
+  <details class="faq-rule" data-search-item="">
+    <summary><span class="faq-label">Signal Services &amp; Mirroring</span><span aria-hidden="true">+</span>
+    </summary>
+    <div class="prose">
+      Every trade must be your <strong>independent analysis</strong>. Mirroring trades or using external "buy/sell" signals from Discord/Telegram is prohibited.
+      <div class="rules-links"><strong>Check the links below for the complete descriptions of all rules:</strong>
+      </div>
+      <a href="https://forgeoftraders.com/faq/what-trading-practices-are-prohibited">What Trading Practices Are Prohibited?</a>
+      <a href="https://forgeoftraders.com/faq/when-can-a-breach-occur">When Can a Breach Occur?</a>
+    </div>
+  </details>
+  <details class="faq-rule" data-search-item="">
+    <summary><span class="faq-label">Account Integrity</span><span aria-hidden="true">+</span>
+    </summary>
+    <div class="prose">
+      Accessing accounts from <strong>shared IPs or devices</strong> used by other Forge clients, or using "prop-passing" services, will be flagged as unauthorized account management.
+
+      <div class="rules-links"><strong>Check the links below for the complete descriptions of all rules:</strong>
+      </div>
+      <a href="https://forgeoftraders.com/faq/what-trading-practices-are-prohibited">What Trading Practices Are Prohibited?</a>
+      <a href="https://forgeoftraders.com/faq/when-can-a-breach-occur">When Can a Breach Occur?</a>
+
+    </div>
+  </details>
+  <details class="faq-rule" data-search-item="">
+    <summary><span class="faq-label">The Equity Lock Mechanism</span><span aria-hidden="true">+</span>
+    </summary>
+    <div class="prose">
+      <p class="acc-intro">Once you have transitioned to a Funded Account, your account benefits from our simulated account size protection mechanic:</p>
+
+      <div class="desc-blocks">
+        <div class="desc-block">
+          <div class="desc-block-title">The 10% Trigger</div>
+          <p>Upon reaching a <strong>10% profit target</strong> on your Funded Account, your Maximum Drawdown is permanently locked at your <strong>Initial Balance</strong>.</p>
+        </div>
+        <div class="desc-block">
+          <div class="desc-block-title">The Hard Floor</div>
+          <p>This creates a <strong>permanent floor</strong>, ensuring your account cannot drop below its starting value. From this point on, you are trading exclusively with your earned profit buffer.</p>
+        </div>
+        <div class="desc-block">
+          <div class="desc-block-title">Automatic Suspension</div>
+          <p>If equity returns to this <strong>Initial Balance level</strong>, the account is automatically suspended (inactive) to protect the firm's initial simulated account size.</p>
+        </div>
+      </div>
+
+      <div class="rules-links"><strong>Check the links below for the complete descriptions of all rules:</strong>
+      </div>
+      <a href="https://forgeoftraders.com/faq/what-trading-practices-are-prohibited">What Trading Practices Are Prohibited?</a>
+      <a href="https://forgeoftraders.com/faq/when-can-a-breach-occur">When Can a Breach Occur?</a>
+
+    </div>
+  </details>
+  <details class="faq-rule" data-search-item="">
+    <summary><span class="faq-label">Behavioral Audit &amp; Verification Window</span><span aria-hidden="true">+</span>
+    </summary>
+    <div class="prose">
+      <p class="acc-intro">To ensure a successful partnership, our Risk Team conducts manual audits of all trading activity on an ongoing basis. A mandatory review is triggered:</p>
+
+      <ol class="desc-triggers">
+        <li><strong>Post-Evaluation:</strong> After a challenge is verified, before a Funded Account is issued.</li>
+        <li><strong>Reward Requests:</strong> Before any profit withdrawal is approved.</li>
+      </ol>
+
+      <div class="desc-blocks">
+        <div class="desc-block">
+          <div class="desc-block-title">Risk Evaluation</div>
+          <p>We monitor for "gambling" patterns, such as <strong>revenge trading</strong> or <strong>inconsistent trade sizes</strong>. Our audit specifically flags drastic spikes in lot size, evaluated at both the individual instrument and total account level, and aggressive risk-taking following losses or when nearing a profit target. We also evaluate overall SL/TP discipline and strategy repeatability.</p>
+          <div class="rules-links"><strong>The above rule is an abridged version. The full version of the rule is available via the following links:</strong>
+          </div>
+          <div>
+            <a href="https://forgeoftraders.com/faq/what-trading-practices-are-prohibited">What Trading Practices Are Prohibited?</a>
+          </div>
+          <a href="https://forgeoftraders.com/faq/when-can-a-breach-occur">When Can a Breach Occur?</a>
+        </div>
+        <div class="desc-block">
+          <div class="desc-block-title">Timeline</div>
+          <p>Verification is processed during working days. While most audits are completed in under <strong>24 hours</strong>, please allow up to <strong>72 hours</strong> for a final determination.</p>
+        </div>
+        <div class="desc-block">
+          <div class="desc-block-title">Right of Refusal</div>
+          <p>Forge of Traders reserves the sole and absolute discretion to withhold funding or rewards if behavior contradicts institutional standards <strong>or</strong> indicates lack of risk consistency, even if no technical drawdown breach has occurred.</p>
+        </div>
+      </div>
+
+      <p class="desc-footnote">Funded Account inactivity is not permitted. A Funded Account must have at least one compliant trade executed within every 30 calendar days. Trades that breach any Trading Rules do not count as valid activity.</p>
+
+      <div class="rules-links"><strong>Check the links below for the complete descriptions of all rules:</strong>
+      </div>
+      <div><a href="https://forgeoftraders.com/faq/what-trading-practices-are-prohibited">What Trading Practices Are Prohibited?</a>
+      </div>
+      <a href="https://forgeoftraders.com/faq/when-can-a-breach-occur">When Can a Breach Occur?</a>
+
+    </div>
+  </details>
+</section>
+
+              <section class="faq-category" id="category-0" data-search-group="">
+          <p class="eyebrow">02 / FAQ</p>
+          <h2>Accounts</h2>
+          <ul>
+                          <li data-search-item="" data-search-text="Here is how the journey works, from your first trade to your first withdrawal:
+1. Choose Your Challenge
+Select the challenge that aligns with your strategy and risk tolerance:
+
+1-Step Evaluation &amp;ndash; Reach the profit target in a single phase for the fastest path to funding.
+2-Step Evaluation..."><a href="https://forgeoftraders.com/faq/the-forge-of-traders-process-explained"><span class="faq-label">The Forge of Traders Process Explained</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                          <li data-search-item="" data-search-text="There is no maximum time limit to complete your evaluation. We believe in high-performance trading without the pressure of a ticking clock. You are encouraged to trade at a pace that suits your specific strategy.
+Important note for Funded Accounts:
+The no maximum time limit applies only to the eva..."><a href="https://forgeoftraders.com/faq/how-much-time-do-i-have-to-pass-the-forge-of-traders-evaluation"><span class="faq-label">How Much Time Do I Have to Pass the Forge of Traders Evaluation?</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                          <li data-search-item="" data-search-text="Upon achieving the profit target and meeting the 3-day minimum requirement for an evaluation phase, the following protocol applies:
+Phase Transition
+
+Phase 1 to Phase 2/3: Once a target is met, your account balance resets to the initial starting amount for the next phase.
+Position Clearing: Open..."><a href="https://forgeoftraders.com/faq/what-happens-after-i-pass-a-stage-of-the-evaluation"><span class="faq-label">What Happens After I Pass a Stage of the Evaluation?</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                          <li data-search-item="" data-search-text="Yes. You must be 18 years or older to trade with Forge of Traders.
+Accounts created by minors will be closed."><a href="https://forgeoftraders.com/faq/is-there-a-minimum-age-requirement"><span class="faq-label">Is There a Minimum Age Requirement?</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                          <li data-search-item="" data-search-text="Upon successful completion of all required evaluation phases (One-Phase, Two-Phase, or Three-Phase) and the fulfillment of necessary KYC (Know Your Customer) checks, your relationship with Forge of Traders is governed by our official Terms &amp;amp; Conditions and the operational guidelines outlined in..."><a href="https://forgeoftraders.com/faq/what-is-the-legal-relationship-between-a-forge-of-traders-trader-and-forge-of-traders"><span class="faq-label">What Is the Legal Relationship Between a Trader and Forge of Traders?</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                          <li data-search-item="" data-search-text="Upon meeting all trading objectives for your evaluation (One-Phase, Two-Phase, or Three-Phase) or purchasing an Instant Funding account, the Identity Section in your Client Area will unlock. Completing this verification is mandatory to activate your funded credentials and establish eligibility for r..."><a href="https://forgeoftraders.com/faq/how-does-the-contract-signing-process-work"><span class="faq-label">How Does the Identity Verification (KYC) Process Work?</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                          <li data-search-item="" data-search-text="The time required to reach funded status depends on your chosen path and your individual trading pace. Because we have no maximum time limits, you are never pressured to rush your strategy.
+Evaluation Paths (One, Two, and Three-Phase)
+You may take as long as necessary to reach your targets. Howeve..."><a href="https://forgeoftraders.com/faq/how-long-does-it-take-to-become-part-of-the-forge-of-traders-funded-program"><span class="faq-label">How Long Does It Take to Become a Forge of Traders Funded Trader?</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                          <li data-search-item="" data-search-text="Once you have successfully reached the profit targets and completed the 3-day minimum trading requirement for your evaluation, your performance undergoes a final institutional review. Following successful verification, your account is transitioned to a Funded Account.
+Transition Protocol by Program..."><a href="https://forgeoftraders.com/faq/what-happens-after-i-complete-the-1-step-2-step-or-3-step-challenge"><span class="faq-label">What Happens After I Complete the One, Two, or Three-Phase Challenge?</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                          <li data-search-item="" data-search-text="There is no limit to the number of evaluations you can purchase or manage simultaneously. You are permitted to run multiple One-Phase, Two-Phase, or Three-Phase challenges at once.
+However, each account is treated as a distinct institutional entity and must adhere to the following management protoc..."><a href="https://forgeoftraders.com/faq/is-there-a-limit-to-how-many-evaluations-i-can-have-at-once"><span class="faq-label">Is There a Limit to How Many Evaluations I Can Have at Once?</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                          <li data-search-item="" data-search-text="Forge of Traders provides traders with a simulated trading environment that uses market pricing data designed to reflect real market conditions.
+
+Simulated Client Orders: All orders placed by Forge of Traders clients are executed exclusively within a simulated environment using fictitious capital...."><a href="https://forgeoftraders.com/faq/how-does-a-forge-of-traders-account-work-technically"><span class="faq-label">How Does a Forge of Traders Account Work Technically?</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                      </ul>
+        </section>
+              <section class="faq-category" id="category-1" data-search-group="">
+          <p class="eyebrow">03 / FAQ</p>
+          <h2>Trading Rules</h2>
+          <ul>
+                          <li data-search-item="" data-search-text="
+At Forge of Traders, lot size limits are governed by institutional risk management standards. Rather than a fixed lot cap, your maximum position size is determined by your account balance and the leverage assigned to each specific asset class.
+While you are technically permitted to use your entir..."><a href="https://forgeoftraders.com/faq/what-is-the-maximum-lot-size"><span class="faq-label">Maximum Lot Size &amp; Margin</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                          <li data-search-item="" data-search-text="All accounts are subject to a Maximum Aggregated Risk Rule based on the account&#039;s currentbalance. This rule applies to the combined risk of all positions open at the same time and isnot calculated separately for each individual trade or position.This rule applies to both floating losses and closed l..."><a href="https://forgeoftraders.com/faq/maximum-aggregated-risk-rule"><span class="faq-label">Maximum Aggregated Risk Rule</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                          <li data-search-item="" data-search-text="To ensure that every trader is evaluated based on their personal skill and execution, Forge of Traders enforces strict guidelines regarding account mirroring and third-party assistance. Every account is viewed as a separate professional entity requiring its own independent management.
+What is Permi..."><a href="https://forgeoftraders.com/faq/copy-trading-rules-at-forge-of-traders"><span class="faq-label">Copy Trading Rules at Forge of Traders</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                          <li data-search-item="" data-search-text="Yes. However, the sizing is primarily governed by our Risk Rule and drawdown limitations rather than an arbitrary lot cap.
+1. Evaluation Phases (One, Two, and Three-Phase)
+During your evaluation, you are permitted to use the Full Margin available on your account.
+
+Strategic Freedom: You have the..."><a href="https://forgeoftraders.com/faq/is-there-a-maximum-position-size-per-instrument"><span class="faq-label">Is There a Maximum Position Size per Instrument?</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                          <li data-search-item="" data-search-text="At Forge of Traders, market hours are strictly observed to protect against &quot;gap risk&quot; and extreme low-liquidity volatility.
+Weekend Holding Policy
+
+Standard Rule: All positions must be closed by the market close on Friday before market close.
+The Add-on: Weekend holding is only permitted with th..."><a href="https://forgeoftraders.com/faq/can-i-hold-positions-over-the-weekend"><span class="faq-label">Can I Hold Positions Over the Weekend?</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                          <li data-search-item="" data-search-text="To maintain the integrity of our simulated trading programs, Forge of Traders prohibits practices that violate our published trading and risk-management rules.
+1. The Forge Protocols (Technical &amp;amp; Strategy Rules)
+
+Minimum Trade Duration: All trades must be held for a minimum of 40 seconds. Thi..."><a href="https://forgeoftraders.com/faq/what-trading-practices-are-prohibited"><span class="faq-label">What Trading Practices Are Prohibited?</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                          <li data-search-item="" data-search-text="A breach is an event that violates the trading protocols of Forge of Traders. Depending on the rule, a breach will result in either an automated position closure or account termination.
+1. Primary Risk &amp;amp; Style Breaches (Hard Breaches)
+These triggers result in the immediate closure of the accou..."><a href="https://forgeoftraders.com/faq/when-can-a-breach-occur"><span class="faq-label">When Can a Breach Occur?</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                          <li data-search-item="" data-search-text="At Forge of Traders, maintaining the integrity of our capital is our highest priority. The consequences of a breach depend on the type of violation and the stage of your account (Evaluation vs. Funded).
+1. Automated Hard Breaches
+If you violate a Financial Limit (Daily Drawdown or Max Drawdown), t..."><a href="https://forgeoftraders.com/faq/what-happens-if-i-breach-the-rules"><span class="faq-label">What Happens If I Breach the Rules?</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                          <li data-search-item="" data-search-text="At Forge of Traders, we use a transparent risk model that combines a Daily limit with an Overall (Static) limit to give you clear boundaries for your trading.
+1. Daily Drawdown (EOD Balance-Based)
+The Daily Drawdown is a limit that resets every day at the close of the trading session. Because it r..."><a href="https://forgeoftraders.com/faq/how-are-daily-and-overall-drawdowns-calculated"><span class="faq-label">Drawdown Calculations</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                          <li data-search-item="" data-search-text="Forge of Traders differentiates between Risk Breaches (which close accounts) and Operational Guards (which temporarily pause trading). Understanding this distinction is key to maintaining a smooth, professional trading experience.
+Operational Guards (The &quot;Soft Pause&quot;)
+Unlike a Hard Breach (which t..."><a href="https://forgeoftraders.com/faq/daily-profit-loss-limits"><span class="faq-label">Daily Profit &amp; Loss Limits</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                          <li data-search-item="" data-search-text="Whether you are in the evaluation phases or trading a funded account, the technical infrastructure remains consistent to provide a professional institutional experience.
+
+Technical Specifications
+
+Simulated Capital: All trading occurs with virtual funds. This allows for a risk-controlled environment..."><a href="https://forgeoftraders.com/faq/trading-environment-at-forge-of-traders"><span class="faq-label">Trading Environment at Forge of Traders</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                          <li data-search-item="" data-search-text="To ensure profits are generated through skilled, repeatable trading rather than &quot;lucky&quot; gambling on single high-impact events, a 50% Consistency Score applies exclusively to Phase 1 Challenges.
+The Rule
+Your &quot;Consistency Score&quot; on the dashboard must remain at or above 50%.
+This score represents t..."><a href="https://forgeoftraders.com/faq/the-consistency-score"><span class="faq-label">Phase 1 Consistency Score</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                          <li data-search-item="" data-search-text="To provide traders with greater flexibility and risk protection, Forge of Traders offers several strategic add-ons and recovery features. These can be selected during the initial checkout to tailor the program to your specific trading style.
+The Equity Lock Mechanism (Funded Accounts Only)
+The Equ..."><a href="https://forgeoftraders.com/faq/premium-add-ons-recovery-mechanisms"><span class="faq-label">Premium Add-Ons &amp; Recovery Mechanisms</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                          <li data-search-item="" data-search-text="The Equity Lock is a premium capital protection feature exclusive to Instant Funded and Passed Funded accounts. It is designed to reward successful traders by permanently securing the firm&#039;s initial capital once a specific profit milestone is achieved, allowing the trader to operate solely with thei..."><a href="https://forgeoftraders.com/faq/the-equity-lock-mechanism"><span class="faq-label">The Equity Lock Mechanism</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                          <li data-search-item="" data-search-text="
+Yes. Funded Accounts cannot remain inactive for more than 30 calendar days.
+Inactivity means that no compliant trade has been executed on the Funded Account within a 30-calendar-day period. To keep the account active, the trader must execute at least one trade that complies with all Forge of Trad..."><a href="https://forgeoftraders.com/faq/can-my-funded-account-be-breached-due-to-inactivity"><span class="faq-label">Can my Funded Account be breached due to inactivity?</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                      </ul>
+        </section>
+              <section class="faq-category" id="category-2" data-search-group="">
+          <p class="eyebrow">04 / FAQ</p>
+          <h2>Company &amp; Contact</h2>
+          <ul>
+                          <li data-search-item="" data-search-text="Forge of Traders provides a tiered system designed to match different trading styles, from high-velocity scalpers to steady, long-term investors. Whether you want to earn your way to the top or start with capital immediately, we have a path for you.
+Evaluation Challenges (Phased Funding)
+These pro..."><a href="https://forgeoftraders.com/faq/what-types-of-challenges-are-offered"><span class="faq-label">What Types of Challenges Are Offered?</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                          <li data-search-item="" data-search-text="At Forge of Traders, all accounts, including post-evaluation accounts, are simulated. The environment uses real-market data, while account capital and order execution remain simulated.
+How the Simulation Works
+
+Real-Market Data:We use ultra-low latency feeds from market-data / pricing-data provid..."><a href="https://forgeoftraders.com/faq/is-trading-done-in-a-real-market-environment"><span class="faq-label">Is Trading Done in a Real Market Environment?</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                          <li data-search-item="" data-search-text="At Forge of Traders, our profit-sharing model is among the most competitive. We believe that if you provide the skill, you deserve the lion&#039;s share of the rewards.
+Base Reward Share
+Whether you are trading an Evaluation Challenge (One, Two, or Three-Phase) or an Instant Simulated Account, our stan..."><a href="https://forgeoftraders.com/faq/what-is-the-profit-split"><span class="faq-label">What Is the Reward Share?</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                          <li data-search-item="" data-search-text="At Forge of Traders, we utilize an automated provisioning system to ensure you can start your journey without delay.
+1. Evaluation Challenges (One, Two, and Three-Phase)
+
+Timeline: Accounts are typically activated within minutes after your payment is confirmed.
+Credentials: Your platform login d..."><a href="https://forgeoftraders.com/faq/how-long-does-account-activation-take"><span class="faq-label">How Long Does Account Activation Take?</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                          <li data-search-item="" data-search-text="If you encounter technical issues, have questions regarding your evaluation, or need clarification on a specific trade, our UK-based support team is ready to assist you.
+Direct Contact Channels
+We maintain three dedicated channels to ensure your inquiry reaches the right department:
+
+Technical &amp;..."><a href="https://forgeoftraders.com/faq/how-can-i-contact-support"><span class="faq-label">How Can I Contact Support?</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                          <li data-search-item="" data-search-text="We are headquartered in the heart of Europe, with our main office located in Nicosia, Cyprus. Our address is:
+53 Kosta Varnali Street, Nicosia Cyprus 2232
+
+For inquiries or support, you can reach us through:
+
+Our website contact form
+Email
+24/7 Live Chat
+"><a href="https://forgeoftraders.com/faq/where-is-your-office-how-can-i-contact-you"><span class="faq-label">Where Is Your Office? How Can I Contact You?</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                          <li data-search-item="" data-search-text="Yes. Please reach out to contact@forgeoftraders.com"><a href="https://forgeoftraders.com/faq/does-forge-of-traders-have-an-affiliate-program"><span class="faq-label">Does Forge of Traders Have an Affiliate Program?</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                      </ul>
+        </section>
+              <section class="faq-category" id="category-3" data-search-group="">
+          <p class="eyebrow">05 / FAQ</p>
+          <h2>Withdrawals &amp; Rewards</h2>
+          <ul>
+                          <li data-search-item="" data-search-text="Forge of Traders offers a streamlined payment experience. Our systems automatically allocate the most efficient local payment methods based on your location to ensure a frictionless onboarding process.
+
+Pay-ins (Account Purchases)
+To get you into the Forge as quickly as possible, we support the f..."><a href="https://forgeoftraders.com/faq/what-payment-methods-are-supported"><span class="faq-label">What Payment Methods Are Supported?</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                          <li data-search-item="" data-search-text="Consistent with professional institutional standards, you cannot receive rewards during the evaluation phases (One-Phase, Two-Phase, or Three-Phase).
+
+Validation Stage: During these phases, you are trading in a simulated environment to demonstrate your skill, discipline, and adherence to the Forge..."><a href="https://forgeoftraders.com/faq/can-i-receive-payouts-during-the-evaluation"><span class="faq-label">Can I Receive Rewards During the Evaluation?</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                          <li data-search-item="" data-search-text="You do not need to complete KYC to start an evaluation. At Forge of Traders, we want you focused on your strategy first. However, to maintain international compliance and security, the verification process is required at the following milestones:
+
+Post-Evaluation Transition: Once you successfully..."><a href="https://forgeoftraders.com/faq/when-should-i-submit-kyc-verification"><span class="faq-label">When Should I Submit KYC Verification?</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                          <li data-search-item="" data-search-text="Forge of Traders offers one of the fastest liquidity cycles in the industry. We move you from an &quot;On-Demand&quot; start to a steady bi-weekly schedule, ensuring you access your performance commissions without the traditional 30-day wait.
+I. The First Reward (Post-Verification Eligibility)
+
+First Rewar..."><a href="https://forgeoftraders.com/faq/when-can-i-make-my-first-payout"><span class="faq-label">When Can I Make My First Reward?</span><span aria-hidden="true">↗</span>
+                </a>
+              </li>
+                      </ul>
+        </section>
+      
+      <div class="search-empty" hidden="">
+        <h2>No matching questions</h2>
+        <p>Try another phrase, or <a href="https://forgeoftraders.com/contact">contact us</a> for help.</p>
+      </div>
+    </div>
+  </div>
+    </main>
+
+    <footer class="bg-dark22 text-light py-4 mt-auto footer-area ">
+    <div class="container">
+    <div class="footer-part">
+              <div class="footer-brand-row">
+          <div class="footer-logo-wrapper">
+            <a class="ga-track footer-logo-link d-inline-flex align-items-center" data-ga-event="click_bottom_logo" href="https://forgeoftraders.com" aria-label="Forge of Traders"><span class="shield-only "><img src="https://forgeoftraders.com/templates/template2/assets/47e90909936626.webp?v=1789369223" width="264" height="362" alt="" aria-hidden="true" decoding="async"></span></a>
+          </div>
+          <div class="fs__main">
+            <div><b>Forge of Traders™</b>
+            </div>
+          </div>
+          <nav class="forge-socials footer-socials" aria-label="Forge community social media"><a class="social-icon" href="https://discord.gg/ypCFcqbBx3" target="_blank" aria-label="Discord" rel="noopener noreferrer" title="Discord" data-platform="discord">
+            <i class="fa-brands fa-discord" aria-hidden="true"></i>
+            </a><a class="social-icon" href="https://www.instagram.com/forgeoftraders/" target="_blank" aria-label="Instagram" rel="noopener noreferrer" title="Instagram" data-platform="instagram">
+            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+            </a><a class="social-icon" href="https://x.com/ForgeOfTraders" target="_blank" aria-label="X" rel="noopener noreferrer" title="X" data-platform="x">
+            <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+            </a><a class="social-icon" href="https://www.youtube.com/channel/UCmeKHYQ_FqKzI-SOQaUTfrg" target="_blank" aria-label="YouTube" rel="noopener noreferrer" title="YouTube" data-platform="youtube">
+            <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+            </a><a class="social-icon" href="https://www.reddit.com/r/ForgeOfTraders/" target="_blank" aria-label="Reddit" rel="noopener noreferrer" title="Reddit" data-platform="reddit">
+            <i class="fa-brands fa-reddit" aria-hidden="true"></i>
+            </a><a class="social-icon" href="https://www.facebook.com/people/Forge-Of-Traders/61580585517895/" target="_blank" aria-label="Facebook" rel="noopener noreferrer" title="Facebook" data-platform="facebook">
+            <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+            </a><a class="social-icon" href="https://www.tiktok.com/@forge.of.traders?_r=1&amp;_t=ZN-93ksthIY4ZS" target="_blank" aria-label="TikTok" rel="noopener noreferrer" title="TikTok" data-platform="tiktok">
+            <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+            </a>
+          </nav>
+        </div>
+            <div class="">
+        <div class="footer-links">
+          <div class="row row-cols-3 row-cols-md-6 g-4">
+
+            <div class="col">
+              <h2 class="">Contacts</h2>
+              <div class="menu-contacts-container">
+                <ul class="menu footer-menu" id="footer-contacts">
+                  <li class="">
+                    <a class="ga-track" data-ga-event="click_contact_bottom" href="https://forgeoftraders.com/contact">Contact</a>
+                  </li>
+                  <li class="">
+                    <a class="ga-track" data-ga-event="click_faq_menu_bottom" href="https://forgeoftraders.com/faqs" aria-current="page">FAQs</a>
+                  </li>
+                  <li class="">
+                    <a href="https://forgeoftraders.com/affiliate">Become a Partner</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col">
+              <h2 class="">Important Links</h2>
+              <div class="menu-important-links-container">
+                <ul class="menu footer-menu" id="footer-important-links">
+                  <li class="">
+                    <a href="https://app.forgeoftraders.com/sign-in">Trader Dashboard</a>
+                  </li>
+                  <li class="">
+                    <a class="ga-track" data-ga-event="click_purchasechallenge_purchase_assessment_bottom" href="https://app.forgeoftraders.com/checkout?external_checkout">Purchase Assessment</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col">
+              <h2 class="">How It Works</h2>
+              <div class="menu-programs-container">
+                <ul class="menu footer-menu" id="footer-programs">
+                  <li class="">
+                    <a class="ga-track" data-ga-event="click_programs_menu_bottom" href="https://forgeoftraders.com/compare-programs">Programs</a>
+                  </li>
+                  <li class="">
+                    <a class="ga-track" data-ga-event="click_evaluation_bottom" href="https://forgeoftraders.com/evaluation">The Evaluation</a>
+                  </li>
+                  <li class="">
+                    <a class="ga-track" data-ga-event="click_symbols_bottom" href="https://forgeoftraders.com/symbols">Symbols</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col">
+              <h2 class="">Community</h2>
+              <div class="menu-community-container">
+                <ul class="menu footer-menu" id="footer-community">
+                  <li class="">
+                    <a href="https://www.instagram.com/forgeoftraders/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                  </li>
+                  <li class="">
+                    <a href="https://discord.gg/ypCFcqbBx3" target="_blank" rel="noopener noreferrer">Discord</a>
+                  </li>
+                  <li class="">
+                    <a href="https://x.com/ForgeOfTraders" target="_blank" rel="noopener noreferrer">X.com</a>
+                  </li>
+                  <li class="">
+                    <a href="https://www.youtube.com/channel/UCmeKHYQ_FqKzI-SOQaUTfrg" target="_blank" rel="noopener noreferrer">YouTube</a>
+                  </li>
+                  <li class="">
+                    <a href="https://www.reddit.com/r/ForgeOfTraders/" target="_blank" rel="noopener noreferrer">Reddit</a>
+                  </li>
+                  <li class="">
+                    <a href="https://www.facebook.com/people/Forge-Of-Traders/61580585517895/" target="_blank" rel="noopener noreferrer">Facebook</a>
+                  </li>
+                  <li class="">
+                    <a href="https://www.tiktok.com/@forge.of.traders?_r=1&amp;_t=ZN-93ksthIY4ZS" target="_blank" rel="noopener noreferrer">TikTok</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col">
+              <h2 class="">Documents</h2>
+              <div class="menu-footer-documents-container">
+                <ul class="menu footer-menu" id="footer-documents">
+                  <li class="">
+                    <a href="https://forgeoftraders.com/terms-conditions">Terms and Conditions</a>
+                  </li>
+                  <li class="">
+                    <a href="https://forgeoftraders.com/privacy-policy">Privacy Policy</a>
+                    <!--div class="sub-menu-container">
+                    <ul class="sub-menu">
+                      <li id="" class="">
+                        <a href="" target="_blank">USA</a>
+                      </li>
+                      <li id="" class="">
+                        <a href="" target="_blank">UK</a>
+                      </li>
+                      <li id="" class="">
+                        <a href="" target="_blank">EU</a>
+                      </li>
+                      <li id="" class="">
+                        <a href="" target="_blank">Canada</a>
+                      </li>
+                    </ul>
+                    </div-->
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-lower"><button type="button" class="footer-preferences footer-cookie-control" data-cookie-settings="">Cookie settings</button>
+        <div class="fs__bottom">
+          <br>
+          <p><strong>Important Information &amp; Disclaimer</strong>
+          </p>
+          <p>The website forgeoftraders.com (the "Website") is operated under the brand Forge of Traders, owned by Planetpulse Holdings LTD | Registration No. HE 469194 | Address: 53 Kosta Varnali St., Nicosia, Cyprus (the "Company", "we", "us", "our").</p>
+          <p><strong>Educational &amp; Informational Purposes Only:</strong> All information published on this Website is provided solely for educational and informational purposes related to trading on financial markets. Nothing on this Website constitutes, and should not be interpreted as, investment advice, financial advice, trading advice, business recommendations, investment opportunity analysis, or any form of general or specific recommendation regarding any financial instrument.</p>
+          <p><strong>Simulated Trading Environment (Demo Only):</strong> All accounts, evaluations, and programs offered through Forge of Traders are conducted exclusively in a simulated trading environment. No live trading is performed, and no real orders are executed on live financial markets through this Website. Any trading performance, results, statistics, or examples shown are based on simulated performance and may not reflect real market conditions including liquidity, slippage, execution speed, spreads, commissions, or other factors.</p>
+          <p><strong>No Brokerage Services / No Deposits:</strong> Forge of Traders does not operate as a broker, does not act as a custodian, and does not provide regulated financial services. Any platform access, pricing, or market data displayed may be provided via third-party technology providers and/or liquidity/data sources.</p>
+          <p><strong>Fees Are Service Fees (Not Deposits / Not Investments):</strong> All fees paid to the Company are service fees for access to evaluation, educational, and simulated trading services. Payment does not create any fiduciary duty, custodial relationship, or investment arrangement between you and the Company.</p>
+          <p><strong>No Offer or Solicitation:</strong> Nothing on this Website or in any Company program constitutes an offer to buy or sell, or a solicitation to buy or sell, forex, Contract for Difference, futures, options, securities, stocks, cryptocurrencies, or any other financial instruments.</p>
+          <p><strong>Risk Warning:</strong> Trading in financial markets involves a high level of risk and may not be suitable for everyone. Even when using simulated trading conditions, leveraged strategies can result in outcomes that differ significantly from real market execution. You should carefully consider your objectives, experience level, and risk tolerance before participating. If necessary, seek independent professional advice.</p>
+          <p><strong>Age Requirement:</strong> This Website and all services are intended only for individuals who are 18 years of age or older.</p>
+          <p><strong>Restricted Jurisdictions &amp; Legal Compliance:</strong> The information on this Website is not intended for distribution to, or use by, any person in any country or jurisdiction where such distribution or use would be contrary to local law or regulation. We do not establish accounts or provide services to residents of certain jurisdictions, including but not limited to: United States, Zimbabwe, Iran, Iraq, North Korea, Somalia, Burundi, Central African Republic, Liberia, Libya, Sudan, Cuba, Syria, Afghanistan, Yemen, Palestine, Myanmar, Nicaragua, Congo Republic, Crimea, Democratic Republic of Congo, Eritrea, Guinea, Guinea-Bissau, Papua New Guinea, South Sudan, Vanuatu, Venezuela, Russia, and/or any country or jurisdiction where offering our services would be contrary to local law, regulation, or applicable restrictions. We may restrict access or refuse service at our sole discretion to ensure compliance with legal, regulatory, and risk requirements.</p>
+          <p><strong>Accuracy of Information &amp; Limitation of Liability:</strong> While we strive to keep the information on this Website accurate and up to date, we make no warranties or guarantees regarding completeness, reliability, or accuracy. Any use of the Website and its content is at your own risk. To the fullest extent permitted by law, the Company shall not be liable for any direct or indirect loss or damage arising from the use of this Website, participation in our programs, or reliance on any content provided herein.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+    
+    <div id="visitor-ui">
+
+  <section class="cookie-banner" id="cookie-banner" aria-labelledby="cookie-title" hidden="">
+    <div>
+      <h2 id="cookie-title">Your privacy, your choice</h2>
+      <p>We use essential cookies to make our site work. With your consent, we also use analytics and personalization cookies to improve your experience.</p>
+      <a href="https://forgeoftraders.com/privacy-policy">Privacy Policy</a>
+    </div>
+    <div class="cookie-actions">
+      <button type="button" data-consent="all">Accept all</button>
+      <button type="button" data-consent="essential">Essential only</button>
+      <button type="button" data-cookie-settings="">Customize</button>
+    </div>
+  </section>
+
+  <dialog class="visitor-dialog consent-dialog" id="cookie-preferences" aria-labelledby="preferences-title">
+    <div class="dialog-heading">
+      <h2 id="preferences-title">Cookie preferences</h2>
+      <button type="button" class="dialog-close" data-close-dialog="" aria-label="Close cookie preferences">×</button>
+    </div>
+    <p>You can change your choice at any time using Cookie settings in the footer.</p>
+    <div class="consent-option">
+      <div>
+        <strong>Essential</strong>
+        <span>Security, your cookie choice and the program you select.</span>
+      </div>
+      <span class="always-on">Always on</span>
+    </div>
+    <label class="consent-option">
+      <span>
+      <strong>Analytics</strong>
+      <span>Help us understand how visitors use the site.</span>
+      </span>
+      <input type="checkbox" name="analytics" aria-label="Analytics cookies">
+    </label>
+    <label class="consent-option">
+      <span>
+      <strong>Personalization</strong>
+      <span>Allow optional preferences for a more relevant experience.</span>
+      </span>
+      <input type="checkbox" name="personalization" aria-label="Personalization cookies">
+    </label>
+    <div class="cookie-actions">
+      <button type="button" data-consent="selected">Save preferences</button>
+      <button type="button" data-consent="essential">Essential only</button>
+    </div>
+    <a href="https://forgeoftraders.com/privacy-policy">Privacy Policy</a>
+  </dialog>
+
+  
+  <aside class="announcement-nudge sales-nudge sales-nudge-v2" id="announcement-nudge"
+     aria-labelledby="offer-nudge-title"  hidden="">
+
+          <p class="offer-nudge-eyebrow">FIRST ACCOUNT · 50% OFF</p>
+    
+          <button type="button" class="nudge-open" data-open-announcement="">
+              <span class="nudge-thumbnail" aria-hidden="true">
+        <img data-lazy-src="https://i.ytimg.com/vi/E_8SbZP3Qr0/maxresdefault.jpg" width="160" height="90" alt="" decoding="async">
+        <span class="nudge-play"><i class="bi bi-play-fill"></i></span>
+        </span>
+            <span class="nudge-details">
+      <strong>Meet Achena Miracle</strong>
+      <span class="nudge-link">Watch the trader interview <span aria-hidden="true">↗</span></span>
+      </span>
+      </button>
+    
+          <h2 id="offer-nudge-title">50% OFF YOUR FIRST ACCOUNT</h2>
+
+      <div class="nudge-footer">
+                  <p class="offer-nudge-copy">Choose program and use <strong>START50</strong> at checkout.</p>
+                <a class="button primary offer-nudge-cta ga-track" href="https://app.forgeoftraders.com/checkout?external_checkout"
+        data-offer-program="" data-ga-event="click_offer_nudge_checkout">
+        <span>Start challenge</span><span aria-hidden="true">↗</span>
+        </a>
+      </div>
+    
+    <button type="button" class="dialog-close" id="dismiss-announcement" aria-label="Dismiss offer">×</button>
+  </aside>
+
+  <style>
+    /* Wider than the old nudge: the teaser is now a headline element rather
+       than a footnote, and a 16/9 still needs the room to read. */
+    #announcement-nudge.sales-nudge-v2 {
+      display: block;
+      width: 470px;
+      max-width: calc(100% - 32px);
+      padding: 20px;
+    }
+
+    #announcement-nudge.sales-nudge-v2 .offer-nudge-eyebrow {
+      margin: 0 42px 14px 0;
+    }
+
+    /* The teaser led with a top rule when it sat at the bottom of the card.
+       At the top that rule would fence off the eyebrow, so it goes. */
+    #announcement-nudge.sales-nudge-v2 .nudge-open {
+      grid-template-columns: 150px minmax(0, 1fr);
+      gap: 14px;
+      align-items: center;
+      margin: 0 0 18px;
+      padding: 0 30px 0 0;
+      border-top: 0;
+    }
+
+    #announcement-nudge.sales-nudge-v2 .nudge-thumbnail {
+      border-radius: 8px;
+    }
+
+    #announcement-nudge.sales-nudge-v2 .nudge-details strong {
+      font-size: 15px;
+      line-height: 1.45;
+      font-weight: 600;
+      color: #f5f5ef;
+    }
+
+    #announcement-nudge.sales-nudge-v2 .nudge-link {
+      margin-top: 6px;
+      font-size: 13px;
+    }
+
+    /* Smaller than before: the headline no longer opens the card, so it reads
+       as the offer rather than as the whole message. */
+    #announcement-nudge.sales-nudge-v2 h2 {
+      font-size: 20px;
+      line-height: 1.35;
+      margin: 0 0 16px;
+    }
+
+    #announcement-nudge.sales-nudge-v2 .nudge-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding-top: 16px;
+      border-top: 1px solid #ffffff14;
+    }
+
+    #announcement-nudge.sales-nudge-v2 .offer-nudge-copy {
+      flex: 1 1 auto;
+      margin: 0;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    /* The CTA was full width under the copy; in the footer it is a pill that
+       takes only the room its label needs. */
+    #announcement-nudge.sales-nudge-v2 .offer-nudge-cta {
+      flex: 0 0 auto;
+      width: auto;
+      min-height: 0;
+      justify-content: center;
+      gap: 8px;
+      padding: 13px 18px;
+      border-radius: 10px;
+      white-space: nowrap;
+    }
+
+    @media (max-width: 767px) {
+      #announcement-nudge.sales-nudge-v2 {
+        width: 400px;
+        max-width: calc(100% - 24px);
+        padding: 16px;
+      }
+
+      #announcement-nudge.sales-nudge-v2 .nudge-open {
+        grid-template-columns: 118px minmax(0, 1fr);
+        gap: 12px;
+        margin-bottom: 14px;
+      }
+
+      #announcement-nudge.sales-nudge-v2 h2 {
+        font-size: 18px;
+      }
+
+      /* Side by side the button would squeeze the copy to two words a line. */
+      #announcement-nudge.sales-nudge-v2 .nudge-footer {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+      }
+
+      #announcement-nudge.sales-nudge-v2 .offer-nudge-cta {
+        width: 100%;
+        justify-content: space-between;
+      }
+    }
+  </style>
+
+      <dialog class="visitor-dialog announcement-dialog" id="announcement-dialog" aria-labelledby="announcement-title">
+      <button type="button" class="dialog-close" data-close-dialog="" aria-label="Close announcement" autofocus="">×</button>
+              <img data-lazy-src="https://i.ytimg.com/vi/E_8SbZP3Qr0/maxresdefault.jpg" width="960" height="540" alt="Meet Achena Miracle" decoding="async">
+            <div class="announcement-content">
+        <p class="eyebrow">Trader interview</p>
+        <h2 id="announcement-title">Meet Achena Miracle</h2>
+        
+                          <div class="announcement-copy">
+            <p>Achena Miracle Otuwe · Nigeria · Reward $17086.54</p>
+          </div>
+                <a class="button primary" href="https://www.youtube.com/watch?v=E_8SbZP3Qr0" target="_blank" rel="noopener noreferrer">
+        Watch full interview <span aria-hidden="true">↗</span>
+        </a>
+
+                  <div class="interview-program-offer">
+            <p><strong>50% OFF YOUR FIRST ACCOUNT</strong><br>Use START50 at checkout.</p>
+            <a href="https://app.forgeoftraders.com/checkout?external_checkout" data-offer-program="">Start challenge <span aria-hidden="true">↗</span></a>
+          </div>
+        
+        <button type="button" class="keep-browsing" data-close-dialog="">Keep exploring</button>
+      </div>
+    </dialog>
+  
+  <button class="chat-launcher" id="chat-launcher" type="button" aria-label="Open support chat">
+  <svg width="27" height="27" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+  <path d="M12 3v3m-1-3h2M5 7h14v12H5zM2 11v5m20-5v5M9 15h6" stroke-linecap="round" stroke-linejoin="round"></path>
+  <circle cx="9" cy="11" r=".8" fill="currentColor"></circle>
+  <circle cx="15" cy="11" r=".8" fill="currentColor"></circle>
+  </svg>
+  <span class="sr-only">Open support chat</span>
+  </button>
+
+  <div class="chat-status" id="chat-status" role="status" hidden=""></div>
+</div>
+
+    <a href="#main-content" class="back-to-top" aria-label="Back to top"><span aria-hidden="true">↑</span></a>
+
+    
+          <script src="https://forgeoftraders.com/templates/template2/assets/forge-runtime-039e624119f2.js?v=1789369223" defer></script>
+      <script src="https://forgeoftraders.com/templates/template2/assets/forge-runtime-54e7741c9231.js?v=1789369223" defer></script>
+      <script src="https://forgeoftraders.com/templates/template2/assets/forge-runtime-b7f993cb2a81.js?v=1789369223" defer></script>
+    
+    
+    <script src="https://forgeoftraders.com/templates/template2/assets/forge-runtime-19812662d422.js?v=1789369223" defer></script>
+
+    
+    
+    <script>
+      window.gaReady = true;
+
+      window.gaEvent = function (name, params = {}) {
+        params.transport_type = 'beacon';
+
+        if (window.gaReady && typeof window.gtag === 'function') {
+          gtag('event', name, params);
+        } else {
+          window._gaQueue = window._gaQueue || [];
+          window._gaQueue.push([name, params]);
+        }
+      };
+
+      window.addEventListener('load', function () {
+        if (Array.isArray(window._gaQueue) && typeof gtag === 'function') {
+          for (const [n, p] of window._gaQueue) gtag('event', n, p);
+          window._gaQueue.length = 0;
+        }
+      });
+
+      $(document).on('click', 'a.ga-track', function () {
+        const $link = $(this);
+        const href = $link.attr('href') || '';
+        if (!href) return;
+
+        const isOutbound = (new URL(href, window.location.href)).host !== window.location.host;
+
+        window.gaEvent($link.data('ga-event'), {
+          link_url: href,
+          link_text: $link.data('ga-label') || $.trim($link.text()).slice(0, 100),
+          outbound: isOutbound ? '1' : '0',
+        });
+      });
+
+      // Purchase form submissions. This template has no .form_submit elements
+      // today - checkout goes to app.forgeoftraders.com - but the binding is
+      // kept so both templates behave identically if one is ever added.
+      $(document).on('click', '.form_submit', function () {
+        window.gaEvent($(this).data('event_name'), {
+          link_url: "https://forgeoftraders.com/purchasechallenge",
+          link_text: 'form',
+          outbound: '0',
+        });
+      });
+    </script>
+
+    
+  <script src="https://www.dwin1.com/124502.js" type="text/javascript" defer="defer"></script>
+</body>
+
+</html>

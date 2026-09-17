@@ -1,0 +1,2381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+    
+    <title>Forge of Traders | Simulated Trading Evaluations</title>
+    <meta name="description" content="Access simulated trading evaluations and accounts with clear risk rules, real-market data and performance rewards based on eligible simulated results.">
+    <link rel="canonical" href="https://forgeoftraders.com">
+    <meta content="index,follow" name="robots">
+    <meta name="theme-color" content="#101010">
+
+    
+    <meta content="website" property="og:type">
+    <meta content="Forge of Traders" property="og:site_name">
+    <meta content="https://forgeoftraders.com" property="og:url">
+    <meta content="Forge of Traders | Simulated Trading Programs" property="og:title">
+    <meta content="Test your trading strategy in a simulated environment using real-market data, transparent risk rules and performance-reward eligibility." property="og:description">
+    
+    
+    <meta content="summary" name="twitter:card">
+    <meta content="Forge of Traders | Simulated Trading Programs" name="twitter:title">
+    <meta content="Test your trading strategy in a simulated environment using real-market data, transparent risk rules and performance-reward eligibility." name="twitter:description">
+    
+    <link href="./templates/template2/assets/91ffc6dad3ca75.webp" rel="icon" type="image/webp">
+
+    
+    <link rel="preload" href="./templates/template2/fonts/poppins-400.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="./templates/template2/fonts/poppins-500.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="./templates/template2/fonts/poppins-600.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="./templates/template2/fonts/poppins-700.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+    <style>html{background:#101010;scrollbar-gutter:stable}body{margin:0}*,*::before,*::after{box-sizing:border-box}</style>
+
+    
+    <script>try{if(sessionStorage.getItem('forge.offer.minimised')==='true')document.documentElement.classList.add('offer-collapsed')}catch{}</script>
+
+    <link id="forge-styles" rel="stylesheet" href="./templates/template2/assets/forge-6089a16ac694.css">
+
+    
+    <link rel="stylesheet" href="./templates/template2/css/overrides.css">
+
+    <link rel="preload" href="./templates/template2/fonts/forge-brand-icons.woff2" type="font/woff2" crossorigin="anonymous" as="font">
+
+    
+    
+    <script src="./common/js/jquery-3.7.1.min.js"></script>
+    <script src="./common/js/bootstrap.bundle.min.js"></script>
+
+    
+        <script>
+    (function(w, d, t, u, o) {
+      w[u] = w[u] || [], o.ts = (new Date).getTime();
+      var n = d.createElement(t);
+      n.src = "https://bat.bing.net/bat.js?ti=" + o.ti + ("uetq" != u ? "&q=" + u : ""), n.async = 1, n.onload = n.onreadystatechange = function() {
+        var s = this.readyState;
+        s && "loaded" !== s && "complete" !== s || (o.q = w[u], w[u] = new UET(o), w[u].push("pageLoad"), n.onload = n.onreadystatechange = null)
+      };
+      var i = d.getElementsByTagName(t)[0];
+      i.parentNode.insertBefore(n, i);
+    })(window, document, "script", "uetq", {
+      ti: "187236558",
+      enableAutoSpaTracking: true
+    });
+  </script>
+    <script>
+    window.uetq = window.uetq || [];
+    (function() {
+      function readConsent(name) {
+        var match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+        return match ? decodeURIComponent(match[2]) : null;
+      }
+      var saved = readConsent('cookieConsent');
+      var granted = false;
+      if (saved) {
+        try { granted = !!JSON.parse(saved).ad_storage; } catch (e) {}
+      }
+      window.uetq.push('consent', 'default', {
+        'ad_storage': granted ? 'granted' : 'denied'
+      });
+    })();
+  </script>
+
+    
+    
+
+    
+    <script type="text/javascript" src="" async></script>
+
+    </head>
+
+  <body class="home-page ui-finished">
+
+    
+    
+    <noscript></noscript>
+    
+
+    
+          <script>
+    window.__FORGE_PROMO_CODE__ = "START50";
+    window.__FORGE_PROMO_PERCENT__ = "50.00";
+    window.__FORGE_PROMO_TITLE__ = "50% OFF YOUR FIRST ACCOUNT";
+  </script>
+    
+    
+    <script>
+      (function () {
+        var native = navigator.clipboard && navigator.clipboard.writeText
+          ? navigator.clipboard.writeText.bind(navigator.clipboard)
+          : null;
+
+        // execCommand('copy') is deprecated but it is the only path that works
+        // without a secure context, and it needs a real selection to act on.
+        function legacyWrite(text) {
+          return new Promise(function (resolve, reject) {
+            var field = document.createElement('textarea');
+            field.value = text;
+            field.setAttribute('readonly', '');
+            field.style.cssText = 'position:fixed;top:-1000px;left:-1000px;opacity:0';
+
+            document.body.appendChild(field);
+            field.select();
+            field.setSelectionRange(0, field.value.length);
+
+            var copied = false;
+            try {
+              copied = document.execCommand('copy');
+            } catch (error) {
+              copied = false;
+            }
+
+            document.body.removeChild(field);
+            copied ? resolve() : reject(new Error('Clipboard unavailable'));
+          });
+        }
+
+        function writeText(text) {
+          if (!native) {
+            return legacyWrite(text);
+          }
+
+          return native(text).catch(function () {
+            return legacyWrite(text);
+          });
+        }
+
+        try {
+          Object.defineProperty(navigator, 'clipboard', {
+            value: Object.assign({}, navigator.clipboard, { writeText: writeText }),
+            configurable: true,
+          });
+        } catch (error) {
+          // A browser that refuses the redefinition keeps the native object, and
+          // the buttons fall back to the bundles' "Use code X" message as before.
+        }
+      })();
+    </script>
+
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+<div class="site-chrome">
+
+  
+      <div class="announcement">
+      <div class="offer-content" id="offer-details">
+        <button type="button" class="offer-copy" data-show-offer=""
+        aria-label="View the START50 offer">
+                  <span class="offer-intro">LIMITED TIME </span>
+                <strong>50% OFF YOUR FIRST ACCOUNT</strong>
+        </button>
+                  <button type="button" id="copy-code" aria-label="Copy Code START50">
+          <span>START50</span><i class="bi bi-copy" aria-hidden="true"></i>
+          </button>
+              </div>
+      <button class="offer-minimise" type="button" id="offer-minimise" aria-label="Minimise offer"
+      aria-expanded="true" aria-controls="offer-details"><span aria-hidden="true">−</span></button>
+      <span id="copy-feedback" class="sr-only" role="status" aria-live="polite"></span>
+    </div>
+  
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="https://forgeoftraders.com">
+      <span class="shield-only ">
+      <img src="./templates/template2/assets/47e90909936626.webp" width="264" height="362" alt="" aria-hidden="true" decoding="async">
+      </span>
+      <span class="brand-wordmark">Forge of Traders<span aria-hidden="true">™</span></span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Navigation">
+        <details class="nav-programs nav-menu">
+          <summary>HOW IT WORKS <span aria-hidden="true">⌄</span></summary>
+          <div class="nav-dropdown">
+            <a href="./evaluation" >
+            <span class="nav-item-title">GETTING STARTED</span><small>Guide &amp; evaluation steps.</small>
+            </a>
+            <a href="./compare-programs" >
+            <span class="nav-item-title">PROGRAMS</span><small>Compare plans &amp; find your perfect fit.</small>
+            </a>
+            <a href="./symbols" >
+            <span class="nav-item-title">SYMBOLS</span><small>Explore tradable instruments.</small>
+            </a>
+          </div>
+        </details>
+
+        <details class="nav-menu nav-faq">
+          <summary>FAQ &amp; RULES <span aria-hidden="true">⌄</span></summary>
+          <div class="nav-dropdown faq-dropdown">
+            <form class="nav-faq-search" action="./faqs" role="search">
+              <label for="nav-faq-query">Search questions and rules</label>
+              <div>
+                <input id="nav-faq-query" name="q" type="search" placeholder="Write here…" autocomplete="off">
+                <button type="submit" aria-label="Search questions and rules">↗</button>
+              </div>
+            </form>
+            <nav aria-label="FAQ categories">
+              <a href="./faqs#forge-rules" class="forge-rules-link">THE FORGE RULES</a>
+                              <a href="./faqs#category-0" class="accounts-link">Accounts</a>
+                              <a href="./faqs#category-1">Trading Rules</a>
+                              <a href="./faqs#category-2">Company &amp; Contact</a>
+                              <a href="./faqs#category-3">Withdrawals &amp; Rewards</a>
+                          </nav>
+          </div>
+        </details>
+
+        <details class="nav-menu nav-contact">
+          <summary>CONTACT US <span aria-hidden="true">⌄</span></summary>
+          <div class="nav-dropdown contact-dropdown">
+            <a href="./contact" >
+            <span class="nav-item-title">CONTACT US</span>
+            </a>
+            <a href="./careers" >
+            <span class="nav-item-title">CAREERS</span>
+            </a>
+            <a href="./affiliate" >
+            <span class="nav-item-title">AFFILIATE</span>
+            </a>
+          </div>
+        </details>
+      </nav>
+
+      <div class="header-actions" aria-label="Account and checkout">
+        <a class="join-link" href="https://discord.gg/ypCFcqbBx3" target="_blank" rel="noopener noreferrer" aria-label="JOIN DISCORD">
+        <span class="join-label">JOIN</span><i class="fa-brands fa-discord" aria-hidden="true"></i>
+        </a>
+        <a href="https://app.forgeoftraders.com/sign-in" class="account-link ga-track" data-ga-event="click_login">LOGIN</a>
+        <a href="https://app.forgeoftraders.com/sign-up" class="account-link register-link ga-track" data-ga-event="click_register">REGISTER</a>
+        <a href="https://app.forgeoftraders.com/checkout?external_checkout" class="button primary header-checkout ga-track" data-ga-event="click_header_checkout">START CHALLENGE <span aria-hidden="true">↗</span></a>
+      </div>
+
+      <button id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="mobile-menu">
+      <span></span><span></span>
+      </button>
+    </div>
+
+    <nav id="mobile-menu" hidden="" aria-label="Navigation">
+      <details class="mobile-how">
+        <summary>HOW IT WORKS</summary>
+        <div>
+          <a href="./evaluation" >GETTING STARTED<small>Guide &amp; evaluation steps.</small></a>
+          <a href="./compare-programs" >PROGRAMS<small>Compare plans &amp; find your perfect fit.</small></a>
+          <a href="./symbols" >SYMBOLS<small>Explore tradable instruments.</small></a>
+        </div>
+      </details>
+
+      <details class="mobile-how mobile-faq">
+        <summary>FAQ &amp; RULES</summary>
+        <div>
+          <form class="nav-faq-search" action="./faqs" role="search">
+            <label for="mobile-faq-query">Search questions and rules</label>
+            <div>
+              <input id="mobile-faq-query" name="q" type="search" placeholder="Write here…" autocomplete="off">
+              <button type="submit" aria-label="Search questions and rules">↗</button>
+            </div>
+          </form>
+          <a href="./faqs#forge-rules" class="forge-rules-link">THE FORGE RULES</a>
+                      <a href="./faqs#category-0" class="accounts-link">Accounts</a>
+                      <a href="./faqs#category-1">Trading Rules</a>
+                      <a href="./faqs#category-2">Company &amp; Contact</a>
+                      <a href="./faqs#category-3">Withdrawals &amp; Rewards</a>
+                  </div>
+      </details>
+
+      <details class="mobile-how mobile-contact">
+        <summary>CONTACT US</summary>
+        <div>
+          <a href="./contact" >CONTACT US</a>
+          <a href="./careers" >CAREERS</a>
+          <a href="./affiliate" >AFFILIATE</a>
+        </div>
+      </details>
+
+      <div class="mobile-account-links">
+        <a href="https://app.forgeoftraders.com/sign-in">LOGIN</a>
+        <a href="https://app.forgeoftraders.com/sign-up">REGISTER</a>
+        <a href="https://discord.gg/ypCFcqbBx3" target="_blank" rel="noopener noreferrer" class="mobile-discord-link">
+        <i class="fa-brands fa-discord" aria-hidden="true"></i><span>JOIN DISCORD</span>
+        </a>
+      </div>
+
+      <a href="https://app.forgeoftraders.com/checkout?external_checkout" class="button primary menu-checkout">START CHALLENGE <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+</div>
+
+    <main id="main-content">
+        <div class="brand-stage">
+  <div class="forge-art" aria-hidden="true">
+    <picture>
+      <source media="(max-width: 767px)" type="image/avif" srcset="./templates/template2/assets/forge-mobile-480.avif 480w, ./templates/template2/assets/forge-mobile-780.avif 780w, ./templates/template2/assets/forge-mobile-1024.avif 1024w" sizes="100vw">
+      <source media="(max-width: 767px)" type="image/webp" srcset="./templates/template2/assets/forge-mobile-480.webp 480w, ./templates/template2/assets/forge-mobile-780.webp 780w, ./templates/template2/assets/forge-mobile-1024.webp 1024w" sizes="100vw">
+      <source type="image/avif" srcset="./templates/template2/assets/forge-hero-960.avif 960w, ./templates/template2/assets/forge-hero-1280.avif 1280w, ./templates/template2/assets/forge-hero-1920.avif 1920w, ./templates/template2/assets/forge-hero-2560.avif 2560w, ./templates/template2/assets/forge-hero-3840.avif 3840w" sizes="100vw"><img src="./templates/template2/assets/forge-hero-1920.webp" srcset="./templates/template2/assets/forge-hero-960.webp 960w, ./templates/template2/assets/forge-hero-1280.webp 1280w, ./templates/template2/assets/forge-hero-1920.webp 1920w, ./templates/template2/assets/forge-hero-2560.webp 2560w, ./templates/template2/assets/forge-hero-3840.webp 3840w" sizes="100vw" width="3840" height="2160" alt="" fetchpriority="high" decoding="async">
+    </picture>
+    <div class="forge-embers">
+    </div>
+    <div class="forge-glow">
+    </div>
+  </div>
+
+  <div class="shell brand-stage-inner">
+    <section class="hero">
+      <p class="eyebrow">READY TO TEST YOUR SKILLS?</p>
+      <h1>FORGE A<br>REAL REWARD<span class="accent">.</span>
+      </h1>
+      <div class="hero-description">
+        <p class="paragraph">
+          Secure <strong>up to $500k</strong> in simulated account size with a <strong>100% reward record</strong>.
+          Get verified in <strong>under 30 minutes</strong> with fast withdrawals via
+          <strong>crypto or bank</strong>. Designed for your long-term success.
+        </p>
+      </div>
+      <div class="hero-actions"><a class="button primary" href="https://app.forgeoftraders.com/checkout?external_checkout" data-ga-event="click_hero_checkout">START CHALLENGE <span aria-hidden="true">↗</span></a><a href="#calculate-area" class="button hero-secondary">SEE PROGRAMS <span aria-hidden="true">→</span></a>
+      </div>
+      <nav class="forge-socials hero-socials" aria-label="Forge of Traders social media"><a class="social-icon" href="https://discord.gg/ypCFcqbBx3" target="_blank" aria-label="Discord" rel="noopener noreferrer" title="Discord" data-platform="discord">
+        <i class="fa-brands fa-discord" aria-hidden="true"></i>
+        </a><a class="social-icon" href="https://www.instagram.com/forgeoftraders/" target="_blank" aria-label="Instagram" rel="noopener noreferrer" title="Instagram" data-platform="instagram">
+        <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+        </a><a class="social-icon" href="https://x.com/ForgeOfTraders" target="_blank" aria-label="X" rel="noopener noreferrer" title="X" data-platform="x">
+        <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+        </a><a class="social-icon" href="https://www.youtube.com/channel/UCmeKHYQ_FqKzI-SOQaUTfrg" target="_blank" aria-label="YouTube" rel="noopener noreferrer" title="YouTube" data-platform="youtube">
+        <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+        </a><a class="social-icon" href="https://www.reddit.com/r/ForgeOfTraders/" target="_blank" aria-label="Reddit" rel="noopener noreferrer" title="Reddit" data-platform="reddit">
+        <i class="fa-brands fa-reddit" aria-hidden="true"></i>
+        </a><a class="social-icon" href="https://www.facebook.com/people/Forge-Of-Traders/61580585517895/" target="_blank" aria-label="Facebook" rel="noopener noreferrer" title="Facebook" data-platform="facebook">
+        <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+        </a><a class="social-icon" href="https://www.tiktok.com/@forge.of.traders?_r=1&amp;_t=ZN-93ksthIY4ZS" target="_blank" aria-label="TikTok" rel="noopener noreferrer" title="TikTok" data-platform="tiktok">
+        <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+        </a>
+      </nav>
+    </section>
+
+    <div class="hero-bottom">
+      <div class="hero-usp-panel">
+        <div class="hero-usp-grid">
+          <div class="hero-usp"><img src="./templates/template2/assets/icons/calendar-week.svg" width="28" height="28" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            <div><strong>First reward on demand</strong><span>After 1 full trading day</span>
+            </div>
+          </div>
+          <div class="hero-usp"><img src="./templates/template2/assets/icons/shield-check.svg" width="28" height="28" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            <div><strong>No consistency rule</strong><span>Instant &amp; funded accounts</span>
+            </div>
+          </div>
+          <div class="hero-usp"><img src="./templates/template2/assets/icons/sliders.svg" width="28" height="28" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            <div><strong>Balance-based drawdowns</strong><span>Daily limit uses EOD balance</span>
+            </div>
+          </div>
+          <div class="hero-usp"><img src="./templates/template2/assets/icons/hourglass-split.svg" width="28" height="28" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            <div><strong>No time limits</strong><span>Pass at your own pace</span>
+            </div>
+          </div>
+          <div class="hero-usp"><img src="./templates/template2/assets/icons/percent.svg" width="28" height="28" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            <div><strong>Up to 90% reward share</strong><span>With the Reward Share add-on</span>
+            </div>
+          </div>
+          <div class="hero-usp"><img src="./templates/template2/assets/icons/headset.svg" width="28" height="28" alt="" aria-hidden="true" loading="lazy" decoding="async">
+            <div><strong>24/7 human support</strong><span>A real team, ready to help</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <aside class="opening-proof monthly-proof">
+          <a class="monthly-proof-link ga-track" href="https://x.com/SIRO_D4yo/status/2080708767717659091" target="_blank" rel="noopener noreferrer" data-ga-event="click_monthly_reward">
+          <div class="monthly-crest"><img class="forge-icon " src="./templates/template2/assets/icons/trophy.svg" width="28" height="28" alt="" aria-hidden="true" loading="lazy">
+      </div>
+      <div class="monthly-proof-head"><span class="eyebrow">Performance Reward of the Month</span><span aria-hidden="true">↗</span>
+      </div>
+      <div class="monthly-proof-record"><strong>$7628.20</strong><span class="monthly-trader"><img src="./templates/template1/images/flags/japan-flag.webp" alt="JP" width="20" height="14"> H.K.</span>      </div>
+      <p><i class="bi bi-patch-check" aria-hidden="true"></i> Verified Performance Reward</p>
+          </a>
+      </aside>
+      
+    </div>
+    
+  </div>
+</div>
+  
+  <details class="section-dock" hidden="">
+    <summary aria-label="Page sections" title="Page sections"><span class="dock-lines" aria-hidden="true"><i></i><i></i><i></i></span><span class="dock-caption">Programs</span>
+    </summary>
+    <nav aria-label="Page sections"><a href="#calculate-area">Programs</a><a href="#rewards">Rewards</a><a href="#stories">Forged in Success</a><a href="#advantage">The Forge Advantage</a><a href="#addons">Add-ons</a><a href="./faqs">FAQ &amp; Rules</a><a href="#main-content">↑ <span>Back to top</span></a>
+    </nav>
+  </details>
+  
+  <div class="shell program-section">
+    <section id="calculate-area" class="configurator compact-calculator decision-calculator balanced-calculator purchase-calculator" aria-labelledby="config-title">
+      <div class="config-heading">
+        <div class="top-heading text-center">YOUR NEXT CHALLENGE</div>
+        <h2 class="section-title text-center" id="config-title">Forge Your Program</h2>
+        <p class="paragraph heading-helper section-text text-center">Choose your program and account size. See your rules and fee instantly.</p>
+      </div>
+
+
+      <div class="calculator-main">
+        
+        <div class="program-desktop" role="group" aria-label="Programs"><button aria-pressed="false" class="program-item " data-program_id="12" data-program_number="1" type="button">
+            <div class="program-num">1</div>
+            <div class="program-name">ONE Phase Program</div>
+            </button><button aria-pressed="true" class="program-item  active " data-program_id="13" data-program_number="2" type="button">
+            <div class="program-num">2</div>
+            <div class="program-name">TWO Phase Program</div>
+            </button><button aria-pressed="false" class="program-item " data-program_id="14" data-program_number="3" type="button">
+            <div class="program-num">3</div>
+            <div class="program-name">THREE Phase Program</div>
+            </button><button aria-pressed="false" class="program-item " data-program_id="15" data-program_number="4" type="button">
+            <div class="program-num">4</div>
+            <div class="program-name">Instant Simulated Account</div>
+            </button>        </div><label class="program-mobile">Programs<select id="mobile-program"><option value="12">ONE Phase Program</option><option value="13" selected="">TWO Phase Program</option><option value="14">THREE Phase Program</option><option value="15">Instant Simulated Account</option></select></label>
+        <div class="account-select">
+          <p class="control-label">Account size</p>
+          <div class="fpt__accounts balance_options" role="group" aria-label="Account size">
+            
+                          <button aria-pressed="false" class="fpt__single-account " data-key="0" data-program_id="13" data-program_number="2" type="button">
+              <div class="sa__inner-container">
+                <div class="sa__circle-target">
+                </div>
+                <div class="sa__value">$5k</div>
+              </div>
+              </button>
+                          <button aria-pressed="true" class="fpt__single-account  active " data-key="1" data-program_id="13" data-program_number="2" type="button">
+              <div class="sa__inner-container">
+                <div class="sa__circle-target">
+                </div>
+                <div class="sa__value">$10k</div>
+              </div>
+              </button>
+                          <button aria-pressed="false" class="fpt__single-account " data-key="2" data-program_id="13" data-program_number="2" type="button">
+              <div class="sa__inner-container">
+                <div class="sa__circle-target">
+                </div>
+                <div class="sa__value">$25k</div>
+              </div>
+              </button>
+                          <button aria-pressed="false" class="fpt__single-account " data-key="3" data-program_id="13" data-program_number="2" type="button">
+              <div class="sa__inner-container">
+                <div class="sa__circle-target">
+                </div>
+                <div class="sa__value">$50k</div>
+              </div>
+              </button>
+                          <button aria-pressed="false" class="fpt__single-account " data-key="4" data-program_id="13" data-program_number="2" type="button">
+              <div class="sa__inner-container">
+                <div class="sa__circle-target">
+                </div>
+                <div class="sa__value">$100k</div>
+              </div>
+              </button>
+                          <button aria-pressed="false" class="fpt__single-account " data-key="5" data-program_id="13" data-program_number="2" type="button">
+              <div class="sa__inner-container">
+                <div class="sa__circle-target">
+                </div>
+                <div class="sa__value">$200k</div>
+              </div>
+              </button>
+                          <button aria-pressed="false" class="fpt__single-account " data-key="6" data-program_id="13" data-program_number="2" type="button">
+              <div class="sa__inner-container">
+                <div class="sa__circle-target">
+                </div>
+                <div class="sa__value">$250k</div>
+              </div>
+              </button>
+                          <button aria-pressed="false" class="fpt__single-account " data-key="7" data-program_id="13" data-program_number="2" type="button">
+              <div class="sa__inner-container">
+                <div class="sa__circle-target">
+                </div>
+                <div class="sa__value">$400k</div>
+              </div>
+              </button>
+                          <button aria-pressed="false" class="fpt__single-account " data-key="8" data-program_id="13" data-program_number="2" type="button">
+              <div class="sa__inner-container">
+                <div class="sa__circle-target">
+                </div>
+                <div class="sa__value">$500k</div>
+              </div>
+              </button>
+                        <div class="fpt__active-account-circle" style="transform: translateX(5px); opacity: 1;">
+            </div>
+          </div>
+        </div>
+        <div class="purchase-rules">
+          <div class="details h-100">
+            <div class="d-flex flex-wrap align-items-center justify-content-between mb-2">
+              <h5 class="mb-2 mb-sm-0 w-100 selected-rules-heading">
+                <span class="program_balance">$10k</span>
+                <span class="program_name">TWO Phase Program</span> includes:
+              </h5>
+              <ul class="nav tabs mt-3" role="group" aria-label="Program phase">
+                <li class="nav-item"><button class="nav-link phase_1 active phase" data-action="phase1" data-key="0" aria-pressed="true">Step 1</button>
+                </li>
+                <li class="nav-item"><button class="nav-link phase_2 phase" data-action="phase2" data-key="1" aria-pressed="false">Step 2</button>
+                </li>
+                <li class="nav-item"><button class="nav-link phase_3 phase" data-action="phase3" data-key="2" aria-pressed="false" style="display: none;">Step 3</button>
+                </li>
+                <li class="nav-item"><button class="nav-link funded phase" data-action="funded" data-key="3" aria-pressed="false">Funded</button>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-content">
+              <!-- Phase 1 -->
+              <div class="tab-pane fade show active" id="phase1">
+                <div class="feat rule-tile rule-tile-0 program-stat">
+                  <div class="feat-title"><i class="bi bi-check2-circle" aria-hidden="true"></i> Profit Target</div>
+                  <div class="d-flex align-items-center gap-2">
+                    <div class="with_value">
+                      <span class="value profit-target">$800</span>
+                      <span class="pill profit-target-percent">8.00%</span>
+                    </div>
+                    <div class="without_value">
+                    </div>
+                  </div>
+                </div>
+                <div class="feat rule-tile rule-tile-1 program-stat">
+                  <div class="feat-title"><i class="bi bi-check2-circle" aria-hidden="true"></i>
+                    Daily Drawdown Limit
+                    <span class="addon-info-icon daily_loss_limit_tooltips" data-bs-placement="top" data-bs-toggle="tooltip" tabindex="0" aria-label="Calculated based on the EOD Balance vs Current Equity. If you have a $100k EOD Balance on your account, your daily limit is will be $5k. If your account balance grows to $110k, your Daily Drawdown will grow to $5.5k." data-bs-original-title="Calculated based on the EOD Balance vs Current Equity. If you have a $100k EOD Balance on your account, your daily limit is will be $5k. If your account balance grows to $110k, your Daily Drawdown will grow to $5.5k.">
+                    <i class="bi bi-info-circle" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                  <div class="value daily-loss-limit">5.00%</div>
+                </div>
+                <div class="feat rule-tile rule-tile-2 program-stat">
+                  <div class="feat-title"><i class="bi bi-check2-circle" aria-hidden="true"></i>
+                    Max. Drawdown Limit
+                    <span class="addon-info-icon max_drawdown_tooltips" data-bs-placement="top" data-bs-toggle="tooltip" tabindex="0" aria-label="Static Drawdown: Calculated based on your Initial Balance vs. Current Equity. If you have a $100k account, your maximum limit is always $9,000 lower. Even if your account grows to $110k, you will need to reach the $91k level to hit your maximum drawdown limit." data-bs-original-title="Static Drawdown: Calculated based on your Initial Balance vs. Current Equity. If you have a $100k account, your maximum limit is always $9,000 lower. Even if your account grows to $110k, you will need to reach the $91k level to hit your maximum drawdown limit.">
+                    <i class="bi bi-info-circle" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                  <div class="value max-drawdown">9.00%</div>
+                </div>
+                <div class="feat rule-tile rule-tile-3 program-stat">
+                  <div class="feat-title"><i class="bi bi-check2-circle" aria-hidden="true"></i>Min. Trading Days</div>
+                  <div class="">
+                    <div class="min_trading_days">3</div>
+                  </div>
+                </div>
+                <div class="feat rule-tile rule-tile-4 program-stat">
+                  <div class="feat-title"><i class="bi bi-check2-circle" aria-hidden="true"></i>Max. Time Limit</div>
+                  <div class="">
+                    <div class="max_time_limit">No</div>
+                  </div>
+                </div>
+                <div class="instant_fund_extra_fields" style="display: none;">
+                  <h3 class="equity-group-title">Equity lock</h3>
+                  <div class="feat program-stat">
+                    <div class="feat-title"><i class="bi bi-check2-circle" aria-hidden="true"></i>Equity Lock Mechanism</div>
+                    <div class="">
+                      <div class="equity_lock_mechanism">Yes</div>
+                    </div>
+                  </div>
+                  <div class="feat program-stat">
+                    <div class="feat-title"><i class="bi bi-check2-circle" aria-hidden="true"></i>
+                      Equity Lock Target
+                      <span class="addon-info-icon equity_lock_target_tooltips" data-bs-placement="top" data-bs-toggle="tooltip" tabindex="0" aria-label="Testing" data-bs-original-title="Testing">
+                      <i class="bi bi-info-circle" aria-hidden="true"></i>
+                      </span>
+                    </div>
+                    <div class="">
+                      <div class="equity_lock_target">10.00%</div>
+                    </div>
+                  </div>
+                  <div class="feat program-stat">
+                    <div class="feat-title"><i class="bi bi-check2-circle" aria-hidden="true"></i>
+                      Equity Lock Threshold
+                      <span class="addon-info-icon equity_lock_threshold_tooltips" data-bs-placement="top" data-bs-toggle="tooltip" tabindex="0" aria-label="Testing" data-bs-original-title="Testing">
+                      <i class="bi bi-info-circle" aria-hidden="true"></i>
+                      </span>
+                    </div>
+                    <div class="text-end">
+                      <div class="equity_lock_threshold">Initial Balance</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- /tab-content -->
+          </div>
+        </div>
+        <section class="calculator-addons optional-addons" aria-labelledby="calculator-addons-title">
+          <div class="addon-heading">
+            <h3 id="calculator-addons-title">Add-ons <small>Optional</small>
+            </h3><span class="addon-selection-count">0 selected</span>
+          </div>
+          <div class="addon-buttons-container" id="addon-buttons-container">
+            <div class="addon-btn-wrapper">
+      <button type="button" class="addon-toggle-btn"
+              data-addon="swing_trading"
+              data-addon-id="3"
+              data-percentage="30.00">
+        <span class="addon-name">Swing Trading</span>
+        <span class="addon-price-tag">(+30%)</span>
+      </button>
+      <span class="addon-info-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="When purchasing this add-on, the user gains the ability to hold trades over the
+weekend and trade during news windows.">
+        <i class="bi bi-info-circle"></i>
+      </span>
+    </div>
+            <div class="addon-btn-wrapper">
+      <button type="button" class="addon-toggle-btn"
+              data-addon="reward_share_up_to_90%"
+              data-addon-id="4"
+              data-percentage="20.00">
+        <span class="addon-name">Reward Share up to 90%</span>
+        <span class="addon-price-tag">(+20%)</span>
+      </button>
+      <span class="addon-info-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Increase your reward share to 90%, +20% at checkout.">
+        <i class="bi bi-info-circle"></i>
+      </span>
+    </div>
+            <div class="addon-btn-wrapper">
+      <button type="button" class="addon-toggle-btn"
+              data-addon="1-week_protection"
+              data-addon-id="10"
+              data-percentage="30.00">
+        <span class="addon-name">1-Week Protection</span>
+        <span class="addon-price-tag">(+30%)</span>
+      </button>
+      <span class="addon-info-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="7-Day Reset Protection: Get a full reset if you breach within your first week, +30% at checkout.">
+        <i class="bi bi-info-circle"></i>
+      </span>
+    </div>
+            </div>
+        </section>
+      </div>
+      <div class="decision-side">
+        <div class="purchase-summary" aria-live="polite" aria-atomic="true">
+          <div class="selection-summary"><span class="selection-program">TWO Phase Program</span>
+            <ul class="selection-addons" hidden="" data-selection="[]">
+            </ul>
+          </div>
+          <div class="plan-card h-100 d-flex flex-column bg-dark highlight-box">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <div class="plan-chip program_number">2</div>
+              <h6 class="m-0 program_name">TWO Phase Program</h6>
+            </div>
+            <div class="mb-3">
+              <span class="badge-rec">
+              <i class="bi bi-stars" aria-hidden="true"></i> <span class="balance_label">For Beginners</span>
+              </span>
+            </div>
+            <p class="muted mb-4 program_title">TWO Phase Program, 2</p>
+            <div class="mt-auto program-box">
+              <div class="fee-overview">
+  <p class="fee-label">Program fee</p>
+  <div class="d-flex align-items-end justify-content-between">
+    <div class="offer-price">
+      
+              <div class="regular-price"><del class="base-regular">$55</del><span class="offer-saving">50% OFF</span>
+        </div><strong class="discounted-fee">$27.50</strong><strong class="discounted-fee estimated-fee" hidden=""></strong>
+                  <span class="discount-context">with START50 · first account</span>
+                  </div>
+    <p class="offer-addon-estimate" hidden="">
+    </p>
+    <div class="program_fee" hidden="">$55</div>
+    <div class="muted">For <span class="program_balance">$10k</span> account</div>
+  </div>
+
+</div>
+<div class="purchase-action-area">
+          <div class="promo-note"><span>New to Forge of Traders? 50% OFF</span><button type="button" class="calculator-code" aria-label="Copy code START50"><span>START50</span><i class="bi bi-copy" aria-hidden="true"></i></button><span class="code-copy-feedback" id="calculator-code-feedback-0" role="status" aria-live="polite"></span>
+    </div>
+    <a class="ga-track btn customizeBtn cta mt-3" data-ga-event="click_purchasechallenge_calculator_start_trading" href="https://app.forgeoftraders.com/checkout?external_checkout">START CHALLENGE</a>
+  <p class="checkout-hint">Final price and add-ons are confirmed at checkout.</p>
+</div>
+
+            </div>
+          </div>
+          <div class="payment-assurance"><span>Payment methods</span>
+            <div class="payment-strip checkout-payments" role="region" aria-label="Payment methods"><img alt="Bank transfer" class="img-fluid mx-4" decoding="async" loading="lazy" src="./templates/template2/assets/d8b36f7a82459f.svg" width="80" height="30"><img alt="Mastercard" class="img-fluid mx-4" decoding="async" loading="lazy" src="./templates/template2/assets/fa5ab9b114e060.svg" width="80" height="30"><img alt="Maestro" class="img-fluid mx-4" decoding="async" loading="lazy" src="./templates/template2/assets/30e6c141687879.svg" width="80" height="30"><img alt="Visa" class="img-fluid mx-4" decoding="async" loading="lazy" src="./templates/template2/assets/f1db5e7349da4b.svg" width="80" height="30"><img alt="Diners Club" class="img-fluid mx-4" decoding="async" loading="lazy" src="./templates/template2/assets/b355a61223ed1e.svg" width="80" height="30"><img alt="PayPal" class="img-fluid mx-4" decoding="async" loading="lazy" src="./templates/template2/assets/2771d3738d673b.svg" width="80" height="30"><img alt="Bitcoin" class="img-fluid mx-4" decoding="async" loading="lazy" src="./templates/template2/assets/53205b03db65bb.png" width="80" height="30"><img alt="UPI" class="img-fluid mx-4" decoding="async" loading="lazy" src="./templates/template2/assets/aea19cb7aade9d.png" width="80" height="30"><img alt="Apple Pay" class="img-fluid mx-4" decoding="async" loading="lazy" src="./templates/template2/assets/5e4daf4031bbeb.png" width="80" height="30"><img alt="Google Pay" class="img-fluid mx-4" decoding="async" loading="lazy" src="./templates/template2/assets/b00c4c9a8d6e18.png" width="80" height="30">
+            </div>
+          </div>
+        </div>
+      </div>
+      <span class="sr-only" id="selection-announcement" role="status" aria-live="polite"></span>
+      <section class="included-panel full-program-details" aria-labelledby="program-details-title">
+        <h3 id="program-details-title">Program details</h3>
+        <div class="plane-section">
+          <!-- TrustBox widget - Calculator -->
+          <!-- End TrustBox widget -->
+
+          <div class="row row-cols-1 row-cols-md-1 g-3">
+            <div class="col">
+              <div class="included-label">Leverage: </div><span class="leverage_ratio small included-value">1:30 - FX 1:20 - Metals and Indices</span>
+            </div>
+            <div class="col">
+              <div class="included-label">Drawdown Type</div><span class="drawdown_type small included-value">Both Daily and Max Drawdown are calculated based on the Initial Balance vs Current Equity.</span>
+            </div>
+            <div class="col">
+              <div class="included-label">Swing add-on: <span class="addon-info-icon weekend_hold_tooltips" data-bs-placement="top" data-bs-toggle="tooltip" tabindex="0" aria-label="When purchasing this add-on, the user gains the ability to hold trades over the
+                weekend and trade during news windows." data-bs-original-title="When purchasing this add-on, the user gains the ability to hold trades over the
+                weekend and trade during news windows.">
+                <i class="bi bi-info-circle" aria-hidden="true"></i>
+                </span>
+              </div><span class="weekend_hold small included-value">Yes, with add-on (+30%)</span>
+            </div>
+            <div class="col insurance-row">
+              <div class="included-label">Reset Protection: <span class="addon-info-icon Insurance_tooltips" data-bs-placement="top" data-bs-toggle="tooltip" tabindex="0" aria-label="7-Day Reset Protection: Get a full reset if you breach within your first week. +30% at checkout." data-bs-original-title="7-Day Reset Protection: Get a full reset if you breach within your first week. +30% at checkout.">
+                <i class="bi bi-info-circle" aria-hidden="true"></i>
+                </span>
+              </div><span class="insurance included-value">Yes, with add-on  (+30%)</span>
+            </div>
+            <div class="col">
+              <div class="included-label">
+                Reward Share
+                <span class="addon-info-icon profit_split_tooltips" data-bs-placement="top" data-bs-toggle="tooltip" tabindex="0" aria-label="Increase your reward share to 90%. +20% at checkout." data-bs-original-title="Increase your reward share to 90%. +20% at checkout.">
+                <i class="bi bi-info-circle" aria-hidden="true"></i>
+                </span>
+              </div><span class="profit_split_des small included-value">80% flat; up to 90% with add-on (+20%)</span>
+            </div>
+            <div class="col">
+              <div class="included-label">Consistency Score: <span class="addon-info-icon consistency_score_tooltips" data-bs-placement="top" data-bs-toggle="tooltip" tabindex="0" aria-label="Testing" data-bs-original-title="Testing">
+                <i class="bi bi-info-circle" aria-hidden="true"></i>
+                </span>
+              </div><span class="consistency_score included-value">0.00</span>
+            </div>
+            <div class="col">
+              <div class="included-label">Unlimited Resets: <span class="addon-info-icon unlimited_resets_tooltips" data-bs-placement="top" data-bs-toggle="tooltip" tabindex="0" aria-label="Failed a challenge? Buy a reset for the same account at 90% of the initial price. Unlimited retries available." data-bs-original-title="Failed a challenge? Buy a reset for the same account at 90% of the initial price. Unlimited retries available.">
+                <i class="bi bi-info-circle" aria-hidden="true"></i>
+                </span>
+              </div><span class="unlimited_resets included-value">90% challenge price</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </div>
+
+<section id="rewards" class="section reward-section">
+  <div class="shell">
+   <div class="section-heading"><span class="section-number" aria-hidden="true">01 /</span>
+      <div><span class="eyebrow">REWARDS</span>
+         <h2>First performance reward after 1 trading day</h2>
+         <p>Request your first reward after one trading day and KYC verification. Then every 14 days.</p>
+      </div>
+   </div>
+   <div class="rewards-layout">
+      <div class="reward-editorial">
+         <h3>Forge Your Performance Rewards.</h3>
+         <div class="ct__row"><strong>Rapid Evaluation:</strong>
+         Only 3 trading days per phase are required to pass the challenge. Performance reward eligibility begins after one full trading day on an eligible Simulated Forge of Traders Account.</div>
+         <div class="ct__row"><strong>Reward Eligibility:</strong> Request your first performance reward after one full trading day and verification, subject to program rules; subsequent reward withdrawals are available bi-weekly.</div>
+         <div class="ct__row"><strong>Low Thresholds:</strong> minimum $50 performance reward request.</div>
+         <div class="ct__row">Eligible traders may receive up to a 90% reward share based on simulated profits. </div>
+         <div class="ct__row"><strong>Total Transparency:</strong> Pass the challenge, receive a Simulated Forge of Traders Account, and request performance rewards under the published eligibility and verification rules.</div>
+      </div>
+      <div class="reward-ledger" id="forge-rail-0">
+         <h3>Verified Performance Rewards</h3>
+         
+                  <div class="single-payout">
+            <div class="name">J******* B.</div>
+            <div class="country-container">
+               <div class="icon">
+               <img alt="Bangladesh" decoding="async" height="10" loading="lazy" src="./templates/template1/images/svg/country_flags/bd.svg" width="10">
+               </div>
+               <div class="text">BD</div>
+            </div>
+            <div class="amount">$13,087.12</div>
+         </div>
+                  <div class="single-payout">
+            <div class="name">E***** B.</div>
+            <div class="country-container">
+               <div class="icon">
+               <img alt="Australia" decoding="async" height="10" loading="lazy" src="./templates/template1/images/svg/country_flags/au.svg" width="10">
+               </div>
+               <div class="text">AU</div>
+            </div>
+            <div class="amount">$188,441.13</div>
+         </div>
+                  <div class="single-payout">
+            <div class="name">L******* R.</div>
+            <div class="country-container">
+               <div class="icon">
+               <img alt="Saudi Arabia" decoding="async" height="10" loading="lazy" src="./templates/template1/images/svg/country_flags/sa.svg" width="10">
+               </div>
+               <div class="text">SA</div>
+            </div>
+            <div class="amount">$150,205.80</div>
+         </div>
+                  <div class="single-payout">
+            <div class="name">E****** K.</div>
+            <div class="country-container">
+               <div class="icon">
+               <img alt="United Kingdom" decoding="async" height="10" loading="lazy" src="./templates/template1/images/svg/country_flags/gb.svg" width="10">
+               </div>
+               <div class="text">GB</div>
+            </div>
+            <div class="amount">$199,595.06</div>
+         </div>
+                  <div class="single-payout">
+            <div class="name">L******* R.</div>
+            <div class="country-container">
+               <div class="icon">
+               <img alt="France" decoding="async" height="10" loading="lazy" src="./templates/template1/images/svg/country_flags/fr.svg" width="10">
+               </div>
+               <div class="text">FR</div>
+            </div>
+            <div class="amount">$6,375.52</div>
+         </div>
+                  <div class="single-payout">
+            <div class="name">R**** A.</div>
+            <div class="country-container">
+               <div class="icon">
+               <img alt="Japan" decoding="async" height="10" loading="lazy" src="./templates/template1/images/svg/country_flags/jp.svg" width="10">
+               </div>
+               <div class="text">JP</div>
+            </div>
+            <div class="amount">$23,070.45</div>
+         </div>
+                  <div class="single-payout">
+            <div class="name">M******* B.</div>
+            <div class="country-container">
+               <div class="icon">
+               <img alt="Germany" decoding="async" height="10" loading="lazy" src="./templates/template1/images/svg/country_flags/de.svg" width="10">
+               </div>
+               <div class="text">DE</div>
+            </div>
+            <div class="amount">$99,329.32</div>
+         </div>
+                  <div class="single-payout">
+            <div class="name">L****** G.</div>
+            <div class="country-container">
+               <div class="icon">
+               <img alt="Canada" decoding="async" height="10" loading="lazy" src="./templates/template1/images/svg/country_flags/ca.svg" width="10">
+               </div>
+               <div class="text">CA</div>
+            </div>
+            <div class="amount">$101,348.75</div>
+         </div>
+               </div>
+   </div>
+</div>
+  </section>
+  
+  <section id="stories" class="section shell evidence-section">
+    <div class="section-heading"><span class="section-number" aria-hidden="true">02 /</span>
+  <div>
+    <h2>Forged in Success</h2>
+  </div>
+</div>
+<div class="interview-layout">
+      <article class="forged-interview-card">
+      <a aria-label="Watch the interview with Achena Miracle Otuwe" class="forged-interview-media"  data-interview-embed="https://www.youtube.com/embed/E_8SbZP3Qr0" data-interview-label="Meet Achena Miracle"  href="https://www.youtube.com/watch?v=E_8SbZP3Qr0" rel="noopener noreferrer" target="_blank">
+              
+        <img alt="Meet Achena Miracle" class="forged-interview-thumb" decoding="async" loading="lazy" onerror="this.onerror=null;this.src='./vendor/i.ytimg.com/vi/E_8SbZP3Qr0/hqdefault.jpg';" src="./vendor/i.ytimg.com/vi/E_8SbZP3Qr0/maxresdefault.jpg" width="1280" height="720">
+            <span class="forged-interview-badge">
+      <i class="bi bi-youtube" aria-hidden="true"></i> Interview
+      </span>
+      <span aria-hidden="true" class="forged-interview-play">
+      <i class="bi bi-play-fill" aria-hidden="true"></i>
+      </span>
+      </a>
+      <div class="forged-interview-body">
+        <h3 class="forged-interview-title">Meet Achena Miracle</h3>
+        <div class="forged-interview-person">
+                      <img alt="Nigeria flag" class="forged-interview-flag" decoding="async" height="16" loading="lazy" src="./vendor/flagcdn.com/w40/ng.png" srcset="./vendor/flagcdn.com/w80/ng.png 2x" title="Nigeria" width="22">
+                    <span class="forged-interview-name">Achena Miracle Otuwe</span>
+                      <span class="forged-interview-country" title="Nigeria">
+            · NG
+            </span>
+                  </div>
+        
+        <div class="forged-interview-stats">
+                      <div class="forged-interview-stat">
+              <span class="forged-interview-stat-label">Verified Performance Reward</span>
+              <strong class="forged-interview-stat-value is-gold">$17086.54</strong>
+            </div>
+                  </div>
+        <a class="interview-source-link" href="https://www.youtube.com/watch?v=E_8SbZP3Qr0" target="_blank" rel="noopener noreferrer"  data-interview-embed="https://www.youtube.com/embed/E_8SbZP3Qr0" data-interview-label="Meet Achena Miracle" >Watch full interview <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <div class="review-source-heading">
+    <h3>Reviews on Trustpilot</h3><span>Selected trader reviews</span>
+    <div class="rail-controls"><button type="button" data-rail="forge-rail-1" data-direction="-1" aria-label="Previous review" aria-controls="forge-rail-1">←</button><button type="button" data-rail="forge-rail-1" data-direction="1" aria-label="Next review" aria-controls="forge-rail-1">→</button>
+    </div>
+  </div>
+  <div class="review-list" id="forge-rail-1" tabindex="0" aria-label="Trader reviews on Trustpilot" role="region">
+          <a aria-label="Read rt's review on Trustpilot" class="forged-review-card" href="https://www.trustpilot.com/reviews/6a4fbf4e43fa18722e3e19bd" rel="noopener noreferrer" target="_blank">
+      <div aria-label="5 out of 5 stars" class="forged-review-stars">
+                  <span class="forged-star">
+          <i class="bi bi-star-fill" aria-hidden="true"></i>
+          </span>
+                  <span class="forged-star">
+          <i class="bi bi-star-fill" aria-hidden="true"></i>
+          </span>
+                  <span class="forged-star">
+          <i class="bi bi-star-fill" aria-hidden="true"></i>
+          </span>
+                  <span class="forged-star">
+          <i class="bi bi-star-fill" aria-hidden="true"></i>
+          </span>
+                  <span class="forged-star">
+          <i class="bi bi-star-fill" aria-hidden="true"></i>
+          </span>
+              </div>
+      <h3 class="forged-review-title">Strong offering and great support</h3>
+      <p class="forged-review-body">strong offering, ive been trading with them for over 3 weeks and after learning rules really enjoy it, great support too</p>
+      <div class="forged-review-footer">
+        <span class="forged-review-author">
+        rt
+        <img alt="PL flag" class="forged-review-flag" decoding="async" height="16" loading="lazy" src="./vendor/flagcdn.com/w40/pl.png" srcset="./vendor/flagcdn.com/w80/pl.png 2x" width="22">
+        </span>
+        <span class="review-source-link">View on Trustpilot <span aria-hidden="true">↗</span></span>
+      </div>
+      </a>
+          <a aria-label="Read Max R's review on Trustpilot" class="forged-review-card" href="https://www.trustpilot.com/reviews/69a40ede41702df6b1b66795" rel="noopener noreferrer" target="_blank">
+      <div aria-label="5 out of 5 stars" class="forged-review-stars">
+                  <span class="forged-star">
+          <i class="bi bi-star-fill" aria-hidden="true"></i>
+          </span>
+                  <span class="forged-star">
+          <i class="bi bi-star-fill" aria-hidden="true"></i>
+          </span>
+                  <span class="forged-star">
+          <i class="bi bi-star-fill" aria-hidden="true"></i>
+          </span>
+                  <span class="forged-star">
+          <i class="bi bi-star-fill" aria-hidden="true"></i>
+          </span>
+                  <span class="forged-star">
+          <i class="bi bi-star-fill" aria-hidden="true"></i>
+          </span>
+              </div>
+      <h3 class="forged-review-title">I started testing forgeoftraders last…</h3>
+      <p class="forged-review-body">I started testing forgeoftraders last week. It&#039;s one of my first prop challenges, but I think the rules and pricing look really good. So far the experience is really positive, support is strong, rules are transparent, and there are many challenges to pick from.</p>
+      <div class="forged-review-footer">
+        <span class="forged-review-author">
+        Max R
+        <img alt="GB flag" class="forged-review-flag" decoding="async" height="16" loading="lazy" src="./vendor/flagcdn.com/w40/gb.png" srcset="./vendor/flagcdn.com/w80/gb.png 2x" width="22">
+        </span>
+        <span class="review-source-link">View on Trustpilot <span aria-hidden="true">↗</span></span>
+      </div>
+      </a>
+          <a aria-label="Read Leighton Blackwell's review on Trustpilot" class="forged-review-card" href="https://www.trustpilot.com/reviews/69a553fe14c3467e3b346d04" rel="noopener noreferrer" target="_blank">
+      <div aria-label="5 out of 5 stars" class="forged-review-stars">
+                  <span class="forged-star">
+          <i class="bi bi-star-fill" aria-hidden="true"></i>
+          </span>
+                  <span class="forged-star">
+          <i class="bi bi-star-fill" aria-hidden="true"></i>
+          </span>
+                  <span class="forged-star">
+          <i class="bi bi-star-fill" aria-hidden="true"></i>
+          </span>
+                  <span class="forged-star">
+          <i class="bi bi-star-fill" aria-hidden="true"></i>
+          </span>
+                  <span class="forged-star">
+          <i class="bi bi-star-fill" aria-hidden="true"></i>
+          </span>
+              </div>
+      <h3 class="forged-review-title">They have so many different challanges…</h3>
+      <p class="forged-review-body">They have so many different challanges and really good rules, its simple to find something for your style. Registration was super fast and really liked the payment options too. Had 1 simple but really important question before starting and support replied almost instantly. Also the add-ons are a cool way to customize the challange. So far so good!</p>
+      <div class="forged-review-footer">
+        <span class="forged-review-author">
+        Leighton Blackwell
+        <img alt="GB flag" class="forged-review-flag" decoding="async" height="16" loading="lazy" src="./vendor/flagcdn.com/w40/gb.png" srcset="./vendor/flagcdn.com/w80/gb.png 2x" width="22">
+        </span>
+        <span class="review-source-link">View on Trustpilot <span aria-hidden="true">↗</span></span>
+      </div>
+      </a>
+          <a aria-label="Read Mufaddal Kapasi's review on Trustpilot" class="forged-review-card" href="https://www.trustpilot.com/reviews/6a5a71561798a3809b36ca2a" rel="noopener noreferrer" target="_blank">
+      <div aria-label="5 out of 5 stars" class="forged-review-stars">
+                  <span class="forged-star">
+          <i class="bi bi-star-fill" aria-hidden="true"></i>
+          </span>
+                  <span class="forged-star">
+          <i class="bi bi-star-fill" aria-hidden="true"></i>
+          </span>
+                  <span class="forged-star">
+          <i class="bi bi-star-fill" aria-hidden="true"></i>
+          </span>
+                  <span class="forged-star">
+          <i class="bi bi-star-fill" aria-hidden="true"></i>
+          </span>
+                  <span class="forged-star">
+          <i class="bi bi-star-fill" aria-hidden="true"></i>
+          </span>
+              </div>
+      <h3 class="forged-review-title">Excellent frim fr 🔥</h3>
+      <p class="forged-review-body"></p>
+      <div class="forged-review-footer">
+        <span class="forged-review-author">
+        Mufaddal Kapasi
+        <img alt="IN flag" class="forged-review-flag" decoding="async" height="16" loading="lazy" src="./vendor/flagcdn.com/w40/in.png" srcset="./vendor/flagcdn.com/w80/in.png 2x" width="22">
+        </span>
+        <span class="review-source-link">View on Trustpilot <span aria-hidden="true">↗</span></span>
+      </div>
+      </a>
+          <a aria-label="Read KozlCar's review on Trustpilot" class="forged-review-card" href="https://www.trustpilot.com/reviews/69b83e404f73536e644fa306" rel="noopener noreferrer" target="_blank">
+      <div aria-label="5 out of 5 stars" class="forged-review-stars">
+                  <span class="forged-star">
+          <i class="bi bi-star-fill" aria-hidden="true"></i>
+          </span>
+                  <span class="forged-star">
+          <i class="bi bi-star-fill" aria-hidden="true"></i>
+          </span>
+                  <span class="forged-star">
+          <i class="bi bi-star-fill" aria-hidden="true"></i>
+          </span>
+                  <span class="forged-star">
+          <i class="bi bi-star-fill" aria-hidden="true"></i>
+          </span>
+                  <span class="forged-star">
+          <i class="bi bi-star-fill" aria-hidden="true"></i>
+          </span>
+              </div>
+      <h3 class="forged-review-title">Really good pricing for prop challenges</h3>
+      <p class="forged-review-body">I recently took a challenge with Forge of Traders, and while I unfortunately didn’t pass this time around, the experience was great. Their pricing is incredibly competitive. Easily some of the best value I’ve found in the prop firm space.
+
+What really stood out was the support team. they were responsive and helpful when I had questions. The ruleset is fair and straightforward, which makes the failure a learning experience rather than a frustration. Given the price point and the service, going to run another challenge with them </p>
+      <div class="forged-review-footer">
+        <span class="forged-review-author">
+        KozlCar
+        <img alt="PL flag" class="forged-review-flag" decoding="async" height="16" loading="lazy" src="./vendor/flagcdn.com/w40/pl.png" srcset="./vendor/flagcdn.com/w80/pl.png 2x" width="22">
+        </span>
+        <span class="review-source-link">View on Trustpilot <span aria-hidden="true">↗</span></span>
+      </div>
+      </a>
+      </div>
+</div>
+  </section>
+
+  <section id="advantage" class="section shell">
+     <div class="section-heading"><span class="section-number" aria-hidden="true">03 /</span>
+<div>
+   <h2>The Forge Advantage</h2>
+   <p>
+      Built for Trader Longevity. Professional rules. Simulated trading environment.
+   </p>
+</div>
+</div>
+<div class="advantage-lead">
+<p class="mt-2 text-secondary small text-center">Ready to test your trading in a simulated environment? Pass the evaluation, manage risk, and become eligible to request performance rewards based on simulated results.</p>
+</div>
+<div class="advantage-grid">
+<article class="advantage-item"><img src="./templates/template2/assets/icons/shield-check.svg" alt="" class="advantage-art" width="140" height="140" loading="lazy" decoding="async" aria-hidden="true">
+   <div>
+      <h3>
+      7-Day Reset Protection
+      </h3>
+      <p class="text-secondary small mb-0">With the Reset Protection add-on, an eligible account reset is available if a drawdown limit is reached during the first 7 days, under the published program rules, for 30% of the challenge price.</p>
+   </div>
+</article>
+<article class="advantage-item"><img src="./templates/template2/assets/icons/graph-up-arrow.svg" alt="" class="advantage-art" width="140" height="140" loading="lazy" decoding="async" aria-hidden="true">
+   <div>
+      <h3>Choose Your Path</h3>
+      <p class="text-secondary small mb-0">1-Phase, 2-Phase and 3-Phase simulated trading evaluations up to $500K account size, or an Instant Simulated Account up to $100K account size.</p>
+   </div>
+</article>
+<article class="advantage-item"><img src="./templates/template2/assets/icons/sliders.svg" alt="" class="advantage-art" width="140" height="140" loading="lazy" decoding="async" aria-hidden="true">
+   <div>
+      <h3>Fair Risk Limits</h3>
+      <p class="text-secondary small mb-0">Balance based Drawdowns. Up to 10% Static Max Drawdown and a 5% Daily Drawdown based on EOD Balance.</p>
+   </div>
+</article>
+<article class="advantage-item"><img src="./templates/template2/assets/icons/hourglass-split.svg" alt="" class="advantage-art" width="140" height="140" loading="lazy" decoding="async" aria-hidden="true">
+   <div>
+      <h3>No Time Limits</h3>
+      <p class="text-secondary small mb-0">Pass at your pace.</p>
+   </div>
+</article>
+<article class="advantage-item"><img src="./templates/template2/assets/icons/arrow-repeat.svg" alt="" class="advantage-art" width="140" height="140" loading="lazy" decoding="async" aria-hidden="true">
+   <div>
+      <h3>Unlimited Restarts (90% Cost)</h3>
+      <p class="text-secondary small mb-0">For 90% of the original fee. Available when a challenge is failed.</p>
+   </div>
+</article>
+<article class="advantage-item"><img src="./templates/template2/assets/icons/arrows-angle-expand.svg" alt="" class="advantage-art" width="140" height="140" loading="lazy" decoding="async" aria-hidden="true">
+   <div>
+      <h3>Weekend Control</h3>
+      <p class="text-secondary small mb-0">
+      Positions flat Fri 3:45pm; keep them open with the Swing add-on.
+      </p>
+   </div>
+</article>
+<article class="advantage-item"><img src="./templates/template2/assets/icons/percent.svg" alt="" class="advantage-art" width="140" height="140" loading="lazy" decoding="async" aria-hidden="true">
+   <div>
+      <h3>Reward Share Up To 90%</h3>
+      <p class="text-secondary small mb-0">Receive an 80% reward share, or 90% with the Reward Share add-on on eligible simulated accounts.</p>
+   </div>
+</article>
+<article class="advantage-item"><img src="./templates/template2/assets/icons/diagram-3.svg" alt="" class="advantage-art" width="140" height="140" loading="lazy" decoding="async" aria-hidden="true">
+   <div>
+      <h3>Simulated Leverage</h3>
+      <p class="text-secondary small mb-0">Trade simulated instruments with leverage settings of up to 1:30 for FX and 1:20 for Metals &amp; Indices.</p>
+   </div>
+</article>
+</div>  </section>
+
+
+  <section id="addons" class="section shell">
+    <div class="section-heading"><span class="section-number" aria-hidden="true">04 /</span>
+   <div><span class="eyebrow">Add-ons</span>
+      <h2>Tailor your Account</h2>
+      <p>Customise your account with unique features at checkout.</p>
+   </div>
+   </div>
+   <div class="addon-grid">
+   <article class="addon-card sculpture-card">
+      <div class="addon-visual"><img src="./templates/template2/assets/forge-swing.webp" alt="" class="" width="480" height="480" loading="lazy" decoding="async" aria-hidden="true">
+      </div>
+      <h3>Swing add-on</h3>
+      <p class="addon-price">(+30% at checkout)</p>
+      <p class="text-secondary small mb-0">
+         Hold positions open across the weekend and trade during news windows. Disables the “Flat for Weekend” rule,
+         allowing you to keep existing trades open over the weekend.
+      </p>
+   </article>
+   <article class="addon-card sculpture-card">
+      <div class="addon-visual"><img src="./templates/template2/assets/forge-reward.webp" alt="" class="" width="480" height="480" loading="lazy" decoding="async" aria-hidden="true">
+      </div>
+      <h3>Reward Share to 90%</h3>
+      <p class="addon-price">(+20% at checkout)</p>
+      <p class="text-secondary small mb-0">
+         Upgrade the performance reward share from the standard 80% to 90% on eligible Simulated Forge of Traders Accounts.
+      </p>
+   </article>
+   <article class="addon-card sculpture-card">
+      <div class="addon-visual"><img src="./templates/template2/assets/forge-protection.webp" alt="" class="" width="480" height="480" loading="lazy" decoding="async" aria-hidden="true">
+      </div>
+      <h3>7-Day Reset Protection</h3>
+      <p class="addon-price">(+30% at checkout)</p>
+      <p class="text-secondary small mb-0">
+         When you encounter a hard breach, your account will be reset to the higher of the two values from the previous day: your Equity EOD or your Balance EOD level.
+      </p>
+   </article>
+   <article class="addon-card sculpture-card">
+      <div class="addon-visual arrow-repeat"><img src="./templates/template2/assets/icons/arrow-repeat.svg" alt="" class="" width="480" height="480" loading="lazy" decoding="async" aria-hidden="true">
+      </div>
+      <h3>Unlimited Restarts</h3>
+      <p class="addon-price">Included at checkout</p>
+      <p class="text-secondary small mb-0">
+         If a challenge is failed, the same challenge may be restarted for 90% of the original fee. Unlimited restarts are available under the applicable program rules.
+      </p>
+   </article>
+</div>
+<style>
+  #addons .addon-card .arrow-repeat img{
+    border: 1px solid #6e5830 !important;
+    mask-image: none;
+    height: 112px !important;
+    width: auto !important;
+    border-radius: 50%;
+    padding: 14px;
+  }
+  @media (max-width: 767px) {
+    #addons .addon-card .arrow-repeat img{
+      width: 84px !important;
+      height: 84px !important;
+      padding: 14px;
+    }
+  }
+</style>  </section>
+
+ 
+  <section class="section shell benefits">
+    <div class="section-heading"><span class="section-number" aria-hidden="true">05 /</span>
+   <div><span class="eyebrow">Why Traders Choose Us</span>
+      <h2>Benefits That Matter</h2>
+   </div>
+   </div>
+   <div class="benefit-grid">
+   <article class="benefit-row benefit-0">
+      <div class="benefit-icon"><img src="./templates/template2/assets/icons/graph-up-arrow.svg" width="28" height="28" alt="" aria-hidden="true" loading="lazy" decoding="async">
+      </div>
+
+      <h3>Simulated Account Scaling</h3>
+      <p class="mb-0 text-white-50 small">Grow your simulated account allocation through consistent performance.</p>
+   </article>
+   <article class="benefit-row benefit-1">
+      <div class="benefit-icon"><img src="./templates/template2/assets/icons/shield-check.svg" width="28" height="28" alt="" aria-hidden="true" loading="lazy" decoding="async">
+      </div>
+
+      <h3>Fair Risk Parameters</h3>
+      <p class="mb-0 text-white-50 small">Clear, predefined limits that support disciplined risk management.</p>
+   </article>
+   <article class="benefit-row benefit-2 platform-benefit">
+      <div class="benefit-icon"><img src="./templates/template2/assets/icons/display.svg" width="28" height="28" alt="" aria-hidden="true" loading="lazy" decoding="async">
+      </div>
+
+      <h3>Trading Platforms</h3>
+      <p class="text-white-50 mb-4 small trading_platform_top">Reliable simulated execution using real-market data.</p>
+      <!-- First row - Active platforms -->
+      <p class="platform-status active-platform-status">AVAILABLE NOW</p>
+      <div class="logos d-flex gap-3 justify-content-center mb-3 platform_middle_icon">
+         <a href="https://dx.trade/" target="_blank">
+         <div class="logo-box">
+         <img alt="dxtrade" decoding="async" loading="lazy" src="./templates/template2/assets/dxtrade.png" width="140" height="34">
+         </div>
+         </a>
+         <a href="https://forgeoftraders.com" target="_blank">
+         <div class="logo-box">
+         <img alt="Forge of Traders" decoding="async" loading="lazy" src="./templates/template2/assets/91ffc6dad3ca75.webp" width="500" height="500">
+         </div>
+         </a>
+         <a href="https://match-trader.com/" target="_blank">
+         <div class="logo-box">
+         <img alt="Match-Trader" decoding="async" loading="lazy" src="./templates/template2/assets/match-trader-official2.png" width="269" height="133" class="match-trader-mark">
+         </div>
+         </a>
+      </div>
+      <!-- Expanding text -->
+      <p class="text-white-50 small text-center mb-3 platform-expanding-text">Our platform suite is expanding. More platforms are planned.</p>
+      <!-- Second row - Planned platforms (dimmed) -->
+      <p class="platform-status">COMING SOON</p>
+      <div class="logos d-flex gap-3 justify-content-center planned-platforms" aria-label="Planned platforms, not yet available">
+         <a href="https://ctrader.com/" target="_blank" title="cTrader — coming soon">
+         <div class="logo-box logo-box-dimmed">
+         <img alt="cTrader" decoding="async" loading="lazy" src="./templates/template2/assets/434fa9a19d7a6d.png" width="120" height="34">
+         </div>
+         </a>
+         <a href="https://www.metatrader5.com/en" target="_blank" title="MT5 — coming soon">
+         <div class="logo-box logo-box-dimmed">
+         <img alt="MT5" decoding="async" loading="lazy" src="./templates/template2/assets/39161ed6cdc76e.png" width="40" height="40">
+         </div>
+         </a>
+      </div>
+   </article>
+   <article class="benefit-row benefit-3">
+      <div class="benefit-icon"><img src="./templates/template2/assets/icons/arrow-repeat.svg" width="28" height="28" alt="" aria-hidden="true" loading="lazy" decoding="async">
+      </div>
+
+      <h3>Unlimited Resets &amp; Add-ons</h3>
+      <p class="mb-0 text-white-50 small">Restart a failed challenge for 90% of its original fee. Add features that fit your strategy.</p>
+   </article>
+   <article class="benefit-row benefit-4">
+      <div class="benefit-icon"><img src="./templates/template2/assets/icons/sliders.svg" width="28" height="28" alt="" aria-hidden="true" loading="lazy" decoding="async">
+      </div>
+
+      <h3>Equity &amp; Approach</h3>
+      <p class="mb-0 text-white-50 small">Built around account longevity, steady performance and responsible risk.</p>
+   </article>
+   </div>  </section>
+
+      <section class="section shell community-stories">
+    <div class="section-heading"><span class="section-number" aria-hidden="true">06 /</span>
+      <div><span class="eyebrow">Trader Stories / Verified Performance Rewards</span>
+        <h2>Traders Love The Forge</h2>
+        <p>Based on simulated trading performance and subject to applicable program rules and verification.</p>
+      </div>
+    </div>
+    <div class="tweet-list" id="forge-rail-2" tabindex="0">
+      
+                            <div class="forge-tweet-card tweet-uniform" data-post-index="0">
+          <div class="forge-tweet-header">
+                          <img alt="Dipo Adepoju" class="forge-tweet-avatar" decoding="async" height="40" loading="lazy" src="./storage/tweets/profiles/DipoAdepoju.jpg" width="40">
+                        <div class="forge-tweet-author">
+              <span class="forge-tweet-name">Dipo Adepoju<svg class="forge-tweet-verified" fill="none" height="16" viewBox="0 0 22 22" width="16">
+                <path d="M20.396 11c-.018-.646-.215-1.275-.57-1.816-.354-.54-.852-.972-1.438-1.246.223-.607.27-1.264.14-1.897-.131-.634-.437-1.218-.882-1.687-.47-.445-1.053-.75-1.687-.882a3.203 3.203 0 0 0-1.897.14c-.274-.586-.706-1.084-1.246-1.439A3.253 3.253 0 0 0 11 1.604c-.646.018-1.275.215-1.816.57-.54.354-.972.852-1.246 1.438a3.203 3.203 0 0 0-1.897-.14c-.634.131-1.218.437-1.687.882-.445.47-.75 1.053-.882 1.687a3.203 3.203 0 0 0 .14 1.897c-.586.274-1.084.706-1.439 1.246A3.253 3.253 0 0 0 1.604 11c.018.646.215 1.275.57 1.816.354.54.852.972 1.438 1.246a3.203 3.203 0 0 0-.14 1.897c.131.634.437 1.218.882 1.687.47.445 1.053.75 1.687.882.634.131 1.29.084 1.897-.14.274.586.706 1.084 1.246 1.439.541.354 1.17.551 1.816.569.646-.018 1.275-.215 1.816-.57.54-.354.972-.852 1.246-1.438a3.203 3.203 0 0 0 1.897.14c.634-.131 1.218-.437 1.687-.882.445-.47.75-1.053.882-1.687a3.203 3.203 0 0 0-.14-1.897c.586-.274 1.084-.706 1.439-1.246.354-.541.551-1.17.569-1.816zM9.662 14.85l-3.429-3.428 1.293-1.302 2.072 2.072 4.4-4.794 1.347 1.246-5.683 6.206z" fill="#1d9bf0"></path>
+                </svg></span>
+              <span class="forge-tweet-handle">&#64;DipoAdepoju · </span>
+            </div>
+            <svg class="forge-tweet-x-logo" height="22" viewBox="0 0 24 24" width="22">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" fill="#e7e9ea"></path>
+            </svg>
+          </div>
+          <p class="tweet-excerpt">Successfully passed 
+
+@ForgeOfTraders</p>
+          <details class="tweet-expander">
+            
+            <summary><span class="tweet-expand-label">Expand post &amp; image</span><span aria-hidden="true">+</span>
+            </summary>
+            <div class="tweet-expanded-content">
+              <div class="forge-tweet-text">Successfully passed <br />
+<br />
+<span class="forge-tweet-mention">@ForgeOfTraders</span></div>
+                              <div class="forge-tweet-media">
+                                      <img alt="Tweet image" class="forge-tweet-media-img" decoding="async" loading="lazy" src="./storage/tweets/media/2046687556390076740_1.jpg">
+                                  </div>
+                          </div>
+          </details><a class="tweet-source" href="https://twitter.com/DipoAdepoju/status/2046687556390076740" target="_blank" rel="noopener noreferrer" aria-label="View Dipo Adepoju post on X">VIEW ON X <span aria-hidden="true">↗</span></a>        </div>
+                      <div class="forge-tweet-card tweet-uniform" data-post-index="1">
+          <div class="forge-tweet-header">
+                          <img alt="ZacksTech" class="forge-tweet-avatar" decoding="async" height="40" loading="lazy" src="./storage/tweets/profiles/zackstech.jpg" width="40">
+                        <div class="forge-tweet-author">
+              <span class="forge-tweet-name">ZacksTech<svg class="forge-tweet-verified" fill="none" height="16" viewBox="0 0 22 22" width="16">
+                <path d="M20.396 11c-.018-.646-.215-1.275-.57-1.816-.354-.54-.852-.972-1.438-1.246.223-.607.27-1.264.14-1.897-.131-.634-.437-1.218-.882-1.687-.47-.445-1.053-.75-1.687-.882a3.203 3.203 0 0 0-1.897.14c-.274-.586-.706-1.084-1.246-1.439A3.253 3.253 0 0 0 11 1.604c-.646.018-1.275.215-1.816.57-.54.354-.972.852-1.246 1.438a3.203 3.203 0 0 0-1.897-.14c-.634.131-1.218.437-1.687.882-.445.47-.75 1.053-.882 1.687a3.203 3.203 0 0 0 .14 1.897c-.586.274-1.084.706-1.439 1.246A3.253 3.253 0 0 0 1.604 11c.018.646.215 1.275.57 1.816.354.54.852.972 1.438 1.246a3.203 3.203 0 0 0-.14 1.897c.131.634.437 1.218.882 1.687.47.445 1.053.75 1.687.882.634.131 1.29.084 1.897-.14.274.586.706 1.084 1.246 1.439.541.354 1.17.551 1.816.569.646-.018 1.275-.215 1.816-.57.54-.354.972-.852 1.246-1.438a3.203 3.203 0 0 0 1.897.14c.634-.131 1.218-.437 1.687-.882.445-.47.75-1.053.882-1.687a3.203 3.203 0 0 0-.14-1.897c.586-.274 1.084-.706 1.439-1.246.354-.541.551-1.17.569-1.816zM9.662 14.85l-3.429-3.428 1.293-1.302 2.072 2.072 4.4-4.794 1.347 1.246-5.683 6.206z" fill="#1d9bf0"></path>
+                </svg></span>
+              <span class="forge-tweet-handle">&#64;zackstech · </span>
+            </div>
+            <svg class="forge-tweet-x-logo" height="22" viewBox="0 0 24 24" width="22">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" fill="#e7e9ea"></path>
+            </svg>
+          </div>
+          <p class="tweet-excerpt">✅ First reward received from @ForgeOfTraders 
+
+Happy to share that my first reward has be...</p>
+          <details class="tweet-expander">
+            
+            <summary><span class="tweet-expand-label">Expand post &amp; image</span><span aria-hidden="true">+</span>
+            </summary>
+            <div class="tweet-expanded-content">
+              <div class="forge-tweet-text">✅ First reward received from <span class="forge-tweet-mention">@ForgeOfTraders</span> <br />
+<br />
+Happy to share that my first reward has been successfully processed and received from the $10K Instant account.<br />
+<br />
+The entire experience—from getting funded to requesting and receiving the reward—was smooth.<br />
+<br />
+Looking forward to</div>
+                              <div class="forge-tweet-media">
+                                      <img alt="Tweet image" class="forge-tweet-media-img" decoding="async" loading="lazy" src="./storage/tweets/media/2081646572228534556_1.jpg">
+                                  </div>
+                          </div>
+          </details><a class="tweet-source" href="https://twitter.com/zackstech/status/2081646572228534556" target="_blank" rel="noopener noreferrer" aria-label="View ZacksTech post on X">VIEW ON X <span aria-hidden="true">↗</span></a>        </div>
+                      <div class="forge-tweet-card tweet-uniform" data-post-index="2">
+          <div class="forge-tweet-header">
+                          <img alt="Dipo Adepoju" class="forge-tweet-avatar" decoding="async" height="40" loading="lazy" src="./storage/tweets/profiles/DipoAdepoju.jpg" width="40">
+                        <div class="forge-tweet-author">
+              <span class="forge-tweet-name">Dipo Adepoju<svg class="forge-tweet-verified" fill="none" height="16" viewBox="0 0 22 22" width="16">
+                <path d="M20.396 11c-.018-.646-.215-1.275-.57-1.816-.354-.54-.852-.972-1.438-1.246.223-.607.27-1.264.14-1.897-.131-.634-.437-1.218-.882-1.687-.47-.445-1.053-.75-1.687-.882a3.203 3.203 0 0 0-1.897.14c-.274-.586-.706-1.084-1.246-1.439A3.253 3.253 0 0 0 11 1.604c-.646.018-1.275.215-1.816.57-.54.354-.972.852-1.246 1.438a3.203 3.203 0 0 0-1.897-.14c-.634.131-1.218.437-1.687.882-.445.47-.75 1.053-.882 1.687a3.203 3.203 0 0 0 .14 1.897c-.586.274-1.084.706-1.439 1.246A3.253 3.253 0 0 0 1.604 11c.018.646.215 1.275.57 1.816.354.54.852.972 1.438 1.246a3.203 3.203 0 0 0-.14 1.897c.131.634.437 1.218.882 1.687.47.445 1.053.75 1.687.882.634.131 1.29.084 1.897-.14.274.586.706 1.084 1.246 1.439.541.354 1.17.551 1.816.569.646-.018 1.275-.215 1.816-.57.54-.354.972-.852 1.246-1.438a3.203 3.203 0 0 0 1.897.14c.634-.131 1.218-.437 1.687-.882.445-.47.75-1.053.882-1.687a3.203 3.203 0 0 0-.14-1.897c.586-.274 1.084-.706 1.439-1.246.354-.541.551-1.17.569-1.816zM9.662 14.85l-3.429-3.428 1.293-1.302 2.072 2.072 4.4-4.794 1.347 1.246-5.683 6.206z" fill="#1d9bf0"></path>
+                </svg></span>
+              <span class="forge-tweet-handle">&#64;DipoAdepoju · </span>
+            </div>
+            <svg class="forge-tweet-x-logo" height="22" viewBox="0 0 24 24" width="22">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" fill="#e7e9ea"></path>
+            </svg>
+          </div>
+          <p class="tweet-excerpt">@Stedmark @ForgeOfTraders I had gotten a reward 
+
+I am awaiting another later this week</p>
+          <details class="tweet-expander">
+            
+            <summary><span class="tweet-expand-label">Expand post</span><span aria-hidden="true">+</span>
+            </summary>
+            <div class="tweet-expanded-content">
+              <div class="forge-tweet-text"><span class="forge-tweet-mention">@Stedmark</span> <span class="forge-tweet-mention">@ForgeOfTraders</span> I had gotten a reward <br />
+<br />
+I am awaiting another later this week</div>
+                          </div>
+          </details><a class="tweet-source" href="https://twitter.com/DipoAdepoju/status/2048313033445810629" target="_blank" rel="noopener noreferrer" aria-label="View Dipo Adepoju post on X">VIEW ON X <span aria-hidden="true">↗</span></a>        </div>
+                      <div class="forge-tweet-card tweet-uniform" data-post-index="3">
+          <div class="forge-tweet-header">
+                          
+              <div class="forge-tweet-avatar forge-tweet-avatar--placeholder">Z</div>
+                        <div class="forge-tweet-author">
+              <span class="forge-tweet-name">ZacksTech</span>
+              <span class="forge-tweet-handle">&#64;zackstech · </span>
+            </div>
+            <svg class="forge-tweet-x-logo" height="22" viewBox="0 0 24 24" width="22">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" fill="#e7e9ea"></path>
+            </svg>
+          </div>
+          <p class="tweet-excerpt">Reward request submitted. ✅Now we wait for the review.This was part of the Forge of Trade...</p>
+          <details class="tweet-expander">
+            
+            <summary><span class="tweet-expand-label">Expand post</span><span aria-hidden="true">+</span>
+            </summary>
+            <div class="tweet-expanded-content">
+              <div class="forge-tweet-text">Reward request submitted. ✅Now we wait for the review.This was part of the Forge of Traders pilot, and so far the experience has been smooth. Looking forward to the outcome. 📈give it a try 👇👇  pic.twitter.com/kGMkcje7iY</div>
+                          </div>
+          </details><a class="tweet-source" href="https://twitter.com/zackstech/status/2080773127122956334?lang=ar" target="_blank" rel="noopener noreferrer" aria-label="View ZacksTech post on X">VIEW ON X <span aria-hidden="true">↗</span></a>        </div>
+                      <div class="forge-tweet-card tweet-uniform" data-post-index="4">
+          <div class="forge-tweet-header">
+                          
+              <div class="forge-tweet-avatar forge-tweet-avatar--placeholder">M</div>
+                        <div class="forge-tweet-author">
+              <span class="forge-tweet-name">MR | EUR</span>
+              <span class="forge-tweet-handle">&#64;MR_EUR0 · </span>
+            </div>
+            <svg class="forge-tweet-x-logo" height="22" viewBox="0 0 24 24" width="22">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" fill="#e7e9ea"></path>
+            </svg>
+          </div>
+          <p class="tweet-excerpt">I’ve started a $100K account with @ForgeOfTraders !I’ll be sharing regular updates on the...</p>
+          <details class="tweet-expander">
+            
+            <summary><span class="tweet-expand-label">Expand post</span><span aria-hidden="true">+</span>
+            </summary>
+            <div class="tweet-expanded-content">
+              <div class="forge-tweet-text">I’ve started a $100K account with <span class="forge-tweet-mention">@ForgeOfTraders</span> !I’ll be sharing regular updates on the platform and market conditions as I progress till i made the first reward. pic.twitter.com/RXcS1ACqqD</div>
+                          </div>
+          </details><a class="tweet-source" href="https://twitter.com/MR_EUR0/status/2044100538283737595?lang=ar" target="_blank" rel="noopener noreferrer" aria-label="View MR | EUR post on X">VIEW ON X <span aria-hidden="true">↗</span></a>        </div>
+          </div>
+    <div class="rail-controls"><button type="button" data-rail="forge-rail-2" data-direction="-1" aria-label="Previous items" aria-controls="forge-rail-2">←</button><button type="button" data-rail="forge-rail-2" data-direction="1" aria-label="Next items" aria-controls="forge-rail-2">→</button>
+    </div>
+  </section>
+
+  <section class="section shell" id="updates">
+    <div class="section-heading"><span class="section-number" aria-hidden="true">07 /</span>
+   <div>
+      <h2>Latest Updates</h2>
+      <p>Stay up to date with the newest milestones, features and announcements from Forge of Traders.</p>
+   </div>
+   <div class="rail-controls update-controls"><button type="button" data-rail="updates-carousel" data-direction="-1" aria-label="Previous updates" aria-controls="updates-carousel">←</button><button type="button" data-rail="updates-carousel" data-direction="1" aria-label="Next updates" aria-controls="updates-carousel">→</button>
+   </div>
+   </div>
+   <div class="news-list update-grid update-carousel" id="updates-carousel" tabindex="0" role="region" aria-label="Latest updates">
+   
+               <article class="update-card">
+                  
+                     <div class="card-image">
+               <a class="lu2-card-media" href="https://app.forgeoftraders.com/checkout?external_checkout" rel="noopener noreferrer" target="_blank">
+                  <img alt="ZERO UNNECESSARY WAITING ⚡️⏱️" decoding="async" loading="lazy" src="/storage/latest_updates/vAa01NKclYlFCcdZlIdfAZzzTBy8aAeNMQTir4ER.jpg">
+               </a>
+            </div>
+                           <div class="update-body">
+         <h3>ZERO UNNECESSARY WAITING ⚡️⏱️</h3>
+         <p class="update-excerpt">While other prop firms keep your performance rewards pending for days or weeks, we prioritize processing your rewards as fast as possible. The numbers speak for themselves.
+
+In August, 97.87% of all rewards were processed in under 24 hours.
+
+Why traders choose Forge of Traders:
+
+Lightning-Fast Processing: Over 97% of August rewards processed under 24 hours
+
+Instant Simulated Account: Skip the waiting time and get straight to execution
+
+End-of-Day Drawdown: Fair, balance-based risk limits with zero trailing traps
+
+Focus on trading - we’ll handle the rest.
+
+🔥 Start challenge today!</p>
+         <details class="update-disclosure">
+            <summary><span class="read-more">Read more</span><span class="read-less">Read less</span><span aria-hidden="true">+</span>
+            </summary>
+            <div class="update-full">
+               <p class="lu2-card-content">While other prop firms keep your performance rewards pending for days or weeks, we prioritize processing your rewards as fast as possible. The numbers speak for themselves.
+
+In August, 97.87% of all rewards were processed in under 24 hours.
+
+Why traders choose Forge of Traders:
+
+Lightning-Fast Processing: Over 97% of August rewards processed under 24 hours
+
+Instant Simulated Account: Skip the waiting time and get straight to execution
+
+End-of-Day Drawdown: Fair, balance-based risk limits with zero trailing traps
+
+Focus on trading - we’ll handle the rest.
+
+🔥 Start challenge today!</p>
+                              <a class="text-link" href="https://app.forgeoftraders.com/checkout?external_checkout" rel="noopener noreferrer" target="_blank">Read more <span aria-hidden="true">↗</span></a>
+                           </div>
+         </details>
+         </div>
+      </article>
+               <article class="update-card">
+                  
+                     <div class="card-image">
+               <a class="lu2-card-media" href="https://youtu.be/E_8SbZP3Qr0" rel="noopener noreferrer" target="_blank">
+                  <img alt="🎙️ NEW INTERVIEW SERIES &amp; OUR FIRST ANVIL AWARD WINNER! 🏆" decoding="async" loading="lazy" src="/storage/latest_updates/CGnXYRKQrLGuWUvs3TitXQZCAW4hjJCNyZUfgvLT.png">
+               </a>
+            </div>
+                           <div class="update-body">
+         <h3>🎙️ NEW INTERVIEW SERIES &amp; OUR FIRST ANVIL AWARD WINNER! 🏆</h3>
+         <p class="update-excerpt">We’re thrilled to officially launch our brand-new Forge of Traders interview series! In this series, we’ll be speaking with traders from our community to explore their strategies, mindsets, and experiences with performance rewards.
+
+In our debut episode, we sit down with our very first Anvil Award Winner, who received a verified performance reward of $17,086.54 based on results generated on Forge of Traders Instant Simulated Accounts.
+
+💡 What you&#039;ll discover in this episode:
+
+His journey to becoming our first Anvil Award Winner
+
+His trading strategy and risk management approach on Forge of Traders Instant Simulated Accounts
+
+Practical insights into his trading approach and risk management process
+
+This is only the first of many trader spotlights to come! 🚀
+
+👇 Watch the full interview on YouTube:
+https://youtu.be/E_8SbZP3Qr0</p>
+         <details class="update-disclosure">
+            <summary><span class="read-more">Read more</span><span class="read-less">Read less</span><span aria-hidden="true">+</span>
+            </summary>
+            <div class="update-full">
+               <p class="lu2-card-content">We’re thrilled to officially launch our brand-new Forge of Traders interview series! In this series, we’ll be speaking with traders from our community to explore their strategies, mindsets, and experiences with performance rewards.
+
+In our debut episode, we sit down with our very first Anvil Award Winner, who received a verified performance reward of $17,086.54 based on results generated on Forge of Traders Instant Simulated Accounts.
+
+💡 What you&#039;ll discover in this episode:
+
+His journey to becoming our first Anvil Award Winner
+
+His trading strategy and risk management approach on Forge of Traders Instant Simulated Accounts
+
+Practical insights into his trading approach and risk management process
+
+This is only the first of many trader spotlights to come! 🚀
+
+👇 Watch the full interview on YouTube:
+https://youtu.be/E_8SbZP3Qr0</p>
+                              <a class="text-link" href="https://youtu.be/E_8SbZP3Qr0" rel="noopener noreferrer" target="_blank">Read more <span aria-hidden="true">↗</span></a>
+                           </div>
+         </details>
+         </div>
+      </article>
+               <article class="update-card">
+                  
+                     <div class="lu2-card-media">
+               <div class="card-image">
+                  <img alt="NEW PAYMENT METHODS ACROSS AFRICA" decoding="async" loading="lazy" src="/storage/latest_updates/g584NlELNi2qzZg4s4MoDiV0fL5WPpvldFTgAsek.jpg">
+               </div>
+            </div>
+                           <div class="update-body">
+         <h3>NEW PAYMENT METHODS ACROSS AFRICA</h3>
+         <p class="update-excerpt">Accessing your Forge of Traders evaluation is now easier across Africa with additional local payment methods, including Mobile Money, M-PESA, PalmPay, OPay, Wave and InstantEFT.</p>
+         <details class="update-disclosure">
+            <summary><span class="read-more">Read more</span><span class="read-less">Read less</span><span aria-hidden="true">+</span>
+            </summary>
+            <div class="update-full">
+               <p class="lu2-card-content">Accessing your Forge of Traders evaluation is now easier across Africa with additional local payment methods, including Mobile Money, M-PESA, PalmPay, OPay, Wave and InstantEFT.</p>
+                           </div>
+         </details>
+         </div>
+      </article>
+               <article class="update-card">
+                  
+                     <div class="card-image">
+               <a class="lu2-card-media" href="https://app.forgeoftraders.com/checkout?external_checkout" rel="noopener noreferrer" target="_blank">
+                  <img alt="Reward Processing. Fair Rules. Simulated Trading. 🔨⚡" decoding="async" loading="lazy" src="/storage/latest_updates/gmJVJeCXerGouKegbYwFmKp00dKSFWrFsis1h9nY.jpg">
+               </a>
+            </div>
+                           <div class="update-body">
+         <h3>Reward Processing. Fair Rules. Simulated Trading. 🔨⚡</h3>
+         <p class="update-excerpt">Throughout July, 98.7% of approved performance rewards were processed within 24 hours. Performance rewards are subject to eligibility, KYC and compliance verification under the applicable program rules. 
+
+Explore the Instant Simulated Account, End-of-Day Drawdown and performance reward eligibility after one full trading day.</p>
+         <details class="update-disclosure">
+            <summary><span class="read-more">Read more</span><span class="read-less">Read less</span><span aria-hidden="true">+</span>
+            </summary>
+            <div class="update-full">
+               <p class="lu2-card-content">Throughout July, 98.7% of approved performance rewards were processed within 24 hours. Performance rewards are subject to eligibility, KYC and compliance verification under the applicable program rules. 
+
+Explore the Instant Simulated Account, End-of-Day Drawdown and performance reward eligibility after one full trading day.</p>
+                              <a class="text-link" href="https://app.forgeoftraders.com/checkout?external_checkout" rel="noopener noreferrer" target="_blank">Read more <span aria-hidden="true">↗</span></a>
+                           </div>
+         </details>
+         </div>
+      </article>
+               <article class="update-card">
+                  
+                     <div class="card-image">
+               <a class="lu2-card-media" href="https://app.forgeoftraders.com/checkout?external_checkout" rel="noopener noreferrer" target="_blank">
+                  <img alt="🔥NEW PLATFORM ADDED: MATCH-TRADER🔥" decoding="async" loading="lazy" src="/storage/latest_updates/TpNd1JFRTdNTbJ8Vg35msweavQCWpfxEmOjcVXP6.jpg">
+               </a>
+            </div>
+                           <div class="update-body">
+         <h3>🔥NEW PLATFORM ADDED: MATCH-TRADER🔥</h3>
+         <p class="update-excerpt">We are constantly upgrading the Forge to provide modern tools for the Forge of Traders simulated trading environment. Match-Trader is now available as a platform option for Forge of Traders simulated accounts.
+
+Access simulated execution using real-market data through a platform designed for a modern trading experience:
+
+💻 Modern Interface – A clean, intuitive dashboard built for market analysis and smooth navigation within the simulated trading environment.
+
+🌐 Browser Access – No downloads required. Access charts and manage simulated positions directly from your web browser.
+
+📱 Cross-Device Sync – Access your simulated trading activity across desktop and mobile while keeping track of charts and simulated order history.
+
+Use Match-Trader within the Forge of Traders simulated trading environment with real-market pricing data.</p>
+         <details class="update-disclosure">
+            <summary><span class="read-more">Read more</span><span class="read-less">Read less</span><span aria-hidden="true">+</span>
+            </summary>
+            <div class="update-full">
+               <p class="lu2-card-content">We are constantly upgrading the Forge to provide modern tools for the Forge of Traders simulated trading environment. Match-Trader is now available as a platform option for Forge of Traders simulated accounts.
+
+Access simulated execution using real-market data through a platform designed for a modern trading experience:
+
+💻 Modern Interface – A clean, intuitive dashboard built for market analysis and smooth navigation within the simulated trading environment.
+
+🌐 Browser Access – No downloads required. Access charts and manage simulated positions directly from your web browser.
+
+📱 Cross-Device Sync – Access your simulated trading activity across desktop and mobile while keeping track of charts and simulated order history.
+
+Use Match-Trader within the Forge of Traders simulated trading environment with real-market pricing data.</p>
+                              <a class="text-link" href="https://app.forgeoftraders.com/checkout?external_checkout" rel="noopener noreferrer" target="_blank">Read more <span aria-hidden="true">↗</span></a>
+                           </div>
+         </details>
+         </div>
+      </article>
+               <article class="update-card">
+                  
+                     <div class="card-image">
+               <a class="lu2-card-media" href="https://app.forgeoftraders.com/checkout?external_checkout" rel="noopener noreferrer" target="_blank">
+                  <img alt="We just crossed $100,000 in Performance Rewards!" decoding="async" loading="lazy" src="/storage/latest_updates/uEoX5plt95cNE6a0UlovT7GnvylecaMcDUgWAYWj.jpg">
+               </a>
+            </div>
+                           <div class="update-body">
+         <h3>We just crossed $100,000 in Performance Rewards!</h3>
+         <p class="update-excerpt">Over $100,000 reward paid out to our traders! Forging success together. Congratulations! ⚒️💰</p>
+         <details class="update-disclosure">
+            <summary><span class="read-more">Read more</span><span class="read-less">Read less</span><span aria-hidden="true">+</span>
+            </summary>
+            <div class="update-full">
+               <p class="lu2-card-content">Over $100,000 reward paid out to our traders! Forging success together. Congratulations! ⚒️💰</p>
+                              <a class="text-link" href="https://app.forgeoftraders.com/checkout?external_checkout" rel="noopener noreferrer" target="_blank">Read more <span aria-hidden="true">↗</span></a>
+                           </div>
+         </details>
+         </div>
+      </article>
+               <article class="update-card">
+                  
+                     <div class="lu2-card-media">
+               <div class="card-image">
+                  <img alt="⚒️ THE IRON WAR IS LIVE!" decoding="async" loading="lazy" src="/storage/latest_updates/cn62H1JpP3tDQf5kJ1jNzNfaeLLzAttvhC3oEgTx.jpg">
+               </div>
+            </div>
+                           <div class="update-body">
+         <h3>⚒️ THE IRON WAR IS LIVE!</h3>
+         <p class="update-excerpt">The first 3 Funded Traders to reach $10,000 in rewards, post their certificates in Discord and join our YouTube interview will receive an exclusive 10lb Forge Anvil Award.
+
+🎁 We’re also giving away 20x $5K 2-Phase Accounts!
+
+To enter:
+🎉 React to the official Discord post
+✅ Complete the requirements on our pinned X post
+✅ Follow us on Instagram
+✅ Subscribe to our YouTube channel
+
+The giveaway ends the moment the third Anvil is claimed.
+
+Forge real reward. Earn real iron. ⚒️</p>
+         <details class="update-disclosure">
+            <summary><span class="read-more">Read more</span><span class="read-less">Read less</span><span aria-hidden="true">+</span>
+            </summary>
+            <div class="update-full">
+               <p class="lu2-card-content">The first 3 Funded Traders to reach $10,000 in rewards, post their certificates in Discord and join our YouTube interview will receive an exclusive 10lb Forge Anvil Award.
+
+🎁 We’re also giving away 20x $5K 2-Phase Accounts!
+
+To enter:
+🎉 React to the official Discord post
+✅ Complete the requirements on our pinned X post
+✅ Follow us on Instagram
+✅ Subscribe to our YouTube channel
+
+The giveaway ends the moment the third Anvil is claimed.
+
+Forge real reward. Earn real iron. ⚒️</p>
+                           </div>
+         </details>
+         </div>
+      </article>
+      </div>
+   <style>
+      .card-image {
+         width: 100%;
+         aspect-ratio: 16 / 9;   /* or: height: 240px; */
+         overflow: hidden;
+         border-radius: 12px;
+      }
+      .update-excerpt {
+         min-height: 77px;
+      }
+   </style>
+  </section>
+
+  <div class="support-section shell">
+    <section class="container section">
+      <div class="section__heading animation-fade-in animation-from-bottom" data-anim-delay="250">
+        <div class="section-title text-center">You’re Never Trading Alone</div>
+        <p class="paragraph heading-helper section-text text-center">24/7 assistance and an engaged trader community.</p>
+      </div>
+      <div class="section-bg22 p-3 rounded-4 support-page">
+        <div class="support-cards">
+          <div class="support-box animation-fade-in animation-from-bottom" data-anim-delay="250">
+            <div class="support-img"><img src="./templates/template2/assets/0f867973967996.png" alt="" class="support-art" width="140" height="140" loading="lazy" decoding="async" aria-hidden="true">
+
+              <h3>24/7 Human Support</h3>
+              <p class="py-4">
+                Forge ahead with confidence. Our team is here around the clock to assist you with any challenge, anytime.
+              </p>
+            </div>
+            <div class="d-flex justify-content-center">
+              <a class="btn customizeBtn support-btn faqs-btn ga-track" data-ga-event="click_contact_talk_to_support" href="./contact">Talk to Support</a>
+              <a class="btn customizeBtn bg-dark ga-track" data-ga-event="click_faq_visit_faqs" href="./faqs">Visit FAQs</a>
+            </div>
+          </div>
+          <div class="support-box animation-fade-in animation-from-bottom" data-anim-delay="250">
+            <div class="support-img"><img src="./templates/template2/assets/9eb5a40b5b74ac.png" alt="" class="support-art" width="140" height="140" loading="lazy" decoding="async" aria-hidden="true">
+
+              <h3>Join the Forge Community</h3>
+              <p class="py-4">
+                Connect with fellow traders, share insights, and grow together. In the Forge, no trader walks alone.
+              </p>
+            </div>
+            <div class="text-center">
+              <nav class="support-socials" aria-label="Forge community"><a class="social-icon ga-track" href="https://discord.gg/ypCFcqbBx3" target="_blank" aria-label="Discord" title="Discord" rel="noopener noreferrer" data-platform="discord">
+                <i class="fa-brands fa-discord" aria-hidden="true"></i>
+                </a><a class="social-icon ga-track" href="https://www.instagram.com/forgeoftraders/" target="_blank" aria-label="Instagram" title="Instagram" rel="noopener noreferrer" data-platform="instagram">
+                <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                </a><a class="social-icon ga-track" href="https://x.com/ForgeOfTraders" target="_blank" aria-label="X" title="X" rel="noopener noreferrer" data-platform="x">
+                <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+                </a><a class="social-icon ga-track" href="https://www.youtube.com/channel/UCmeKHYQ_FqKzI-SOQaUTfrg" target="_blank" aria-label="YouTube" title="YouTube" rel="noopener noreferrer" data-platform="youtube">
+                <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+                </a><a class="social-icon ga-track" href="https://www.reddit.com/r/ForgeOfTraders/" target="_blank" aria-label="Reddit" title="Reddit" rel="noopener noreferrer" data-platform="reddit">
+                <i class="fa-brands fa-reddit" aria-hidden="true"></i>
+                </a><a class="social-icon ga-track" href="https://www.facebook.com/people/Forge-Of-Traders/61580585517895/" target="_blank" aria-label="Facebook" title="Facebook" rel="noopener noreferrer" data-platform="facebook">
+                <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+                </a><a class="social-icon ga-track" href="https://www.tiktok.com/@forge.of.traders?_r=1&amp;_t=ZN-93ksthIY4ZS" target="_blank" aria-label="TikTok" title="TikTok" rel="noopener noreferrer" data-platform="tiktok">
+                <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+                </a>
+              </nav>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+
+    </main>
+
+    <footer class="bg-dark22 text-light py-4 mt-auto footer-area  footer-with-cta ">
+      <section class="final-cta">
+        <h2>FORGE A REAL REWARD.</h2>
+  <a class="button primary ga-track" href="https://app.forgeoftraders.com/checkout?external_checkout" data-ga-event="click_final_checkout">START CHALLENGE <span aria-hidden="true">↗</span>
+  </a>
+    </section>
+    <div class="container">
+    <div class="footer-part">
+              <div class="footer-brand-row">
+          <div class="footer-logo-wrapper">
+            <a class="ga-track footer-logo-link d-inline-flex align-items-center" data-ga-event="click_bottom_logo" href="https://forgeoftraders.com" aria-label="Forge of Traders"><span class="shield-only "><img src="./templates/template2/assets/47e90909936626.webp" width="264" height="362" alt="" aria-hidden="true" decoding="async"></span></a>
+          </div>
+          <div class="fs__main">
+            <div><b>Forge of Traders™</b>
+            </div>
+          </div>
+          <nav class="forge-socials footer-socials" aria-label="Forge community social media"><a class="social-icon" href="https://discord.gg/ypCFcqbBx3" target="_blank" aria-label="Discord" rel="noopener noreferrer" title="Discord" data-platform="discord">
+            <i class="fa-brands fa-discord" aria-hidden="true"></i>
+            </a><a class="social-icon" href="https://www.instagram.com/forgeoftraders/" target="_blank" aria-label="Instagram" rel="noopener noreferrer" title="Instagram" data-platform="instagram">
+            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+            </a><a class="social-icon" href="https://x.com/ForgeOfTraders" target="_blank" aria-label="X" rel="noopener noreferrer" title="X" data-platform="x">
+            <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+            </a><a class="social-icon" href="https://www.youtube.com/channel/UCmeKHYQ_FqKzI-SOQaUTfrg" target="_blank" aria-label="YouTube" rel="noopener noreferrer" title="YouTube" data-platform="youtube">
+            <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+            </a><a class="social-icon" href="https://www.reddit.com/r/ForgeOfTraders/" target="_blank" aria-label="Reddit" rel="noopener noreferrer" title="Reddit" data-platform="reddit">
+            <i class="fa-brands fa-reddit" aria-hidden="true"></i>
+            </a><a class="social-icon" href="https://www.facebook.com/people/Forge-Of-Traders/61580585517895/" target="_blank" aria-label="Facebook" rel="noopener noreferrer" title="Facebook" data-platform="facebook">
+            <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+            </a><a class="social-icon" href="https://www.tiktok.com/@forge.of.traders?_r=1&amp;_t=ZN-93ksthIY4ZS" target="_blank" aria-label="TikTok" rel="noopener noreferrer" title="TikTok" data-platform="tiktok">
+            <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+            </a>
+          </nav>
+        </div>
+            <div class="">
+        <div class="footer-links">
+          <div class="row row-cols-3 row-cols-md-6 g-4">
+
+            <div class="col">
+              <h2 class="">Contacts</h2>
+              <div class="menu-contacts-container">
+                <ul class="menu footer-menu" id="footer-contacts">
+                  <li class="">
+                    <a class="ga-track" data-ga-event="click_contact_bottom" href="./contact">Contact</a>
+                  </li>
+                  <li class="">
+                    <a class="ga-track" data-ga-event="click_faq_menu_bottom" href="./faqs">FAQs</a>
+                  </li>
+                  <li class="">
+                    <a href="./affiliate">Become a Partner</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col">
+              <h2 class="">Important Links</h2>
+              <div class="menu-important-links-container">
+                <ul class="menu footer-menu" id="footer-important-links">
+                  <li class="">
+                    <a href="https://app.forgeoftraders.com/sign-in">Trader Dashboard</a>
+                  </li>
+                  <li class="">
+                    <a class="ga-track" data-ga-event="click_purchasechallenge_purchase_assessment_bottom" href="https://app.forgeoftraders.com/checkout?external_checkout">Purchase Assessment</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col">
+              <h2 class="">How It Works</h2>
+              <div class="menu-programs-container">
+                <ul class="menu footer-menu" id="footer-programs">
+                  <li class="">
+                    <a class="ga-track" data-ga-event="click_programs_menu_bottom" href="./compare-programs">Programs</a>
+                  </li>
+                  <li class="">
+                    <a class="ga-track" data-ga-event="click_evaluation_bottom" href="./evaluation">The Evaluation</a>
+                  </li>
+                  <li class="">
+                    <a class="ga-track" data-ga-event="click_symbols_bottom" href="./symbols">Symbols</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col">
+              <h2 class="">Community</h2>
+              <div class="menu-community-container">
+                <ul class="menu footer-menu" id="footer-community">
+                  <li class="">
+                    <a href="https://www.instagram.com/forgeoftraders/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                  </li>
+                  <li class="">
+                    <a href="https://discord.gg/ypCFcqbBx3" target="_blank" rel="noopener noreferrer">Discord</a>
+                  </li>
+                  <li class="">
+                    <a href="https://x.com/ForgeOfTraders" target="_blank" rel="noopener noreferrer">X.com</a>
+                  </li>
+                  <li class="">
+                    <a href="https://www.youtube.com/channel/UCmeKHYQ_FqKzI-SOQaUTfrg" target="_blank" rel="noopener noreferrer">YouTube</a>
+                  </li>
+                  <li class="">
+                    <a href="https://www.reddit.com/r/ForgeOfTraders/" target="_blank" rel="noopener noreferrer">Reddit</a>
+                  </li>
+                  <li class="">
+                    <a href="https://www.facebook.com/people/Forge-Of-Traders/61580585517895/" target="_blank" rel="noopener noreferrer">Facebook</a>
+                  </li>
+                  <li class="">
+                    <a href="https://www.tiktok.com/@forge.of.traders?_r=1&amp;_t=ZN-93ksthIY4ZS" target="_blank" rel="noopener noreferrer">TikTok</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col">
+              <h2 class="">Documents</h2>
+              <div class="menu-footer-documents-container">
+                <ul class="menu footer-menu" id="footer-documents">
+                  <li class="">
+                    <a href="./terms-conditions">Terms and Conditions</a>
+                  </li>
+                  <li class="">
+                    <a href="./privacy-policy">Privacy Policy</a>
+                    <!--div class="sub-menu-container">
+                    <ul class="sub-menu">
+                      <li id="" class="">
+                        <a href="" target="_blank">USA</a>
+                      </li>
+                      <li id="" class="">
+                        <a href="" target="_blank">UK</a>
+                      </li>
+                      <li id="" class="">
+                        <a href="" target="_blank">EU</a>
+                      </li>
+                      <li id="" class="">
+                        <a href="" target="_blank">Canada</a>
+                      </li>
+                    </ul>
+                    </div-->
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-lower"><button type="button" class="footer-preferences footer-cookie-control" data-cookie-settings="">Cookie settings</button>
+        <div class="fs__bottom">
+          <br>
+          <p><strong>Important Information &amp; Disclaimer</strong>
+          </p>
+          <p>The website forgeoftraders.com (the "Website") is operated under the brand Forge of Traders, owned by Planetpulse Holdings LTD | Registration No. HE 469194 | Address: 53 Kosta Varnali St., Nicosia, Cyprus (the "Company", "we", "us", "our").</p>
+          <p><strong>Educational &amp; Informational Purposes Only:</strong> All information published on this Website is provided solely for educational and informational purposes related to trading on financial markets. Nothing on this Website constitutes, and should not be interpreted as, investment advice, financial advice, trading advice, business recommendations, investment opportunity analysis, or any form of general or specific recommendation regarding any financial instrument.</p>
+          <p><strong>Simulated Trading Environment (Demo Only):</strong> All accounts, evaluations, and programs offered through Forge of Traders are conducted exclusively in a simulated trading environment. No live trading is performed, and no real orders are executed on live financial markets through this Website. Any trading performance, results, statistics, or examples shown are based on simulated performance and may not reflect real market conditions including liquidity, slippage, execution speed, spreads, commissions, or other factors.</p>
+          <p><strong>No Brokerage Services / No Deposits:</strong> Forge of Traders does not operate as a broker, does not act as a custodian, and does not provide regulated financial services. Any platform access, pricing, or market data displayed may be provided via third-party technology providers and/or liquidity/data sources.</p>
+          <p><strong>Fees Are Service Fees (Not Deposits / Not Investments):</strong> All fees paid to the Company are service fees for access to evaluation, educational, and simulated trading services. Payment does not create any fiduciary duty, custodial relationship, or investment arrangement between you and the Company.</p>
+          <p><strong>No Offer or Solicitation:</strong> Nothing on this Website or in any Company program constitutes an offer to buy or sell, or a solicitation to buy or sell, forex, Contract for Difference, futures, options, securities, stocks, cryptocurrencies, or any other financial instruments.</p>
+          <p><strong>Risk Warning:</strong> Trading in financial markets involves a high level of risk and may not be suitable for everyone. Even when using simulated trading conditions, leveraged strategies can result in outcomes that differ significantly from real market execution. You should carefully consider your objectives, experience level, and risk tolerance before participating. If necessary, seek independent professional advice.</p>
+          <p><strong>Age Requirement:</strong> This Website and all services are intended only for individuals who are 18 years of age or older.</p>
+          <p><strong>Restricted Jurisdictions &amp; Legal Compliance:</strong> The information on this Website is not intended for distribution to, or use by, any person in any country or jurisdiction where such distribution or use would be contrary to local law or regulation. We do not establish accounts or provide services to residents of certain jurisdictions, including but not limited to: United States, Zimbabwe, Iran, Iraq, North Korea, Somalia, Burundi, Central African Republic, Liberia, Libya, Sudan, Cuba, Syria, Afghanistan, Yemen, Palestine, Myanmar, Nicaragua, Congo Republic, Crimea, Democratic Republic of Congo, Eritrea, Guinea, Guinea-Bissau, Papua New Guinea, South Sudan, Vanuatu, Venezuela, Russia, and/or any country or jurisdiction where offering our services would be contrary to local law, regulation, or applicable restrictions. We may restrict access or refuse service at our sole discretion to ensure compliance with legal, regulatory, and risk requirements.</p>
+          <p><strong>Accuracy of Information &amp; Limitation of Liability:</strong> While we strive to keep the information on this Website accurate and up to date, we make no warranties or guarantees regarding completeness, reliability, or accuracy. Any use of the Website and its content is at your own risk. To the fullest extent permitted by law, the Company shall not be liable for any direct or indirect loss or damage arising from the use of this Website, participation in our programs, or reliance on any content provided herein.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+      <div class="sticky-purchase" hidden="">
+  <div>
+    <span class="sticky-purchase-name">
+    </span>
+    <strong class="sticky-purchase-price">
+    </strong>
+          <small class="sticky-offer-label">with START50 · first account</small>
+        <span class="sticky-estimate" hidden="">Estimated</span>
+  </div>
+  <a class="button primary ga-track" href="https://app.forgeoftraders.com/checkout?external_checkout" data-ga-event="click_purchasechallenge_sticky">START CHALLENGE <span aria-hidden="true">↗</span>
+  </a>
+</div>
+
+    <div id="visitor-ui">
+
+  <section class="cookie-banner" id="cookie-banner" aria-labelledby="cookie-title" hidden="">
+    <div>
+      <h2 id="cookie-title">Your privacy, your choice</h2>
+      <p>We use essential cookies to make our site work. With your consent, we also use analytics and personalization cookies to improve your experience.</p>
+      <a href="./privacy-policy">Privacy Policy</a>
+    </div>
+    <div class="cookie-actions">
+      <button type="button" data-consent="all">Accept all</button>
+      <button type="button" data-consent="essential">Essential only</button>
+      <button type="button" data-cookie-settings="">Customize</button>
+    </div>
+  </section>
+
+  <dialog class="visitor-dialog consent-dialog" id="cookie-preferences" aria-labelledby="preferences-title">
+    <div class="dialog-heading">
+      <h2 id="preferences-title">Cookie preferences</h2>
+      <button type="button" class="dialog-close" data-close-dialog="" aria-label="Close cookie preferences">×</button>
+    </div>
+    <p>You can change your choice at any time using Cookie settings in the footer.</p>
+    <div class="consent-option">
+      <div>
+        <strong>Essential</strong>
+        <span>Security, your cookie choice and the program you select.</span>
+      </div>
+      <span class="always-on">Always on</span>
+    </div>
+    <label class="consent-option">
+      <span>
+      <strong>Analytics</strong>
+      <span>Help us understand how visitors use the site.</span>
+      </span>
+      <input type="checkbox" name="analytics" aria-label="Analytics cookies">
+    </label>
+    <label class="consent-option">
+      <span>
+      <strong>Personalization</strong>
+      <span>Allow optional preferences for a more relevant experience.</span>
+      </span>
+      <input type="checkbox" name="personalization" aria-label="Personalization cookies">
+    </label>
+    <div class="cookie-actions">
+      <button type="button" data-consent="selected">Save preferences</button>
+      <button type="button" data-consent="essential">Essential only</button>
+    </div>
+    <a href="./privacy-policy">Privacy Policy</a>
+  </dialog>
+
+  
+  <aside class="announcement-nudge sales-nudge sales-nudge-v2" id="announcement-nudge"
+     aria-labelledby="offer-nudge-title"  hidden="">
+
+          <p class="offer-nudge-eyebrow">FIRST ACCOUNT · 50% OFF</p>
+    
+          <button type="button" class="nudge-open" data-open-announcement="">
+              <span class="nudge-thumbnail" aria-hidden="true">
+        <img data-lazy-src="./vendor/i.ytimg.com/vi/E_8SbZP3Qr0/maxresdefault.jpg" width="160" height="90" alt="" decoding="async">
+        <span class="nudge-play"><i class="bi bi-play-fill"></i></span>
+        </span>
+            <span class="nudge-details">
+      <strong>Meet Achena Miracle</strong>
+      <span class="nudge-link">Watch the trader interview <span aria-hidden="true">↗</span></span>
+      </span>
+      </button>
+    
+          <h2 id="offer-nudge-title">50% OFF YOUR FIRST ACCOUNT</h2>
+
+      <div class="nudge-footer">
+                  <p class="offer-nudge-copy">Choose program and use <strong>START50</strong> at checkout.</p>
+                <a class="button primary offer-nudge-cta ga-track" href="https://app.forgeoftraders.com/checkout?external_checkout"
+        data-offer-program="" data-ga-event="click_offer_nudge_checkout">
+        <span>Start challenge</span><span aria-hidden="true">↗</span>
+        </a>
+      </div>
+    
+    <button type="button" class="dialog-close" id="dismiss-announcement" aria-label="Dismiss offer">×</button>
+  </aside>
+
+  <style>
+    /* Wider than the old nudge: the teaser is now a headline element rather
+       than a footnote, and a 16/9 still needs the room to read. */
+    #announcement-nudge.sales-nudge-v2 {
+      display: block;
+      width: 470px;
+      max-width: calc(100% - 32px);
+      padding: 20px;
+    }
+
+    #announcement-nudge.sales-nudge-v2 .offer-nudge-eyebrow {
+      margin: 0 42px 14px 0;
+    }
+
+    /* The teaser led with a top rule when it sat at the bottom of the card.
+       At the top that rule would fence off the eyebrow, so it goes. */
+    #announcement-nudge.sales-nudge-v2 .nudge-open {
+      grid-template-columns: 150px minmax(0, 1fr);
+      gap: 14px;
+      align-items: center;
+      margin: 0 0 18px;
+      padding: 0 30px 0 0;
+      border-top: 0;
+    }
+
+    #announcement-nudge.sales-nudge-v2 .nudge-thumbnail {
+      border-radius: 8px;
+    }
+
+    #announcement-nudge.sales-nudge-v2 .nudge-details strong {
+      font-size: 15px;
+      line-height: 1.45;
+      font-weight: 600;
+      color: #f5f5ef;
+    }
+
+    #announcement-nudge.sales-nudge-v2 .nudge-link {
+      margin-top: 6px;
+      font-size: 13px;
+    }
+
+    /* Smaller than before: the headline no longer opens the card, so it reads
+       as the offer rather than as the whole message. */
+    #announcement-nudge.sales-nudge-v2 h2 {
+      font-size: 20px;
+      line-height: 1.35;
+      margin: 0 0 16px;
+    }
+
+    #announcement-nudge.sales-nudge-v2 .nudge-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding-top: 16px;
+      border-top: 1px solid #ffffff14;
+    }
+
+    #announcement-nudge.sales-nudge-v2 .offer-nudge-copy {
+      flex: 1 1 auto;
+      margin: 0;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    /* The CTA was full width under the copy; in the footer it is a pill that
+       takes only the room its label needs. */
+    #announcement-nudge.sales-nudge-v2 .offer-nudge-cta {
+      flex: 0 0 auto;
+      width: auto;
+      min-height: 0;
+      justify-content: center;
+      gap: 8px;
+      padding: 13px 18px;
+      border-radius: 10px;
+      white-space: nowrap;
+    }
+
+    @media (max-width: 767px) {
+      #announcement-nudge.sales-nudge-v2 {
+        width: 400px;
+        max-width: calc(100% - 24px);
+        padding: 16px;
+      }
+
+      #announcement-nudge.sales-nudge-v2 .nudge-open {
+        grid-template-columns: 118px minmax(0, 1fr);
+        gap: 12px;
+        margin-bottom: 14px;
+      }
+
+      #announcement-nudge.sales-nudge-v2 h2 {
+        font-size: 18px;
+      }
+
+      /* Side by side the button would squeeze the copy to two words a line. */
+      #announcement-nudge.sales-nudge-v2 .nudge-footer {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+      }
+
+      #announcement-nudge.sales-nudge-v2 .offer-nudge-cta {
+        width: 100%;
+        justify-content: space-between;
+      }
+    }
+  </style>
+
+      <dialog class="visitor-dialog announcement-dialog" id="announcement-dialog" aria-labelledby="announcement-title">
+      <button type="button" class="dialog-close" data-close-dialog="" aria-label="Close announcement" autofocus="">×</button>
+              <img data-lazy-src="./vendor/i.ytimg.com/vi/E_8SbZP3Qr0/maxresdefault.jpg" width="960" height="540" alt="Meet Achena Miracle" decoding="async">
+            <div class="announcement-content">
+        <p class="eyebrow">Trader interview</p>
+        <h2 id="announcement-title">Meet Achena Miracle</h2>
+        
+                          <div class="announcement-copy">
+            <p>Achena Miracle Otuwe · Nigeria · Reward $17086.54</p>
+          </div>
+                <a class="button primary" href="https://www.youtube.com/watch?v=E_8SbZP3Qr0" target="_blank" rel="noopener noreferrer">
+        Watch full interview <span aria-hidden="true">↗</span>
+        </a>
+
+                  <div class="interview-program-offer">
+            <p><strong>50% OFF YOUR FIRST ACCOUNT</strong><br>Use START50 at checkout.</p>
+            <a href="https://app.forgeoftraders.com/checkout?external_checkout" data-offer-program="">Start challenge <span aria-hidden="true">↗</span></a>
+          </div>
+        
+        <button type="button" class="keep-browsing" data-close-dialog="">Keep exploring</button>
+      </div>
+    </dialog>
+  
+  <button class="chat-launcher" id="chat-launcher" type="button" aria-label="Open support chat">
+  <svg width="27" height="27" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+  <path d="M12 3v3m-1-3h2M5 7h14v12H5zM2 11v5m20-5v5M9 15h6" stroke-linecap="round" stroke-linejoin="round"></path>
+  <circle cx="9" cy="11" r=".8" fill="currentColor"></circle>
+  <circle cx="15" cy="11" r=".8" fill="currentColor"></circle>
+  </svg>
+  <span class="sr-only">Open support chat</span>
+  </button>
+
+  <div class="chat-status" id="chat-status" role="status" hidden=""></div>
+</div>
+
+    <a href="#main-content" class="back-to-top" aria-label="Back to top"><span aria-hidden="true">↑</span></a>
+
+    
+            <script>window.__FORGE_PROGRAMS__ = {"12":{"id":12,"parent_id":12,"lang":"en","created_by":1,"program_name":"ONE Phase Program","display_name":"Single-Phase Forge","slug":"one-phase-assessment","total_loss_limit_percent":"6.00","min_trading_days":8,"max_trading_days":10,"news_trading_allowed":1,"steps":"1","refundable_percentage":"100.00","performance_split":90,"is_eas_allow":1,"intro_1":"\u003Cp\u003EOur one phase Evaluation program is built for forex traders that wish to expedite their challenge phase. Traders can go from 0 to funded in 1 simple step.\u003C\/p\u003E","intro_2":"\u003Cp\u003E\u003Cspan data-teams=\u0022true\u0022\u003EOur One Phase Program is tailored to traders who wish to accelerate their access to a funded account. This program comprises a single evaluation, meaning that traders need to complete only one evaluation phase to qualify for funding. The program has been devised in a manner that optimally suits low-risk trading with strict money management rules. Traders can also customise their program to their trading needs according to their strategy. We believe that allowing traders to customise their programs will help in their overall success of passing the evaluation.\u003C\/span\u003E\u003C\/p\u003E","intro_3":"\u003Cp class=\u0022sub-text section-text\u0022\u003EWe understand that every trader has a unique style and preferences, which is why we offer a selection of tailored account options to meet your needs.\u003C\/p\u003E\r\n\u003Cp class=\u0022sub-text section-text\u0022\u003EOur account options come with a range of features and benefits including, the best trading dashboard in the industry, customisable account options, and much more.\u003C\/p\u003E","intro_4":"\u003Cp\u003EWe appreciate that every trader and trading style is different. With that in mind we offer the opportunity to customise your trading accounts at the checkout.\u003C\/p\u003E","intro_5":"\u003Cp\u003ECheck out our most frequently asked questions here or click the link before to see all of our frequently asked questions.\u003C\/p\u003E","intro_6":"\u003Cp class=\u0022section-text\u0022\u003EFor the first payout, traders can request a withdrawal on-demand, as soon as the first trade on the live account is closed.\u0026nbsp;\u003Cstrong\u003EThere\u0026rsquo;s no minimum amount. No minimum days.\u003C\/strong\u003E\u003C\/p\u003E\r\n\u003Cp class=\u0022section-text\u0022\u003EThereafter, withdrawals are as frequent as every two weeks. This means that traders can choose to withdraw immediately or leave the account to compound and grow their account balance.\u003C\/p\u003E","intro_7":null,"intro_8":null,"created_at":"2025-08-27T10:11:38.000000Z","updated_at":"2025-09-15T10:28:10.000000Z","status":1,"phases":[{"id":1,"parent_id":1,"lang":"en","program_id":12,"name":"Step 1","profit_target_percent":"10.00","daily_loss_limit_percent":"5.00","max_drawdown_percent":"10.00","inactivity_period":"30","leverage":"20.00","profit_split":null,"weekend_holding_allowed":1,"time_limit":"No","minimum_trading_day":"3","first_payout":null,"refund_funding":"100%","platform":null,"eas":null,"account_size":null,"pricing":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:35:11.000000Z","updated_at":"2026-08-27T10:54:05.000000Z","insurance":"Yes, with add-on  (+30%)","drawdown_type":"Both Daily and Max Drawdown are calculated based on the Initial Balance vs Current Equity.","profit_split_des":"80% flat; up to 90% with add-on (+20%)","leverage_des":"1:30 - FX 1:20 - Metals and Indices","consistency_score":"50.00","unlimited_resets":"90% challenge price","equity_lock_mechanism":0,"equity_lock_target":null,"equity_lock_threshold":null,"daily_loss_limit_tooltips":"Calculated based on the EOD Balance vs Current Equity. If you have a $100k EOD Balance on your account, your daily limit is will be $5k. If your account balance grows to $110k, your Daily Drawdown will grow to $5.5k.","max_drawdown_tooltips":"Static Drawdown: Calculated based on your Initial Balance vs. Current Equity.  If you have a $100k account, your maximum limit is always $10,000 lower, even if your account grows to $110k, you will need to reach $90k level to hit your maximum drawdown limit.","insurance_tooltips":"7-Day Reset Protection: Get a full reset if you breach within your first week. +30% at checkout.","weekend_hold_tooltips":"When purchasing this add-on, the user gains the ability to hold trades over the\r\nweekend and trade during news windows.","profit_split_tooltips":"Increase your reward share to 90%. +20% at checkout.","consistency_score_tooltips":"Consistency Score (50%): We reward steady growth. No single trade\/day can represent more than 50% of your profit target.","unlimited_resets_tooltips":"Failed a challenge? Buy a reset for the same account at 90% of the initial price. Unlimited retries available.","equity_lock_target_tooltip":null,"equity_lock_threshold_tooltips":null}],"plans":[{"id":1,"parent_id":1,"lang":"en","program_id":12,"label":"For Beginners","plan_size":"5000.00","retail_price":"29.00","is_default":0,"client_percentage":"30.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:27:09.000000Z","updated_at":"2026-03-13T04:34:18.000000Z"},{"id":2,"parent_id":2,"lang":"en","program_id":12,"label":"For Beginners","plan_size":"10000.00","retail_price":"55.00","is_default":1,"client_percentage":"30.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:28:00.000000Z","updated_at":"2026-03-13T04:34:31.000000Z"},{"id":3,"parent_id":3,"lang":"en","program_id":12,"label":"For Beginners","plan_size":"25000.00","retail_price":"129.00","is_default":0,"client_percentage":"30.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:28:52.000000Z","updated_at":"2026-03-13T04:35:04.000000Z"},{"id":4,"parent_id":4,"lang":"en","program_id":12,"label":"For Beginners","plan_size":"50000.00","retail_price":"229.00","is_default":0,"client_percentage":"30.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:30:20.000000Z","updated_at":"2026-03-13T04:35:15.000000Z"},{"id":5,"parent_id":5,"lang":"en","program_id":12,"label":"Recommended","plan_size":"100000.00","retail_price":"475.00","is_default":0,"client_percentage":"30.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:31:08.000000Z","updated_at":"2026-03-13T04:35:26.000000Z"},{"id":6,"parent_id":6,"lang":"en","program_id":12,"label":"Recommended","plan_size":"200000.00","retail_price":"865.00","is_default":0,"client_percentage":"30.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:32:30.000000Z","updated_at":"2026-03-13T04:35:51.000000Z"},{"id":7,"parent_id":7,"lang":"en","program_id":12,"label":"For Experts","plan_size":"250000.00","retail_price":"1050.00","is_default":0,"client_percentage":"30.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:33:08.000000Z","updated_at":"2026-03-13T04:36:06.000000Z"},{"id":8,"parent_id":8,"lang":"en","program_id":12,"label":"For Experts","plan_size":"400000.00","retail_price":"1695.00","is_default":0,"client_percentage":"30.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:33:50.000000Z","updated_at":"2026-03-13T04:36:18.000000Z"},{"id":30,"parent_id":30,"lang":"en","program_id":12,"label":"For Experts","plan_size":"500000.00","retail_price":"2095.00","is_default":0,"client_percentage":"30.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-09-30T06:51:01.000000Z","updated_at":"2026-03-13T04:36:30.000000Z"}],"addons":[{"id":1,"parent_id":1,"lang":"en","name":"Swing Trading","title":"30% Cost","value":"30.00","description":"Point-of-Sale add-on that disables \u201cFlat for Weekend\u201d requirement;  this allows traders to keep positions open over the weekend. Only crypto can be traded over the weekend.","tooltip":"When purchasing this add-on, the user gains the ability to hold trades over the\r\nweekend and trade during news windows.","status":1,"created_at":"2025-09-02T08:36:30.000000Z","updated_at":"2026-06-08T12:05:19.000000Z","program_id":12},{"id":2,"parent_id":2,"lang":"en","name":"Reward Share up to 90%","title":"20% Cost","value":"20.00","description":"Point-of-Sale add-on that increases a trader\u2019s potential  profit share for funded accounts to 90% (up from the standard 75%) of the profit.","tooltip":"Increase your reward share to 90%, +20% at checkout.","status":1,"created_at":"2025-09-02T08:37:58.000000Z","updated_at":"2026-08-27T10:52:40.000000Z","program_id":12},{"id":9,"parent_id":9,"lang":"en","name":"1-Week Protection","title":"30% Cost","value":"30.00","description":null,"tooltip":"7-Day Reset Protection: Get a full reset if you breach within your first week, +30% at checkout.","status":1,"created_at":"2026-01-29T09:27:26.000000Z","updated_at":"2026-08-27T10:52:13.000000Z","program_id":12}]},"13":{"id":13,"parent_id":13,"lang":"en","created_by":1,"program_name":"TWO Phase Program","display_name":"Two-Phase Alloy","slug":"two-phase-assessment","total_loss_limit_percent":"10.00","min_trading_days":15,"max_trading_days":20,"news_trading_allowed":1,"steps":"2","refundable_percentage":"100.00","performance_split":95,"is_eas_allow":1,"intro_1":"\u003Cp\u003EWe appreciate that every trader and trading style is different. With that in mind we offer the opportunity to customise your trading accounts at the checkout.\u003C\/p\u003E","intro_2":"\u003Cp\u003EWith the Forge of traders\u0026trade; Two Phase Program, our aim is to identify committed traders who exhibit the necessary trading skills to succeed in this industry. Consistency, accuracy, and sound trading risk management skills are vital, as the trader will need to pass two sets of assessments in order to become a funded trader. Traders can also customise their program to their trading needs according to their strategy. We believe that allowing traders to customise their programs will help in their overall success of passing the evaluation.\u003C\/p\u003E","intro_3":"\u003Cp class=\u0022sub-text section-text\u0022 style=\u0022text-align: center;\u0022\u003EWe understand that every trader has a unique style and preferences, which is why we offer a selection of tailored account options to meet your needs.\u003C\/p\u003E\r\n\u003Cp class=\u0022sub-text section-text\u0022 style=\u0022text-align: center;\u0022\u003EOur account options come with a range of features and benefits including, the best trading dashboard in the industry, customisable account options, and much more.\u003C\/p\u003E","intro_4":"\u003Cp\u003EWe appreciate that every trader and trading style is different. With that in mind we offer the opportunity to customise your trading accounts at the checkout.\u003C\/p\u003E","intro_5":"\u003Cp\u003ECheck out our most frequently asked questions here or click the link before to see all of our frequently asked questions.\u003C\/p\u003E","intro_6":"\u003Cp class=\u0022section-text\u0022\u003EFor the first payout, traders can request a withdrawal on-demand, as soon as the first trade on the live account is closed.\u0026nbsp;\u003Cstrong\u003EThere\u0026rsquo;s no minimum amount. No minimum days.\u003C\/strong\u003E\u003C\/p\u003E\r\n\u003Cp class=\u0022section-text\u0022\u003EThereafter, withdrawals are as frequent as every two weeks. This means that traders can choose to withdraw immediately or leave the account to compound and grow their account balance.\u003C\/p\u003E","intro_7":null,"intro_8":null,"created_at":"2025-08-27T10:13:20.000000Z","updated_at":"2025-09-15T10:23:52.000000Z","status":1,"phases":[{"id":2,"parent_id":2,"lang":"en","program_id":13,"name":"Step 1","profit_target_percent":"8.00","daily_loss_limit_percent":"5.00","max_drawdown_percent":"9.00","inactivity_period":"30","leverage":"30.00","profit_split":null,"weekend_holding_allowed":0,"time_limit":"No","minimum_trading_day":"3","first_payout":null,"refund_funding":"100%","platform":null,"eas":null,"account_size":null,"pricing":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:40:14.000000Z","updated_at":"2026-08-27T10:51:32.000000Z","insurance":"Yes, with add-on  (+30%)","drawdown_type":"Both Daily and Max Drawdown are calculated based on the Initial Balance vs Current Equity.","profit_split_des":"80% flat; up to 90% with add-on (+20%)","leverage_des":"1:30 - FX 1:20 - Metals and Indices","consistency_score":"0.00","unlimited_resets":"90% challenge price","equity_lock_mechanism":0,"equity_lock_target":null,"equity_lock_threshold":null,"daily_loss_limit_tooltips":"Calculated based on the EOD Balance vs Current Equity. If you have a $100k EOD Balance on your account, your daily limit is will be $5k. If your account balance grows to $110k, your Daily Drawdown will grow to $5.5k.","max_drawdown_tooltips":"Static Drawdown: Calculated based on your Initial Balance vs. Current Equity. If you have a $100k account, your maximum limit is always $9,000 lower. Even if your account grows to $110k, you will need to reach the $91k level to hit your maximum drawdown limit.","insurance_tooltips":"7-Day Reset Protection: Get a full reset if you breach within your first week. +30% at checkout.","weekend_hold_tooltips":"When purchasing this add-on, the user gains the ability to hold trades over the\r\nweekend and trade during news windows.","profit_split_tooltips":"Increase your reward share to 90%. +20% at checkout.","consistency_score_tooltips":null,"unlimited_resets_tooltips":"Failed a challenge? Buy a reset for the same account at 90% of the initial price. Unlimited retries available.","equity_lock_target_tooltip":null,"equity_lock_threshold_tooltips":null},{"id":3,"parent_id":3,"lang":"en","program_id":13,"name":"Step 2","profit_target_percent":"5.00","daily_loss_limit_percent":"5.00","max_drawdown_percent":"9.00","inactivity_period":"30","leverage":"30.00","profit_split":null,"weekend_holding_allowed":1,"time_limit":"No","minimum_trading_day":"3","first_payout":null,"refund_funding":"100%","platform":null,"eas":null,"account_size":null,"pricing":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:40:53.000000Z","updated_at":"2026-08-27T10:50:57.000000Z","insurance":"Yes, with add-on  (+30%)","drawdown_type":"Both Daily and Max Drawdown are calculated based on the Initial Balance vs Current Equity.","profit_split_des":"80% flat; up to 90% with add-on (+20%)","leverage_des":"1:30 - FX 1:20 - Metals and Indices","consistency_score":"0.00","unlimited_resets":"90% challenge price","equity_lock_mechanism":0,"equity_lock_target":null,"equity_lock_threshold":null,"daily_loss_limit_tooltips":"Calculated based on the EOD Balance vs Current Equity. If you have a $100k EOD Balance on your account, your daily limit is will be $5k. If your account balance grows to $110k, your Daily Drawdown will grow to $5.5k.","max_drawdown_tooltips":"Static Drawdown: Calculated based on your Initial Balance vs. Current Equity. If you have a $100k account, your maximum limit is always $9,000 lower. Even if your account grows to $110k, you will need to reach the $91k level to hit your maximum drawdown limit.","insurance_tooltips":"7-Day Reset Protection: Get a full reset if you breach within your first week. +30% at checkout.","weekend_hold_tooltips":"When purchasing this add-on, the user gains the ability to hold trades over the\r\nweekend and trade during news windows.","profit_split_tooltips":"Increase your reward share to 90%. +20% at checkout.","consistency_score_tooltips":null,"unlimited_resets_tooltips":"Failed a challenge? Buy a reset for the same account at 90% of the initial price. Unlimited retries available.","equity_lock_target_tooltip":null,"equity_lock_threshold_tooltips":null}],"plans":[{"id":9,"parent_id":9,"lang":"en","program_id":13,"label":"For Beginners","plan_size":"5000.00","retail_price":"32.00","is_default":0,"client_percentage":"30.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:36:02.000000Z","updated_at":"2026-03-13T04:48:35.000000Z"},{"id":10,"parent_id":10,"lang":"en","program_id":13,"label":"For Beginners","plan_size":"10000.00","retail_price":"55.00","is_default":1,"client_percentage":"30.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:36:30.000000Z","updated_at":"2026-03-13T04:48:51.000000Z"},{"id":11,"parent_id":11,"lang":"en","program_id":13,"label":"For Beginners","plan_size":"25000.00","retail_price":"135.00","is_default":0,"client_percentage":"30.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:36:53.000000Z","updated_at":"2026-03-13T04:49:02.000000Z"},{"id":12,"parent_id":12,"lang":"en","program_id":13,"label":"For Beginners","plan_size":"50000.00","retail_price":"225.00","is_default":0,"client_percentage":"30.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:37:17.000000Z","updated_at":"2026-03-13T04:49:20.000000Z"},{"id":13,"parent_id":13,"lang":"en","program_id":13,"label":"Recommended","plan_size":"100000.00","retail_price":"465.00","is_default":0,"client_percentage":"30.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:37:40.000000Z","updated_at":"2026-03-13T04:49:33.000000Z"},{"id":14,"parent_id":14,"lang":"en","program_id":13,"label":"Recommended","plan_size":"200000.00","retail_price":"849.00","is_default":0,"client_percentage":"30.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:38:10.000000Z","updated_at":"2026-03-13T04:49:46.000000Z"},{"id":15,"parent_id":15,"lang":"en","program_id":13,"label":"For Experts","plan_size":"250000.00","retail_price":"1025.00","is_default":0,"client_percentage":"30.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:38:41.000000Z","updated_at":"2026-03-13T04:50:01.000000Z"},{"id":16,"parent_id":16,"lang":"en","program_id":13,"label":"For Experts","plan_size":"400000.00","retail_price":"1650.00","is_default":0,"client_percentage":"30.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:39:07.000000Z","updated_at":"2026-03-13T04:50:15.000000Z"},{"id":31,"parent_id":31,"lang":"en","program_id":13,"label":"For Experts","plan_size":"500000.00","retail_price":"1995.00","is_default":0,"client_percentage":"30.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-09-30T06:55:18.000000Z","updated_at":"2026-03-13T04:50:32.000000Z"}],"addons":[{"id":3,"parent_id":3,"lang":"en","name":"Swing Trading","title":"30% Cost","value":"30.00","description":"Point-of-Sale add-on that disables \u201cFlat for Weekend\u201d requirement;  this allows traders to keep positions open over the weekend. Only crypto can be traded over the weekend.","tooltip":"When purchasing this add-on, the user gains the ability to hold trades over the\r\nweekend and trade during news windows.","status":1,"created_at":"2025-09-02T08:38:45.000000Z","updated_at":"2026-06-08T12:05:51.000000Z","program_id":13},{"id":4,"parent_id":4,"lang":"en","name":"Reward Share up to 90%","title":"20% Cost","value":"20.00","description":"Point-of-Sale add-on that increases a trader\u2019s potential  profit share for funded accounts to 90% (up from the standard 75%) of the profit.","tooltip":"Increase your reward share to 90%, +20% at checkout.","status":1,"created_at":"2025-09-02T08:39:08.000000Z","updated_at":"2026-08-27T10:49:36.000000Z","program_id":13},{"id":10,"parent_id":10,"lang":"en","name":"1-Week Protection","title":"30% Cost","value":"30.00","description":null,"tooltip":"7-Day Reset Protection: Get a full reset if you breach within your first week, +30% at checkout.","status":1,"created_at":"2026-01-29T09:29:26.000000Z","updated_at":"2026-08-27T10:48:49.000000Z","program_id":13}]},"14":{"id":14,"parent_id":14,"lang":"en","created_by":1,"program_name":"THREE Phase Program","display_name":"Triple-Tempered","slug":"three-phase-assessment","total_loss_limit_percent":"10.00","min_trading_days":13,"max_trading_days":16,"news_trading_allowed":1,"steps":"3","refundable_percentage":"100.00","performance_split":95,"is_eas_allow":1,"intro_1":"\u003Cp\u003EThe Forge of traders\u0026trade; Three Phase Program is built for traders who seek lower assessment fees and profit targets. Traders must demonstrate patience and discipline throughout three evaluation stages to qualify for funding.\u003C\/p\u003E","intro_2":"\u003Cp\u003EThe Forge of traders\u0026trade; Three Phase Program is our approach to identifying traders who demonstrate patience, discipline, and consistency as the core of their trading skills. The Three Phase Program was built to provide traders with a lower assessment cost. It offers the same perks as the One Phase and Two Phase Programs, but with a lower profit target of only 5% to advance to the next stage. Traders have the flexibility to tailor the program to their strategy, improving the overall chances of success in passing the evaluation and becoming a funded trader.\u003C\/p\u003E","intro_3":"\u003Cp class=\u0022sub-text section-text\u0022 style=\u0022text-align: center;\u0022\u003EWe understand that every trader has a unique style and preferences, which is why we offer a selection of tailored account options to meet your needs.\u003C\/p\u003E\r\n\u003Cp class=\u0022sub-text section-text\u0022 style=\u0022text-align: center;\u0022\u003EOur account options come with a range of features and benefits including, the best trading dashboard in the industry, customisable account options, and much more.\u003C\/p\u003E","intro_4":"\u003Cp\u003EWe appreciate that every trader and trading style is unique. With this in mind, we provide the flexibility to customize your trading accounts at the checkout.\u003C\/p\u003E","intro_5":"\u003Cp\u003ECheck out our most frequently asked questions here or click the link before to see all of our frequently asked questions.\u003C\/p\u003E","intro_6":"\u003Cp class=\u0022section-text\u0022\u003EFor the first payout, traders can request a withdrawal on-demand, as soon as the first trade on the live account is closed.\u0026nbsp;\u003Cstrong\u003EThere\u0026rsquo;s no minimum amount. No minimum days.\u003C\/strong\u003E\u003C\/p\u003E\r\n\u003Cp\u003EThereafter, withdrawals are as frequent as every two weeks. This means that traders can choose to withdraw immediately or leave the account to compound and grow their account balance\u003C\/p\u003E","intro_7":null,"intro_8":null,"created_at":"2025-08-27T10:15:28.000000Z","updated_at":"2025-09-15T10:25:27.000000Z","status":1,"phases":[{"id":5,"parent_id":5,"lang":"en","program_id":14,"name":"Step 1","profit_target_percent":"8.00","daily_loss_limit_percent":"5.00","max_drawdown_percent":"10.00","inactivity_period":"30","leverage":"20.00","profit_split":null,"weekend_holding_allowed":1,"time_limit":"No","minimum_trading_day":"3","first_payout":null,"refund_funding":"100%","platform":null,"eas":null,"account_size":null,"pricing":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:46:29.000000Z","updated_at":"2026-08-27T10:44:53.000000Z","insurance":"Yes, with add-on  (+30%)","drawdown_type":"Both Daily and Max Drawdown are calculated based on the Initial Balance vs Current Equity.","profit_split_des":"80% flat; up to 90% with add-on (+20%)","leverage_des":"1:30 - FX 1:20 - Metals and Indices","consistency_score":"0.00","unlimited_resets":"90% challenge price","equity_lock_mechanism":0,"equity_lock_target":null,"equity_lock_threshold":null,"daily_loss_limit_tooltips":"Calculated based on the EOD Balance vs Current Equity. If you have a $100k EOD Balance on your account, your daily limit is will be $5k. If your account balance grows to $110k, your Daily Drawdown will grow to $5.5k.","max_drawdown_tooltips":"Static Drawdown: Calculated based on your Initial Balance vs. Current Equity.  If you have a $100k account, your maximum limit is always $10,000 lower, even if your account grows to $110k, you will need to reach $90k level to hit your maximum drawdown limit.","insurance_tooltips":"7-Day Reset Protection: Get a full reset if you breach within your first week. +30% at checkout.","weekend_hold_tooltips":"When purchasing this add-on, the user gains the ability to hold trades over the\r\nweekend and trade during news windows.","profit_split_tooltips":"Increase your reward share to 90%. +20% at checkout.","consistency_score_tooltips":null,"unlimited_resets_tooltips":"Failed a challenge? Buy a reset for the same account at 90% of the initial price. Unlimited retries available.","equity_lock_target_tooltip":null,"equity_lock_threshold_tooltips":null},{"id":6,"parent_id":6,"lang":"en","program_id":14,"name":"Step 2","profit_target_percent":"5.00","daily_loss_limit_percent":"4.00","max_drawdown_percent":"7.00","inactivity_period":"30","leverage":"20.00","profit_split":null,"weekend_holding_allowed":1,"time_limit":"No","minimum_trading_day":"3","first_payout":null,"refund_funding":"100%","platform":null,"eas":null,"account_size":null,"pricing":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:46:54.000000Z","updated_at":"2026-08-27T10:44:21.000000Z","insurance":"Yes, with add-on  (+30%)","drawdown_type":"Both Daily and Max Drawdown are calculated based on the Initial Balance vs Current Equity.","profit_split_des":"80% flat; up to 90% with add-on (+20%)","leverage_des":"1:30 - FX 1:20 - Metals and Indices","consistency_score":"0.00","unlimited_resets":"90% challenge price","equity_lock_mechanism":0,"equity_lock_target":null,"equity_lock_threshold":null,"daily_loss_limit_tooltips":"Daily Drawdown: Calculated based on the EOD Balance vs. Current Equity. If you have a $100k EOD Balance on your account, your daily limit will be $4k. If your account balance grows to $110k, your Daily Drawdown will grow to $4.4k.","max_drawdown_tooltips":"Static Drawdown: Calculated based on your Initial Balance vs. Current Equity. If you have a $100k account, your maximum loss limit is always $7,000. Even if your account grows to $110k, you will hit your maximum drawdown limit if your equity reaches the $93,000 level.","insurance_tooltips":"7-Day Reset Protection: Get a full reset if you breach within your first week. +30% at checkout.","weekend_hold_tooltips":"When purchasing this add-on, the user gains the ability to hold trades over the\r\nweekend and trade during news windows.","profit_split_tooltips":"Increase your reward share to 90%. +20% at checkout.","consistency_score_tooltips":null,"unlimited_resets_tooltips":"Failed a challenge? Buy a reset for the same account at 90% of the initial price. Unlimited retries available.","equity_lock_target_tooltip":null,"equity_lock_threshold_tooltips":null},{"id":7,"parent_id":7,"lang":"en","program_id":14,"name":"Step 3","profit_target_percent":"3.00","daily_loss_limit_percent":"3.00","max_drawdown_percent":"5.00","inactivity_period":"30","leverage":"20.00","profit_split":null,"weekend_holding_allowed":1,"time_limit":"No","minimum_trading_day":"3","first_payout":null,"refund_funding":"100%","platform":null,"eas":null,"account_size":null,"pricing":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:47:20.000000Z","updated_at":"2026-08-27T10:43:32.000000Z","insurance":"Yes, with add-on  (+30%)","drawdown_type":"Both Daily and Max Drawdown are calculated based on the Initial Balance vs Current Equity.","profit_split_des":"80% flat; up to 90% with add-on (+20%)","leverage_des":"1:30 - FX 1:20 - Metals and Indices","consistency_score":"0.00","unlimited_resets":"90% challenge price","equity_lock_mechanism":0,"equity_lock_target":null,"equity_lock_threshold":null,"daily_loss_limit_tooltips":"Daily Drawdown: Calculated based on the EOD Balance vs. Current Equity. If you have a $100k EOD Balance on your account, your daily limit will be $3k. If your account balance grows to $110k, your Daily Drawdown will grow to $3.3k..","max_drawdown_tooltips":"Static Drawdown: Calculated based on your Initial Balance vs. Current Equity. If you have a $100k account, your maximum limit is always $5,000. Even if your account grows to $110k, you will need to reach the $95k level to hit your maximum drawdown limit.","insurance_tooltips":"7-Day Reset Protection: Get a full reset if you breach within your first week. +30% at checkout.","weekend_hold_tooltips":"When purchasing this add-on, the user gains the ability to hold trades over the\r\nweekend and trade during news windows.","profit_split_tooltips":"Increase your reward share to 90%. +20% at checkout.","consistency_score_tooltips":null,"unlimited_resets_tooltips":"Failed a challenge? Buy a reset for the same account at 90% of the initial price. Unlimited retries available.","equity_lock_target_tooltip":null,"equity_lock_threshold_tooltips":null}],"plans":[{"id":17,"parent_id":17,"lang":"en","program_id":14,"label":"For Beginners","plan_size":"5000.00","retail_price":"26.00","is_default":0,"client_percentage":"30.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:42:03.000000Z","updated_at":"2026-03-13T05:01:15.000000Z"},{"id":18,"parent_id":18,"lang":"en","program_id":14,"label":"For Beginners","plan_size":"10000.00","retail_price":"45.00","is_default":1,"client_percentage":"30.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:42:22.000000Z","updated_at":"2026-03-13T05:01:25.000000Z"},{"id":19,"parent_id":19,"lang":"en","program_id":14,"label":"For Beginners","plan_size":"25000.00","retail_price":"99.00","is_default":0,"client_percentage":"30.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:42:38.000000Z","updated_at":"2026-03-13T05:01:36.000000Z"},{"id":20,"parent_id":20,"lang":"en","program_id":14,"label":"For Beginners","plan_size":"50000.00","retail_price":"189.00","is_default":0,"client_percentage":"30.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:43:00.000000Z","updated_at":"2026-03-13T05:01:47.000000Z"},{"id":21,"parent_id":21,"lang":"en","program_id":14,"label":"Recommended","plan_size":"100000.00","retail_price":"345.00","is_default":0,"client_percentage":"30.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:43:34.000000Z","updated_at":"2026-03-13T05:02:04.000000Z"},{"id":22,"parent_id":22,"lang":"en","program_id":14,"label":"Recommended","plan_size":"200000.00","retail_price":"675.00","is_default":0,"client_percentage":"30.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:44:02.000000Z","updated_at":"2026-03-13T05:02:16.000000Z"},{"id":23,"parent_id":23,"lang":"en","program_id":14,"label":"For Experts","plan_size":"250000.00","retail_price":"825.00","is_default":0,"client_percentage":"30.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:44:31.000000Z","updated_at":"2026-03-13T05:02:32.000000Z"},{"id":24,"parent_id":24,"lang":"en","program_id":14,"label":"For Experts","plan_size":"400000.00","retail_price":"1295.00","is_default":0,"client_percentage":"30.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:45:01.000000Z","updated_at":"2026-03-13T05:02:45.000000Z"},{"id":32,"parent_id":32,"lang":"en","program_id":14,"label":"For Experts","plan_size":"500000.00","retail_price":"1595.00","is_default":0,"client_percentage":"30.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-09-30T06:58:25.000000Z","updated_at":"2026-03-13T05:03:05.000000Z"}],"addons":[{"id":5,"parent_id":5,"lang":"en","name":"Swing Trading","title":"30% Cost","value":"30.00","description":"Point-of-Sale add-on that disables \u201cFlat for Weekend\u201d requirement;  this allows traders to keep positions open over the weekend. Only crypto can be traded over the weekend.","tooltip":"When purchasing this add-on, the user gains the ability to hold trades over the\r\nweekend and trade during news windows.","status":1,"created_at":"2025-09-02T08:39:49.000000Z","updated_at":"2026-06-08T12:06:12.000000Z","program_id":14},{"id":6,"parent_id":6,"lang":"en","name":"Profit Share Increased to 90%","title":"20% Cost","value":"20.00","description":"Point-of-Sale add-on that increases a trader\u2019s potential  profit share for funded accounts to 90% (up from the standard 75%) of the profit.","tooltip":"Increase your reward share to 90%, +20% at checkout.","status":1,"created_at":"2025-09-02T08:40:18.000000Z","updated_at":"2026-08-27T10:47:35.000000Z","program_id":14},{"id":11,"parent_id":11,"lang":"en","name":"1-Week Protection","title":"30% Cost","value":"30.00","description":null,"tooltip":"7-Day Reset Protection: Get a full reset if you breach within your first week, +30% at checkout.","status":1,"created_at":"2026-01-29T09:31:15.000000Z","updated_at":"2026-08-27T10:46:46.000000Z","program_id":14}]},"15":{"id":15,"parent_id":15,"lang":"en","created_by":1,"program_name":"Instant Simulated Account","display_name":"Instant Simulated Account","slug":"instant-funding","total_loss_limit_percent":"4.00","min_trading_days":6,"max_trading_days":7,"news_trading_allowed":1,"steps":"0","refundable_percentage":"100.00","performance_split":90,"is_eas_allow":1,"intro_1":null,"intro_2":null,"intro_3":null,"intro_4":null,"intro_5":null,"intro_6":null,"intro_7":null,"intro_8":null,"created_at":"2025-08-27T10:16:43.000000Z","updated_at":"2026-09-07T09:26:28.000000Z","status":1,"phases":[{"id":8,"parent_id":8,"lang":"en","program_id":15,"name":"Step 1","profit_target_percent":"0.00","daily_loss_limit_percent":"4.00","max_drawdown_percent":"10.00","inactivity_period":"30","leverage":"50.00","profit_split":"80.00","weekend_holding_allowed":1,"time_limit":"No","minimum_trading_day":"No","first_payout":null,"refund_funding":"N\/A","platform":null,"eas":null,"account_size":null,"pricing":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:50:28.000000Z","updated_at":"2026-08-27T10:42:16.000000Z","insurance":null,"drawdown_type":"Daily on Last EOD Equity Overall - Initial Balance vs equity","profit_split_des":"80% flat; add on up to 90%","leverage_des":"1:30 - FX 1:20 - Metals and Indices","consistency_score":"0.00","unlimited_resets":"90% challenge price","equity_lock_mechanism":1,"equity_lock_target":"10.00","equity_lock_threshold":"Initial Balance","daily_loss_limit_tooltips":"Calculated based on the EOD Balance vs Current Equity. If you have a $100k EOD Balance on your account, your daily limit is will be $4k. If your account balance grows to $110k, your Daily Drawdown will grow to $4.4k.","max_drawdown_tooltips":"Static Drawdown: Calculated based on your Initial Balance vs. Current Equity.  If you have a $100k account, your maximum limit is always $10,000 lower, even if your account grows to $110k, you will need to reach $90k level to hit your maximum drawdown limit.","insurance_tooltips":null,"weekend_hold_tooltips":"When purchasing this add-on, the user gains the ability to hold trades over the\r\nweekend and trade during news windows.","profit_split_tooltips":"Increase your reward share to 90%. +20% at checkout.","consistency_score_tooltips":"n\/a","unlimited_resets_tooltips":"Failed a challenge? Buy a reset for the same account at 90% of the initial price. Unlimited retries available.","equity_lock_target_tooltip":"The profit milestone (10%) where your account floor is permanently secured. Once your equity hits this amount, the Equity Lock activates to protect your initial capital.","equity_lock_threshold_tooltips":"Secure your account by reaching a 10% profit target, which permanently locks your drawdown floor at your Initial Balance. This eliminates trailing risk, providing you with a safe \u0027hard floor\u0027 and ensuring you never lose your starting capital. Once locked, you are trading solely with your profit buffer; the account is safely suspended only if equity returns to your starting balance."}],"plans":[{"id":25,"parent_id":25,"lang":"en","program_id":15,"label":"For Beginners","plan_size":"1000.00","retail_price":"65.00","is_default":0,"client_percentage":"15.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:48:08.000000Z","updated_at":"2026-03-13T05:23:29.000000Z"},{"id":26,"parent_id":26,"lang":"en","program_id":15,"label":"For Beginners","plan_size":"2000.00","retail_price":"120.00","is_default":1,"client_percentage":"15.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:48:35.000000Z","updated_at":"2026-03-13T05:23:46.000000Z"},{"id":27,"parent_id":27,"lang":"en","program_id":15,"label":"Recommended","plan_size":"5000.00","retail_price":"295.00","is_default":0,"client_percentage":"15.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:49:01.000000Z","updated_at":"2026-03-13T05:23:59.000000Z"},{"id":28,"parent_id":28,"lang":"en","program_id":15,"label":"For Experts","plan_size":"10000.00","retail_price":"495.00","is_default":0,"client_percentage":"15.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:49:24.000000Z","updated_at":"2026-03-13T05:24:17.000000Z"},{"id":29,"parent_id":29,"lang":"en","program_id":15,"label":"For Experts","plan_size":"25000.00","retail_price":"1050.00","is_default":0,"client_percentage":"15.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-08-29T11:49:48.000000Z","updated_at":"2026-03-13T05:24:32.000000Z"},{"id":33,"parent_id":33,"lang":"en","program_id":15,"label":"For Experts","plan_size":"50000.00","retail_price":"1899.00","is_default":0,"client_percentage":"15.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-09-30T07:06:26.000000Z","updated_at":"2026-06-08T14:22:09.000000Z"},{"id":34,"parent_id":34,"lang":"en","program_id":15,"label":"For Experts","plan_size":"75000.00","retail_price":"2699.00","is_default":0,"client_percentage":"15.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-09-30T07:07:04.000000Z","updated_at":"2026-06-08T14:22:27.000000Z"},{"id":35,"parent_id":35,"lang":"en","program_id":15,"label":"For Experts","plan_size":"100000.00","retail_price":"3499.00","is_default":0,"client_percentage":"15.00","provider_fee":null,"status":1,"created_by":1,"created_at":"2025-09-30T07:07:30.000000Z","updated_at":"2026-06-08T14:22:47.000000Z"}],"addons":[{"id":7,"parent_id":7,"lang":"en","name":"Swing Trading","title":"30% Cost","value":"30.00","description":"Point-of-Sale add-on that disables \u201cFlat for Weekend\u201d requirement;  this allows traders to keep positions open over the weekend. Only crypto can be traded over the weekend.","tooltip":"When purchasing this add-on, the user gains the ability to hold trades over the\r\nweekend and trade during news windows.","status":1,"created_at":"2025-09-02T08:41:11.000000Z","updated_at":"2026-06-08T12:06:34.000000Z","program_id":15},{"id":8,"parent_id":8,"lang":"en","name":"Profit Share Increased to 90%","title":"20% Cost","value":"20.00","description":"Point-of-Sale add-on that increases a trader\u2019s potential  profit share for funded accounts to 90% (up from the standard 75%) of the profit.","tooltip":"Increase your reward share to 90%, +20% at checkout.","status":1,"created_at":"2025-09-02T08:41:41.000000Z","updated_at":"2026-08-27T10:41:04.000000Z","program_id":15}]}};</script>
+
+<script src="./templates/template2/assets/forge-runtime-76cf84f574c6.js"></script>
+<script src="./templates/template2/assets/forge-runtime-a38ede34ae61.js"></script>
+<script src="./templates/template2/assets/forge-runtime-25710bb714d9.js"></script>
+
+<script src="./templates/template2/assets/calculator-scripts.js"></script>
+<script src="./templates/template2/assets/forge-runtime-039e624119f2.js" defer></script>
+<script src="./templates/template2/assets/forge-runtime-54e7741c9231.js" defer></script>
+<script src="./templates/template2/assets/forge-runtime-b7f993cb2a81.js" defer></script>
+
+<script>
+  // The exported bundle only builds the calculator's state inside its
+  // ".program-item" click handler - it has no start-up path of its own. Until
+  // something was clicked the Step tabs stayed inert and the add-ons kept
+  // whatever the server rendered, which is why the page appeared to work only
+  // after switching program.
+  //
+  // template1 solves this by calling render_program_details() on ready. The
+  // equivalent here is to fire one click on the program that is already
+  // active, which runs the bundle's own code path rather than a reimplemented
+  // one. The handler is delegated and does not short-circuit on the current
+  // program, and its addon guard (last_program_id) starts null, so this builds
+  // the full initial state exactly as a real click would.
+  jQuery(function ($) {
+    var active = document.querySelector('.program-desktop .program-item.active')
+      || document.querySelector('.program-desktop .program-item');
+
+    if (active) {
+      $(active).trigger('click');
+    }
+  });
+</script>
+
+<script>
+  // Bootstrap tooltips are opt-in. The calculator rebuilds its add-on buttons
+  // and objective rows when the program changes, so newly inserted triggers
+  // are initialised too - otherwise their tooltips stop working after the
+  // first switch.
+  (function () {
+    function initTooltips(root) {
+      if (typeof bootstrap === 'undefined' || !bootstrap.Tooltip) return;
+
+      (root || document).querySelectorAll('[data-bs-toggle="tooltip"]').forEach(function (el) {
+        if (!bootstrap.Tooltip.getInstance(el)) {
+          new bootstrap.Tooltip(el);
+        }
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+      initTooltips();
+
+      var calculator = document.querySelector('#calculate-area');
+      if (!calculator || typeof MutationObserver === 'undefined') return;
+
+      var pending = null;
+      new MutationObserver(function () {
+        clearTimeout(pending);
+        pending = setTimeout(function () { initTooltips(calculator); }, 120);
+      }).observe(calculator, { childList: true, subtree: true });
+    });
+  })();
+</script>
+    
+    
+    <script src="./templates/template2/assets/forge-runtime-19812662d422.js" defer></script>
+
+    
+    
+    <script>
+      window.gaReady = true;
+
+      window.gaEvent = function (name, params = {}) {
+        params.transport_type = 'beacon';
+
+        if (window.gaReady && typeof window.gtag === 'function') {
+          gtag('event', name, params);
+        } else {
+          window._gaQueue = window._gaQueue || [];
+          window._gaQueue.push([name, params]);
+        }
+      };
+
+      window.addEventListener('load', function () {
+        if (Array.isArray(window._gaQueue) && typeof gtag === 'function') {
+          for (const [n, p] of window._gaQueue) gtag('event', n, p);
+          window._gaQueue.length = 0;
+        }
+      });
+
+      $(document).on('click', 'a.ga-track', function () {
+        const $link = $(this);
+        const href = $link.attr('href') || '';
+        if (!href) return;
+
+        const isOutbound = (new URL(href, window.location.href)).host !== window.location.host;
+
+        window.gaEvent($link.data('ga-event'), {
+          link_url: href,
+          link_text: $link.data('ga-label') || $.trim($link.text()).slice(0, 100),
+          outbound: isOutbound ? '1' : '0',
+        });
+      });
+
+      // Purchase form submissions. This template has no .form_submit elements
+      // today - checkout goes to app.forgeoftraders.com - but the binding is
+      // kept so both templates behave identically if one is ever added.
+      $(document).on('click', '.form_submit', function () {
+        window.gaEvent($(this).data('event_name'), {
+          link_url: "./purchasechallenge",
+          link_text: 'form',
+          outbound: '0',
+        });
+      });
+    </script>
+
+    <script>
+      (function () {
+        // Clone is a single-page replica: never leave this page.
+        var SECTION_MAP = {
+          evaluation: '#main-content',
+          'compare-programs': '#calculate-area',
+          programs: '#calculate-area',
+          symbols: '#advantage',
+          faqs: '#main-content',
+          contact: '#main-content',
+          careers: '#main-content',
+          affiliate: '#main-content',
+          checkout: '#calculate-area',
+          'sign-in': '#main-content',
+          'sign-up': '#main-content',
+          purchasechallenge: '#calculate-area'
+        };
+
+        function sectionFromPath(pathname) {
+          var parts = (pathname || '').split('/').filter(Boolean);
+          var last = (parts[parts.length - 1] || '').toLowerCase();
+          return SECTION_MAP[last] || null;
+        }
+
+        function stayOnPage(href) {
+          if (!href || href === '#' || href.charAt(0) === '#') return href || '#';
+          if (/^(mailto:|tel:|javascript:)/i.test(href)) return null;
+
+          try {
+            var url = new URL(href, window.location.href);
+            // Same-page hash only
+            if (url.origin === window.location.origin && url.pathname === window.location.pathname) {
+              return url.hash || '#';
+            }
+            // Relative site pages → map to an on-page section when possible
+            var mapped = sectionFromPath(url.pathname);
+            if (mapped) return mapped;
+            // App checkout / challenge CTAs → programs calculator
+            if (/checkout|purchasechallenge|sign-in|sign-up/i.test(url.href)) {
+              return '#calculate-area';
+            }
+            // Everything else (external socials, other pages) stays here
+            return '#';
+          } catch (e) {
+            return '#';
+          }
+        }
+
+        function goInPage(target) {
+          if (!target || target === '#') {
+            try {
+              history.replaceState(null, '', window.location.pathname + window.location.search);
+            } catch (e) {}
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+            return;
+          }
+          var el = document.querySelector(target);
+          if (el) {
+            el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            try {
+              history.replaceState(null, '', target);
+            } catch (e) {}
+          } else {
+            try {
+              history.replaceState(null, '', window.location.pathname + window.location.search);
+            } catch (e) {}
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }
+        }
+
+        document.addEventListener(
+          'click',
+          function (event) {
+            var a = event.target && event.target.closest ? event.target.closest('a[href]') : null;
+            if (!a) return;
+
+            var href = a.getAttribute('href');
+            if (!href) return;
+
+            // Allow pure in-page hashes already on this document
+            if (href.charAt(0) === '#' && href.length > 1) {
+              var el = document.querySelector(href);
+              if (el) return; // let browser / existing handlers scroll
+            }
+
+            var next = stayOnPage(href);
+            if (next === null) return; // mailto/tel/javascript
+
+            event.preventDefault();
+            event.stopPropagation();
+            if (typeof event.stopImmediatePropagation === 'function') {
+              event.stopImmediatePropagation();
+            }
+
+            // Close mobile menu if open
+            var menu = document.getElementById('mobile-menu');
+            var toggle = document.getElementById('menu-toggle');
+            if (menu && !menu.hidden) {
+              menu.hidden = true;
+              if (toggle) toggle.setAttribute('aria-expanded', 'false');
+            }
+
+            goInPage(next);
+          },
+          true
+        );
+
+        // Block form navigations away from the clone
+        document.addEventListener(
+          'submit',
+          function (event) {
+            event.preventDefault();
+            event.stopPropagation();
+          },
+          true
+        );
+
+        // Block window.open to other sites from UI widgets
+        var nativeOpen = window.open;
+        window.open = function (url) {
+          if (!url || url === 'about:blank') return nativeOpen.apply(window, arguments);
+          try {
+            var u = new URL(String(url), window.location.href);
+            if (u.origin === window.location.origin && u.pathname === window.location.pathname) {
+              goInPage(u.hash || '#');
+              return null;
+            }
+          } catch (e) {}
+          goInPage(stayOnPage(String(url)) || '#');
+          return null;
+        };
+      })();
+    </script>
+  </body>
+
+</html>

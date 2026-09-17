@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 24px 28px 40px;
+  line-height: 1.6;
+  background-color: #f4f1ea;
+  color: #222;
+}
+
+h1 {
+  color: #fff;
+  background-color: #111;
+  text-align: center;
+  font-size: 36px;
+  padding: 40px;
+  border-radius: 8px;
+  margin: 0 0 28px;
+  
+}
+
+h2 {
+  color: #111;
+  font-size: 26px;
+  border-bottom: 2px solid #111;
+  padding-bottom: 6px;
+  margin-top: 32px;
+}
+
+h3 {
+  color: #333;
+  font-size: 22px;
+}
+
+h4 {
+  color: #444;
+  font-size: 20px;
+}
+
+h5 {
+  color: #555;
+  font-size: 18px;
+}
+
+h6 {
+  color: #666;
+  font-size: 16px;
+}
+
+p {
+  font-size: 16px;
+  margin: 12px 0;
+}
+
+a {
+  color: #0f6b5c;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #09473d;
+}
+
+img {
+  border-radius: 8px;
+  border: 2px solid #111;
+  display: block;
+  margin: 12px 0;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 28px 0;
+}
+
+ul,
+ol {
+  background: #fff;
+  padding: 16px 16px 16px 40px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+li {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+span {
+  color: #0f6b5c;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  margin-top: 12px;
+}
+
+th {
+  background: #111;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+  width: 100%;
+  max-width: 360px;
+  padding: 8px 10px;
+  margin-top: 4px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  font: inherit;
+}
+
+button {
+  background: #111;
+  color: #fff;
+  border: 0;
+  padding: 10px 16px;
+  border-radius: 6px;
+  margin-right: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button[type="reset"] {
+  background: #666;
+}
+
+button:hover {
+  opacity: 0.85;
+  background-color: blue;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #555;
+}
