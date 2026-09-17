@@ -1,4 +1,5 @@
 node_modules/
+.next/
 .DS_Store
 Thumbs.db
 .env
@@ -13,3 +14,15 @@ download-srcset.js
 asset-urls.txt
 css-urls.txt
 original.html
+# Legacy static HTML at repo root (content/ is source of truth)
+/index.html
+/affiliate
+/careers
+/contact
+/evaluation
+/faqs
+/privacy-policy
+/symbols
+/terms-conditions
+/compare-programs
+/server.js

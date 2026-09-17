@@ -1,0 +1,9 @@
+# Generated HTML content (vendored for language stats)
+content/** linguist-vendored
+# Static mirrored site assets
+public/** linguist-vendored
+*.css linguist-vendored
+*.js linguist-vendored
+!*.ts
+!*.tsx
+!next.config.ts
