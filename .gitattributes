@@ -1,7 +1,11 @@
-﻿content/** linguist-vendored
-public/** linguist-vendored
-html-pages/** linguist-vendored
-scripts/** linguist-vendored
-*.js linguist-vendored
-*.mjs linguist-vendored
-*.css linguist-vendored
+# Count this repo as a Next.js / TypeScript app on GitHub.
+# Layout HTML stays in the repo but must not dominate language stats.
+*.html linguist-detectable=false
+*.css linguist-detectable=false
+*.js linguist-detectable=false
+*.mjs linguist-detectable=false
+
+content/** linguist-generated=true
+html-pages/** linguist-generated=true
+public/** linguist-vendored=true
+scripts/** linguist-vendored=true
