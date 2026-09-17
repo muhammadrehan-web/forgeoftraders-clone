@@ -1,0 +1,12 @@
+{
+  "home": "home-page ui-finished",
+  "affiliate": "inner-page compact-inner contact-family ui-finished",
+  "careers": "inner-page compact-inner contact-family ui-finished",
+  "contact": "inner-page compact-inner contact-family ui-finished",
+  "evaluation": "inner-page evaluation-page evaluation-atmosphere ui-finished",
+  "faqs": "inner-page compact-inner faq-index ui-finished",
+  "privacy-policy": "inner-page ui-finished",
+  "symbols": "inner-page ui-finished",
+  "terms-conditions": "inner-page ui-finished",
+  "compare-programs": "inner-page ui-finished comparison-page"
+}

@@ -6,40 +6,62 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const contentDir = path.join(root, "content");
 
 const pages = [
-  { src: "index.html", dest: "home.html" },
-  { src: "affiliate", dest: "affiliate.html" },
-  { src: "careers", dest: "careers.html" },
-  { src: "contact", dest: "contact.html" },
-  { src: "evaluation", dest: "evaluation.html" },
-  { src: "faqs", dest: "faqs.html" },
-  { src: "privacy-policy", dest: "privacy-policy.html" },
-  { src: "symbols", dest: "symbols.html" },
-  { src: "terms-conditions", dest: "terms-conditions.html" },
-  { src: "compare-programs", dest: "compare-programs.html" },
+  ["index.html", "home.html"],
+  ["affiliate", "affiliate.html"],
+  ["careers", "careers.html"],
+  ["contact", "contact.html"],
+  ["evaluation", "evaluation.html"],
+  ["faqs", "faqs.html"],
+  ["privacy-policy", "privacy-policy.html"],
+  ["symbols", "symbols.html"],
+  ["terms-conditions", "terms-conditions.html"],
+  ["compare-programs", "compare-programs.html"],
 ];
 
-function rewritePaths(html) {
+function rewrite(html) {
   return html
-    .replace(/(href|src|poster)=(["'])\.?\//g, "$1=$2/")
-    .replace(/url\((["']?)\.\//g, "url($1/");
+    .replace(/(href|src|poster)=(["'])\.\//g, "$1=$2/")
+    .replace(/url\((["']?)\.\//g, "url($1/")
+    .replace(
+      /(href=["'])\.\/(affiliate|careers|contact|evaluation|faqs|privacy-policy|symbols|terms-conditions|compare-programs)(["'])/g,
+      "$1/$2$3",
+    )
+    .replace(/(action=["'])\.\/(faqs)(["'])/g, "$1/$2$3");
 }
 
 fs.mkdirSync(contentDir, { recursive: true });
 
-for (const page of pages) {
-  const srcPath = path.join(root, page.src);
+const bodyClasses = {};
+
+for (const [src, dest] of pages) {
+  const srcPath = path.join(root, src);
   if (!fs.existsSync(srcPath)) {
-    console.warn(`Skip missing ${page.src}`);
+    console.warn("missing", src);
     continue;
   }
   const raw = fs.readFileSync(srcPath, "utf8");
+  const bodyOpen = raw.match(/<body([^>]*)>/i);
   const bodyMatch = raw.match(/<body[^>]*>([\s\S]*)<\/body>/i);
-  if (!bodyMatch) {
-    throw new Error(`No body found in ${page.src}`);
-  }
+  if (!bodyMatch) throw new Error(`No body in ${src}`);
 
-  // Keep scripts — site depends on jQuery/bootstrap runtime + calculator
-  const body = rewritePaths(bodyMatch[1]).trim();
-  fs.writeFileSync(path.join(contentDir, page.dest), `${body}\n`);
-  console.log(`Wrote content/${page.dest}`);
+  const attrs = bodyOpen?.[1] || "";
+  const classMatch = attrs.match(/class=["']([^"']*)["']/i);
+  let bodyClass = classMatch?.[1] || "";
+  if (!/\bui-finished\b/.test(bodyClass)) {
+    bodyClass = `${bodyClass} ui-finished`.trim();
+  }
+  bodyClasses[dest.replace(/\.html$/, "")] = bodyClass;
+
+  const body = rewrite(bodyMatch[1]).trim();
+  fs.writeFileSync(path.join(contentDir, dest), `${body}\n`, "utf8");
+  console.log("wrote content/" + dest, body.length, "class=", bodyClass);
 }
+
+const libDir = path.join(root, "lib");
+fs.mkdirSync(libDir, { recursive: true });
+fs.writeFileSync(
+  path.join(libDir, "body-classes.json"),
+  JSON.stringify(bodyClasses, null, 2),
+  "utf8",
+);
+console.log("wrote lib/body-classes.json");
