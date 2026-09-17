@@ -1,7 +1,9 @@
 # Mirrored HTML content and static assets — exclude from language stats
 content/** linguist-vendored
 public/** linguist-vendored
+scripts/** linguist-vendored
 
-# Keep app TypeScript as the primary language signal
-*.css linguist-vendored
+# Do not let mirrored/tooling JS dominate language stats
+*.js linguist-vendored
 *.mjs linguist-vendored
+*.css linguist-vendored
