@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { hasDatabase, sql } from "@/lib/db";
 import { verifyPassword } from "@/lib/password";
+import { createSession, SESSION_COOKIE, sessionCookieOptions } from "@/lib/session";
 
 export const runtime = "nodejs";
 
@@ -19,7 +20,7 @@ export async function POST(request: Request) {
 
   const db = sql();
   const rows = await db`
-    SELECT password_hash
+    SELECT id, password_hash
     FROM users
     WHERE email = ${email}
     LIMIT 1
@@ -28,5 +29,9 @@ export async function POST(request: Request) {
   if (!stored || !(await verifyPassword(password, stored))) {
     return NextResponse.json({ error: "Incorrect email or password" }, { status: 401 });
   }
-  return NextResponse.json({ ok: true });
+
+  const token = await createSession(db, String(rows[0].id));
+  const response = NextResponse.json({ ok: true });
+  response.cookies.set(SESSION_COOKIE, token, sessionCookieOptions());
+  return response;
 }

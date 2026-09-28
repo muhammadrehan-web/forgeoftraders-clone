@@ -62,6 +62,14 @@ await sql`
 `;
 
 await sql`
+  CREATE TABLE IF NOT EXISTS sessions (
+    token text PRIMARY KEY,
+    user_id uuid NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+    created_at timestamptz NOT NULL DEFAULT now()
+  )
+`;
+
+await sql`
   CREATE TABLE IF NOT EXISTS dashboards (
     id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
     user_id uuid NOT NULL REFERENCES users(id) ON DELETE CASCADE,
