@@ -1,7 +1,10 @@
 (function () {
-  if (new URLSearchParams(window.location.search).get("welcome") === "1") {
-    var note = document.querySelector(".welcome-note");
-    if (note) note.hidden = false;
+  var params = new URLSearchParams(window.location.search);
+  var note = document.querySelector(".welcome-note");
+  if (note && params.get("welcome") === "1") note.hidden = false;
+  if (note && params.get("reset") === "1") {
+    note.textContent = "Your password was updated. Sign in with the new one.";
+    note.hidden = false;
   }
 
   var form = document.getElementById("formAuthentication");

@@ -81,6 +81,10 @@ form {
   margin: 0;
 }
 
+form[hidden] {
+  display: none;
+}
+
 .input__default {
   position: relative;
   width: 100%;
@@ -300,4 +304,12 @@ form {
   margin-left: 5px;
   font-size: 16px;
   line-height: 23.52px;
+}
+
+.body__redirect-link.no-underline a {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  margin-left: 0;
+  text-decoration: none;
 }

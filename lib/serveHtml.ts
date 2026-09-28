@@ -15,6 +15,8 @@ const PAGE_FILES: Record<string, string> = {
   "compare-programs": "compare-programs.html",
   "sign-in": "sign-in.html",
   "sign-up": "sign-up.html",
+  "forgot-password": "forgot-password.html",
+  "reset-password": "reset-password.html",
   dashboard: "dashboard.html",
   checkout: "checkout.html",
   "my-challenges": "my-challenges.html",

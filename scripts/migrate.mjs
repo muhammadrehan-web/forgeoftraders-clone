@@ -62,6 +62,15 @@ await sql`
 `;
 
 await sql`
+  CREATE TABLE IF NOT EXISTS password_resets (
+    token text PRIMARY KEY,
+    user_id uuid NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+    expires_at timestamptz NOT NULL,
+    created_at timestamptz NOT NULL DEFAULT now()
+  )
+`;
+
+await sql`
   CREATE TABLE IF NOT EXISTS sessions (
     token text PRIMARY KEY,
     user_id uuid NOT NULL REFERENCES users(id) ON DELETE CASCADE,
