@@ -186,6 +186,18 @@ form {
   display: block;
 }
 
+.register-password {
+  display: none;
+}
+
+.auth__page--register.is-password .register-account {
+  display: none;
+}
+
+.auth__page--register.is-password .register-password {
+  display: block;
+}
+
 .body__options {
   display: flex;
   align-items: center;

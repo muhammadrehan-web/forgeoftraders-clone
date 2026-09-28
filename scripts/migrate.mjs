@@ -40,10 +40,12 @@ await sql`
     first_name text NOT NULL,
     last_name text NOT NULL,
     email text NOT NULL UNIQUE,
-    password_hash text NOT NULL,
+    password_hash text,
     created_at timestamptz NOT NULL DEFAULT now()
   )
 `;
+
+await sql`ALTER TABLE users ALTER COLUMN password_hash DROP NOT NULL`;
 
 await sql`
   CREATE TABLE IF NOT EXISTS challenges (

@@ -18,12 +18,44 @@
   email.addEventListener("input", function () { mark(email); });
   password.addEventListener("input", function () { mark(password); });
 
+  function feedback(input, message) {
+    var box = input.parentElement.querySelector(".invalid-feedback");
+    input.classList.toggle("is-invalid", message !== "");
+    if (box) box.textContent = message;
+  }
+
   form.addEventListener("submit", function (event) {
     event.preventDefault();
     mark(email);
     mark(password);
-    if (email.value.trim() === "") email.focus();
-    else if (password.value.trim() === "") password.focus();
-    else window.location.href = "/dashboard";
+    feedback(email, email.value.trim() === "" ? "Please enter your email" : "");
+    feedback(password, password.value.trim() === "" ? "Please enter your password" : "");
+    if (email.value.trim() === "") {
+      email.focus();
+      return;
+    }
+    if (password.value.trim() === "") {
+      password.focus();
+      return;
+    }
+    fetch("/api/auth/login", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        email: email.value.trim(),
+        password: password.value
+      })
+    }).then(function (response) {
+      return response.json().catch(function () { return {}; }).then(function (data) {
+        if (!response.ok) {
+          feedback(password, data.error || "Incorrect email or password");
+          password.focus();
+          return;
+        }
+        window.location.href = "/dashboard";
+      });
+    }).catch(function () {
+      feedback(password, "Could not sign in. Try again.");
+    });
   });
 })();
