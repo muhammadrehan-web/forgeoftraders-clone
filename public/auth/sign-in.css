@@ -186,7 +186,15 @@ form {
   display: block;
 }
 
-.register-password {
+.welcome-note {
+  margin: 0 0 16px;
+  color: rgb(194, 150, 53);
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.welcome-note[hidden] {
   display: none;
 }
 

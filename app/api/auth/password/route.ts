@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { hasDatabase, sql } from "@/lib/db";
+import { sendWelcomeEmail } from "@/lib/mail";
 import { hashPassword } from "@/lib/password";
 
 export const runtime = "nodejs";
@@ -21,15 +22,34 @@ export async function POST(request: Request) {
   }
 
   const db = sql();
+  const existing = await db`
+    SELECT first_name, password_hash
+    FROM users
+    WHERE email = ${email}
+    LIMIT 1
+  `;
+  if (existing.length === 0) {
+    return NextResponse.json({ error: "Account was not found. Register again." }, { status: 404 });
+  }
+
+  const firstName = String(existing[0].first_name || "");
+  const isNewAccount = !existing[0].password_hash;
   const passwordHash = await hashPassword(password);
-  const updated = await db`
+  await db`
     UPDATE users
     SET password_hash = ${passwordHash}
     WHERE email = ${email}
-    RETURNING id
   `;
-  if (updated.length === 0) {
-    return NextResponse.json({ error: "Account was not found. Register again." }, { status: 404 });
+
+  let emailSent = false;
+  if (isNewAccount) {
+    try {
+      const mail = await sendWelcomeEmail({ firstName, email });
+      emailSent = mail.sent;
+    } catch (error) {
+      console.error("welcome email failed", error instanceof Error ? error.message : "unknown");
+    }
   }
-  return NextResponse.json({ ok: true });
+
+  return NextResponse.json({ ok: true, emailSent });
 }

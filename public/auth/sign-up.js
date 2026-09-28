@@ -101,7 +101,7 @@
         password.focus();
         return;
       }
-      window.location.href = "/sign-in";
+      window.location.href = result.data.emailSent ? "/sign-in?welcome=1" : "/sign-in";
     }).catch(function () {
       show(password, "Could not save your password. Try again.");
     });

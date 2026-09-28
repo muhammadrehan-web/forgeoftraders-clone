@@ -1,4 +1,9 @@
 (function () {
+  if (new URLSearchParams(window.location.search).get("welcome") === "1") {
+    var note = document.querySelector(".welcome-note");
+    if (note) note.hidden = false;
+  }
+
   var form = document.getElementById("formAuthentication");
   var email = document.getElementById("email");
   var password = document.getElementById("password");
