@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard - Forge Of Traders</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="/dashboard/dashboard.css?v=1">
+</head>
+<body>
+  <aside class="layout-menu" id="layout-menu">
+    <div class="app-brand">
+      <img class="side-nav-bg" src="/dashboard/side-nav-bg.png" alt="">
+      <a class="app-brand-link" href="/dashboard">
+        <img src="/dashboard/logo.svg" alt="Forge of Traders">
+      </a>
+      <button class="layout-menu-toggle" type="button" aria-label="Collapse menu">
+        <svg width="8" height="14" viewBox="0 0 8 14" fill="none" aria-hidden="true">
+          <path d="M6.8 1.2 1.4 7l5.4 5.8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+    </div>
+    <ul class="menu-inner">
+      <li class="menu-item active"><a class="menu-link" href="/dashboard"><i class="menu-icon mdi mdi-home"></i><span>Overview</span></a></li>
+      <li class="menu-item"><a class="menu-link" href="/"><i class="menu-icon mdi mdi-web"></i><span>Visit Website</span></a></li>
+      <li class="menu-header"><span class="menu-header-text">Challenges</span></li>
+      <li class="menu-item"><a class="menu-link has-border" href="/checkout"><i class="menu-icon mdi mdi-plus"></i><span>New Challenge</span></a></li>
+      <li class="menu-item"><a class="menu-link" href="/my-challenges"><i class="menu-icon mdi mdi-view-dashboard"></i><span>Dashboards</span></a></li>
+      <li class="menu-item"><a class="menu-link" href="/competitions"><i class="menu-icon mdi mdi-flag"></i><span>Competitions</span></a></li>
+      <li class="menu-header mt-4"><span class="menu-header-text">Trading</span></li>
+      <li class="menu-item"><a class="menu-link" href="/advanced-chart"><i class="menu-icon mdi mdi-chart-timeline-variant"></i><span>Charting</span></a></li>
+      <li class="menu-item"><a class="menu-link" href="https://prop.forgeoftraders.com/login" target="_blank" rel="noopener noreferrer"><i class="menu-icon mdi mdi-monitor-cellphone"></i><span>MT Mobile &amp; Web</span></a></li>
+      <li class="menu-item"><a class="menu-link" href="https://dxtrade.forgeoftraders.com/" target="_blank" rel="noopener noreferrer"><i class="menu-icon mdi mdi-alpha-d-box"></i><span>DXTrade Web</span></a></li>
+      <li class="menu-item"><a class="menu-link" href="https://webtrader.forgeoftraders.com/" target="_blank" rel="noopener noreferrer"><i class="menu-icon mdi mdi-application"></i><span>Forge Web</span></a></li>
+      <li class="menu-item"><a class="menu-link" href="https://mwebtrader.forgeoftraders.com/" target="_blank" rel="noopener noreferrer"><i class="menu-icon mdi mdi-cellphone"></i><span>Forge Mobile Web</span></a></li>
+      <li class="menu-item"><a class="menu-link" href="https://play.google.com/store/apps/details?id=com.forgeoftraders.trading" target="_blank" rel="noopener noreferrer"><i class="menu-icon mdi mdi-android"></i><span>Forge Android App</span></a></li>
+      <li class="menu-header mt-4"><span class="menu-header-text">Account</span></li>
+      <li class="menu-item has-sub">
+        <a class="menu-link" href="#"><i class="menu-icon mdi mdi-chevron-double-down"></i><span>Skill Craft</span></a>
+        <ul class="menu-sub">
+          <li><a class="menu-link" href="/certificates">Certificates</a></li>
+          <li><a class="menu-link" href="/achievements">Achievements</a></li>
+        </ul>
+      </li>
+      <li class="menu-item has-sub">
+        <a class="menu-link" href="#"><i class="menu-icon mdi mdi-account-circle"></i><span>Account</span></a>
+        <ul class="menu-sub">
+          <li><a class="menu-link" href="/profile">Personal Data</a></li>
+          <li><a class="menu-link" href="/security">Privacy &amp; Protection</a></li>
+          <li><a class="menu-link" href="/billing">Payouts</a></li>
+        </ul>
+      </li>
+      <li class="menu-item has-sub">
+        <a class="menu-link" href="#"><i class="menu-icon mdi mdi-thumb-up"></i><span>Affiliate Suite</span></a>
+        <ul class="menu-sub">
+          <li><a class="menu-link" href="/affiliate-suite">Affiliate</a></li>
+        </ul>
+      </li>
+      <li class="menu-item has-sub">
+        <a class="menu-link" href="#"><i class="menu-icon mdi mdi-lifebuoy"></i><span>Support</span></a>
+        <ul class="menu-sub">
+          <li><a class="menu-link" href="/faqs">FAQ</a></li>
+          <li><a class="menu-link" href="/contact">Contacts</a></li>
+        </ul>
+      </li>
+    </ul>
+  </aside>
+
+  <div class="layout-page">
+    <nav class="navbar">
+      <button class="navbar__search-btn" type="button" aria-label="Search">
+        <i class="mdi mdi-magnify"></i>
+      </button>
+      <div class="navbar__user">
+        <button class="user-dropdown__btn" type="button" aria-label="M">M</button>
+        <ul class="dropdown-menu">
+          <li><a class="who" href="/profile"><span class="mini">M</span>muhammad Rehan</a></li>
+          <li><a href="/profile"><i class="mdi mdi-account-outline"></i>Account</a></li>
+          <li><a href="/sign-in"><i class="mdi mdi-logout"></i>Sign Out</a></li>
+          <li><a href="/"><i class="mdi mdi-web"></i>Visit Website</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="dashboard">
+      <div class="dashboard__top container">
+        <a href="/checkout">
+          <img class="start-banner" src="/dashboard/start-challenge.png" alt="Start a Challenge">
+        </a>
+      </div>
+
+      <div class="dashboard__bottom container">
+        <div class="dashboard-user-activity">
+          <h5>My Feed</h5>
+          <ul class="dashboard-user-activity__timeline">
+            <li>
+              <svg class="timeline-item__point" width="9" height="13" viewBox="0 0 9 13" aria-hidden="true">
+                <path d="M7.79 6.39a.5.5 0 0 0 0-.75L2.23.73A.5.5 0 0 0 1.4 1.11v2.3c0 .14.06.28.17.38l2.1 1.85a.5.5 0 0 1 0 .75l-2.1 1.86a.5.5 0 0 0-.17.37v2.31a.5.5 0 0 0 .83.37l5.56-4.91Z"/>
+              </svg>
+              <div class="feed-copy">
+                <p>No Activity</p>
+                <p>Start your first challenge or competition to see your activity</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="dashboard__blog"></div>
+      </div>
+
+      <div class="dashboard__bottom container affiliate-wrap">
+        <a href="/checkout">
+          <img class="affiliate-banner" src="/dashboard/affiliate.png" alt="Become an Affiliate">
+        </a>
+      </div>
+    </div>
+
+    <footer class="page-footer">
+      <span>All Rights Reserved © 2026</span>
+      <a href="/contact">Need Help?</a>
+    </footer>
+  </div>
+
+  <div class="cookie-consent-banner">
+    <div class="cookie-consent-container">
+      <p>We use essential cookies to make our site work. With your consent, we also use analytics and personalization cookies to improve your experience.</p>
+      <div class="cookie-actions">
+        <button class="cookie-accept" type="button">Accept</button>
+        <button class="cookie-decline" type="button">Decline</button>
+        <a class="policy" href="/privacy-policy">Privacy Policy</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="/dashboard/dashboard.js?v=1"></script>
+</body>
+</html>

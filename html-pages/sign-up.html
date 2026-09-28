@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign Up - Forge Of Traders</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/auth/sign-in.css?v=5">
+</head>
+<body class="bg-black-light">
+  <div class="auth__page auth__page--register">
+    <div class="page__body">
+      <img class="body__logo" src="/auth/logo.svg" alt="Website Logo" width="130" height="113">
+
+      <h1>Adventure starts here</h1>
+      <h2>Make your app management easy and fun!</h2>
+
+      <form id="formAuthentication" action="/sign-up" method="post" novalidate>
+        <div class="input__default">
+          <input type="text" id="first_name" name="first_name" placeholder="First name" autocomplete="given-name" autofocus>
+          <label for="first_name">First name</label>
+          <div class="invalid-feedback" data-for="first_name"></div>
+        </div>
+
+        <div class="input__default">
+          <input type="text" id="last_name" name="last_name" placeholder="Last name" autocomplete="family-name">
+          <label for="last_name">Last name</label>
+          <div class="invalid-feedback" data-for="last_name"></div>
+        </div>
+
+        <div class="input__default">
+          <input type="text" id="email" name="email" placeholder="Email" autocomplete="email">
+          <label for="email">Email</label>
+          <div class="invalid-feedback" data-for="email"></div>
+        </div>
+
+        <button class="btn btn-primary" type="submit">Next</button>
+      </form>
+
+      <p class="body__redirect-link">
+        Already have an account?
+        <a href="/sign-in">Login here</a>
+      </p>
+    </div>
+
+    <img alt="" src="/auth/auth-bg.jpg" class="auth__page--background">
+  </div>
+  <script src="/auth/sign-up.js?v=1"></script>
+</body>
+</html>

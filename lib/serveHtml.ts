@@ -13,6 +13,19 @@ const PAGE_FILES: Record<string, string> = {
   symbols: "symbols.html",
   "terms-conditions": "terms-conditions.html",
   "compare-programs": "compare-programs.html",
+  "sign-in": "sign-in.html",
+  "sign-up": "sign-up.html",
+  dashboard: "dashboard.html",
+  checkout: "checkout.html",
+  "my-challenges": "my-challenges.html",
+  competitions: "competitions.html",
+  "advanced-chart": "advanced-chart.html",
+  certificates: "certificates.html",
+  achievements: "achievements.html",
+  profile: "profile.html",
+  security: "security.html",
+  billing: "billing.html",
+  "affiliate-suite": "affiliate-suite.html",
 };
 
 /** Serve the original full HTML document so layout/CSS/JS match 1:1. */

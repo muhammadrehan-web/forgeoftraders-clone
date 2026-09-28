@@ -245,8 +245,8 @@
         <a class="join-link" href="https://discord.gg/ypCFcqbBx3" target="_blank" rel="noopener noreferrer" aria-label="JOIN DISCORD">
         <span class="join-label">JOIN</span><i class="fa-brands fa-discord" aria-hidden="true"></i>
         </a>
-        <a href="https://app.forgeoftraders.com/sign-in" class="account-link ga-track" data-ga-event="click_login">LOGIN</a>
-        <a href="https://app.forgeoftraders.com/sign-up" class="account-link register-link ga-track" data-ga-event="click_register">REGISTER</a>
+        <a href="/sign-in" class="account-link ga-track" data-ga-event="click_login">LOGIN</a>
+        <a href="/sign-up" class="account-link register-link ga-track" data-ga-event="click_register">REGISTER</a>
         <a href="https://app.forgeoftraders.com/checkout?external_checkout" class="button primary header-checkout ga-track" data-ga-event="click_header_checkout">START CHALLENGE <span aria-hidden="true">↗</span></a>
       </div>
 
@@ -293,8 +293,8 @@
       </details>
 
       <div class="mobile-account-links">
-        <a href="https://app.forgeoftraders.com/sign-in">LOGIN</a>
-        <a href="https://app.forgeoftraders.com/sign-up">REGISTER</a>
+        <a href="/sign-in">LOGIN</a>
+        <a href="/sign-up">REGISTER</a>
         <a href="https://discord.gg/ypCFcqbBx3" target="_blank" rel="noopener noreferrer" class="mobile-discord-link">
         <i class="fa-brands fa-discord" aria-hidden="true"></i><span>JOIN DISCORD</span>
         </a>
@@ -1781,7 +1781,7 @@ Forge real reward. Earn real iron. ⚒️</p>
               <div class="menu-important-links-container">
                 <ul class="menu footer-menu" id="footer-important-links">
                   <li class="">
-                    <a href="https://app.forgeoftraders.com/sign-in">Trader Dashboard</a>
+                    <a href="/sign-in">Trader Dashboard</a>
                   </li>
                   <li class="">
                     <a class="ga-track" data-ga-event="click_purchasechallenge_purchase_assessment_bottom" href="https://app.forgeoftraders.com/checkout?external_checkout">Purchase Assessment</a>
@@ -2256,8 +2256,6 @@ Forge real reward. Earn real iron. ⚒️</p>
           careers: '#main-content',
           affiliate: '#main-content',
           checkout: '#calculate-area',
-          'sign-in': '#main-content',
-          'sign-up': '#main-content',
           purchasechallenge: '#calculate-area'
         };
 
@@ -2273,6 +2271,7 @@ Forge real reward. Earn real iron. ⚒️</p>
 
           try {
             var url = new URL(href, window.location.href);
+            if (/\/(sign-in|sign-up|dashboard|checkout|my-challenges|competitions|advanced-chart|certificates|achievements|profile|security|billing|affiliate-suite)\/?$/i.test(url.pathname)) return null;
             // Same-page hash only
             if (url.origin === window.location.origin && url.pathname === window.location.pathname) {
               return url.hash || '#';
@@ -2281,7 +2280,7 @@ Forge real reward. Earn real iron. ⚒️</p>
             var mapped = sectionFromPath(url.pathname);
             if (mapped) return mapped;
             // App checkout / challenge CTAs → programs calculator
-            if (/checkout|purchasechallenge|sign-in|sign-up/i.test(url.href)) {
+            if (/checkout|purchasechallenge/i.test(url.href)) {
               return '#calculate-area';
             }
             // Everything else (external socials, other pages) stays here

@@ -7,9 +7,15 @@
     "dev": "next dev --port 3013",
     "build": "next build",
     "start": "next start --port 3013",
-    "extract": "node scripts/extract-html.mjs"
+    "extract": "node scripts/extract-html.mjs",
+    "db:pull": "neon env pull --service postgres --file .env.local",
+    "db:migrate": "node scripts/migrate.mjs"
   },
   "dependencies": {
+    "@neon/config": "^1.8.2",
+    "@neon/env": "^1.4.7",
+    "@neondatabase/serverless": "^1.1.0",
+    "neon": "^6.2.3",
     "next": "^15.5.4",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"

@@ -33,3 +33,5 @@ diff-check.js
 interaction-check.js
 mirror-site.js
 test-stay.js
+.vercel
+.neon
