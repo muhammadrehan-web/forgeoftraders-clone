@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { hasDatabase, sql } from "@/lib/db";
+import { catalogFee } from "@/lib/schema";
 import { userFromSession } from "@/lib/session";
 
 export const runtime = "nodejs";
@@ -55,7 +56,7 @@ export async function POST(request: Request) {
   const evaluationType = cleanText(body?.evaluationType, 120);
   const platform = cleanText(body?.platform, 80) || "Match-Trader";
   const accountSize = Number(body?.accountSize);
-  const fee = Number(body?.fee);
+  const clientFee = Number(body?.fee);
   const addons = Array.isArray(body?.addons)
     ? body.addons.map((item: unknown) => cleanText(item, 80)).filter(Boolean).slice(0, 8)
     : [];
@@ -67,6 +68,9 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Select an account size." }, { status: 400 });
   }
 
+  const listed = await catalogFee(db, evaluationType, accountSize);
+  const fee = listed != null ? listed : (Number.isFinite(clientFee) && clientFee >= 0 ? clientFee : 0);
+
   const inserted = await db`
     INSERT INTO challenges (user_id, evaluation_type, account_size, platform, addons, fee, status)
     VALUES (
@@ -75,7 +79,7 @@ export async function POST(request: Request) {
       ${accountSize},
       ${platform},
       ${JSON.stringify(addons)}::jsonb,
-      ${Number.isFinite(fee) && fee >= 0 ? fee : 0},
+      ${fee},
       'active'
     )
     RETURNING id

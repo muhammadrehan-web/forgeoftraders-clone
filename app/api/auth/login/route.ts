@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { hasDatabase, sql } from "@/lib/db";
 import { verifyPassword } from "@/lib/password";
-import { createSession, SESSION_COOKIE, sessionCookieOptions } from "@/lib/session";
+import { createSession, ensureRole, promoteAdmin, SESSION_COOKIE, sessionCookieOptions } from "@/lib/session";
 
 export const runtime = "nodejs";
 
@@ -19,8 +19,9 @@ export async function POST(request: Request) {
   }
 
   const db = sql();
+  await ensureRole(db);
   const rows = await db`
-    SELECT id, password_hash
+    SELECT id, password_hash, role, blocked
     FROM users
     WHERE email = ${email}
     LIMIT 1
@@ -29,9 +30,14 @@ export async function POST(request: Request) {
   if (!stored || !(await verifyPassword(password, stored))) {
     return NextResponse.json({ error: "Incorrect email or password" }, { status: 401 });
   }
+  if (rows[0].blocked) {
+    return NextResponse.json({ error: "This account is blocked." }, { status: 403 });
+  }
 
-  const token = await createSession(db, String(rows[0].id));
-  const response = NextResponse.json({ ok: true });
+  const userId = String(rows[0].id);
+  const role = await promoteAdmin(db, userId, email, String(rows[0].role || "user"));
+  const token = await createSession(db, userId);
+  const response = NextResponse.json({ ok: true, role });
   response.cookies.set(SESSION_COOKIE, token, sessionCookieOptions());
   return response;
 }

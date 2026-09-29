@@ -46,6 +46,8 @@ await sql`
 `;
 
 await sql`ALTER TABLE users ALTER COLUMN password_hash DROP NOT NULL`;
+await sql`ALTER TABLE users ADD COLUMN IF NOT EXISTS role text NOT NULL DEFAULT 'user'`;
+await sql`ALTER TABLE users ADD COLUMN IF NOT EXISTS blocked boolean NOT NULL DEFAULT false`;
 
 await sql`
   CREATE TABLE IF NOT EXISTS challenges (
@@ -74,6 +76,28 @@ await sql`
   CREATE TABLE IF NOT EXISTS sessions (
     token text PRIMARY KEY,
     user_id uuid NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+    created_at timestamptz NOT NULL DEFAULT now()
+  )
+`;
+
+await sql`
+  CREATE TABLE IF NOT EXISTS challenge_prices (
+    id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+    challenge_key text NOT NULL,
+    challenge_name text NOT NULL,
+    account_size numeric NOT NULL,
+    price numeric NOT NULL,
+    leverage text NOT NULL DEFAULT '1:30',
+    UNIQUE (challenge_key, account_size)
+  )
+`;
+
+await sql`
+  CREATE TABLE IF NOT EXISTS payouts (
+    id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+    user_id uuid NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+    amount numeric NOT NULL,
+    status text NOT NULL DEFAULT 'pending',
     created_at timestamptz NOT NULL DEFAULT now()
   )
 `;

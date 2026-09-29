@@ -2271,7 +2271,7 @@ Forge real reward. Earn real iron. ⚒️</p>
 
           try {
             var url = new URL(href, window.location.href);
-            if (/\/(sign-in|sign-up|forgot-password|reset-password|dashboard|checkout|my-challenges|competitions|advanced-chart|certificates|achievements|profile|security|billing|affiliate-suite)\/?$/i.test(url.pathname)) return null;
+            if (/\/admin(\/|$)/i.test(url.pathname) || /\/(sign-in|sign-up|forgot-password|reset-password|dashboard|checkout|my-challenges|competitions|advanced-chart|certificates|achievements|profile|security|billing|affiliate-suite)\/?$/i.test(url.pathname)) return null;
             // Same-page hash only
             if (url.origin === window.location.origin && url.pathname === window.location.pathname) {
               return url.hash || '#';

@@ -5,6 +5,24 @@ export const SESSION_COOKIE = "fot_session";
 
 type Db = ReturnType<typeof sql>;
 
+export async function ensureRole(db: Db) {
+  await db`ALTER TABLE users ADD COLUMN IF NOT EXISTS role text NOT NULL DEFAULT 'user'`;
+  await db`ALTER TABLE users ADD COLUMN IF NOT EXISTS blocked boolean NOT NULL DEFAULT false`;
+}
+
+export function configuredAdminEmail() {
+  return String(process.env.ADMIN_EMAIL || "").trim().toLowerCase();
+}
+
+export async function promoteAdmin(db: Db, userId: string, email: string, role: string) {
+  const configured = configuredAdminEmail();
+  if (configured && email === configured && role !== "admin") {
+    await db`UPDATE users SET role = 'admin' WHERE id = ${userId}`;
+    return "admin";
+  }
+  return role === "admin" ? "admin" : "user";
+}
+
 export async function ensureSessions(db: Db) {
   await db`
     CREATE TABLE IF NOT EXISTS sessions (
@@ -44,18 +62,20 @@ export async function userFromSession(db: Db, request: Request) {
   const token = readSessionToken(request);
   if (!token) return null;
   await ensureSessions(db);
+  await ensureRole(db);
   const rows = await db`
-    SELECT u.id, u.first_name, u.last_name
+    SELECT u.id, u.first_name, u.last_name, u.role, u.blocked
     FROM sessions s
     JOIN users u ON u.id = s.user_id
     WHERE s.token = ${token}
     LIMIT 1
   `;
   const row = rows[0];
-  if (!row) return null;
+  if (!row || row.blocked) return null;
   return {
     id: String(row.id),
     firstName: String(row.first_name || ""),
     lastName: String(row.last_name || ""),
+    role: String(row.role || "user") === "admin" ? "admin" : "user",
   };
 }

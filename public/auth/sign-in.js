@@ -60,7 +60,7 @@
           password.focus();
           return;
         }
-        window.location.href = "/dashboard";
+        window.location.href = data.role === "admin" ? "/admin" : "/dashboard";
       });
     }).catch(function () {
       feedback(password, "Could not sign in. Try again.");
