@@ -18,9 +18,9 @@
   function selectedPrice() {
     var challenge = document.querySelector('input[name="challenge_id&evaluation_stage"]:checked');
     if (!challenge || !challenge.dataset.balances) return null;
-    var balance = document.querySelector('input[name="balance"]:checked');
     var hidden = document.getElementById("selectedBalance");
-    var size = Number(balance ? balance.value : (hidden ? hidden.value : 0));
+    var balance = document.querySelector('input[name="balance"]:checked');
+    var size = Number((hidden && hidden.value) || (balance && balance.value) || 0);
     var balances;
     try {
       balances = JSON.parse(challenge.dataset.balances);
@@ -56,6 +56,7 @@
       var card = document.getElementById("checkout-card");
       var parent = card && card.parentNode ? card.parentNode : document.body;
       new MutationObserver(function () { paint(); }).observe(parent, { childList: true, subtree: true });
+      if (window.jQuery) window.jQuery(document).ajaxComplete(function () { paint(); });
     })
     .catch(function () {});
 
