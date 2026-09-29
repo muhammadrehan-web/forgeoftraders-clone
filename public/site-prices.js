@@ -24,9 +24,13 @@
         });
       });
     });
+    window.__FORGE_ADMIN_PRICES__ = true;
     var active = document.querySelector(".program-desktop .program-item.active")
       || document.querySelector(".program-desktop .program-item");
     if (active && window.jQuery) window.jQuery(active).trigger("click");
+    document.querySelectorAll(".regular-price, .discount-context, .sticky-offer-label").forEach(function (el) {
+      el.hidden = true;
+    });
   }
 
   fetch("/api/prices")
